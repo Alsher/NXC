@@ -1,6 +1,7 @@
 task main() {
 
-OnFwd(A,100);
-Wait(time(100));
+OnFwd(OUT_A,100);
+Wait(100);
 }
+
 
