@@ -1,0 +1,180 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	10
+1	__FOMutex	9	0	4	4	2
+2	__signed_stack_001main	6	1	8	4	2
+3	__main_7qG2_i_7qG2_001	4	1	12	2	5
+4	__main_7qG2_fileSize_7qG2_000	4	1	14	2	2
+5	__zfmain	1	1	16	1	3
+6	__main_7qG2_fileHandle_7qG2_000	1	1	17	1	3
+7	____initialize_global_data_return	1	1	18	1	3
+8	__constVal1	2	0	19	1	1
+9	__FRArgs	8	0	3	12	4
+10	__FRArgs.Result	3	1	20	2	4
+11	__FRArgs.OldFilename	7	0	22	4	4
+12	__FRArgs.OldFilename.OldFilename_type	1	0	0	1	0
+13	__FRArgs.NewFilename	7	0	24	4	4
+14	__FRArgs.NewFilename.NewFilename_type	1	0	0	1	0
+15	__FDArgs	8	0	2	8	3
+16	__FDArgs.Result	3	1	28	2	3
+17	__FDArgs.Filename	7	0	30	4	3
+18	__FDArgs.Filename.Filename_type	1	0	0	1	0
+19	__FOArgs	8	0	4	12	5
+20	__FOArgs.Result	3	1	32	2	5
+21	__FOArgs.FileHandle	1	1	34	1	5
+22	__FOArgs.Filename	7	0	36	4	5
+23	__FOArgs.Filename.Filename_type	1	0	0	1	0
+24	__FOArgs.Length	5	1	40	4	5
+25	__FCArgs	8	0	2	4	3
+26	__FCArgs.Result	3	1	44	2	3
+27	__FCArgs.FileHandle	1	1	46	1	3
+28	__FWriteArgs	8	0	4	12	6
+29	__FWriteArgs.Result	3	1	48	2	6
+30	__FWriteArgs.FileHandle	1	1	50	1	6
+31	__FWriteArgs.Buffer	7	0	52	4	6
+32	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+33	__FWriteArgs.Length	5	1	56	4	6
+34	__FWriteLn	7	0	60	4	1
+35	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+36	__constStr0010	7	0	62	4	2
+37	__constStr0010.__constStr0010_type	1	1	0	1	0
+38	__constStr0009	7	0	64	4	2
+39	__constStr0009.__constStr0009_type	1	1	0	1	0
+40	__constStr0012	7	0	66	4	1
+41	__constStr0012.__constStr0012_type	1	1	0	1	0
+42	__main_7qG2_tmp_7qG2_002	7	0	68	4	2
+43	__main_7qG2_tmp_7qG2_002.__main_7qG2_tmp_7qG2_002_type	1	0	0	1	0
+44	__constStr0011	7	0	70	4	1
+45	__constStr0011.__constStr0011_type	1	1	0	1	0
+46	__main_7qG2_write_7qG2_000	7	0	72	4	4
+47	__main_7qG2_write_7qG2_000.__main_7qG2_write_7qG2_000_type	1	0	0	1	0
+48	__FWriteFlattenBuf	7	0	74	4	2
+49	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+50	__strretvalmain	7	0	76	4	4
+51	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+52	__strbufmain	7	0	78	4	12
+53	__strbufmain.__strbufmain_type	1	0	0	1	0
+54	__ArrHelper__main_244_0	7	0	80	4	2
+55	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+56	__ArrHelper__main_244_1	7	0	82	4	2
+57	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+58	__ArrHelper__main_244_2	7	0	84	4	2
+59	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	4	0	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	5	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	4	2	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	6	2	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	7	2		set __main_7qG2_fileSize_7qG2_000, 1024
+0	6	5	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	9	5	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	10	5	#pragma macro 5
+0	10	5		mov __FDArgs.Filename, __constStr0009
+0	10	7		syscall 8, __FDArgs
+0	10	10		mov __D0main, __FDArgs.Result
+0	5736	12	#line 5736 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	9	12	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	9	12	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	11	12	#line 11 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	12	12	#pragma macro 7
+0	12	12		acquire __FOMutex
+0	12	13		mov __FOArgs.Filename, __constStr0010
+0	12	15		mov __FOArgs.Length, __main_7qG2_fileSize_7qG2_000
+0	12	17		syscall 1, __FOArgs
+0	12	20		mov __main_7qG2_fileHandle_7qG2_000, __FOArgs.FileHandle
+0	12	22		mov __D0main, __FOArgs.Result
+0	12	24		release __FOMutex
+0	5740	25	#line 5740 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	11	25	#line 11 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	11	25	#line 11 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	12	25	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	13	25		set __main_7qG2_i_7qG2_001, 2
+0	12	28	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	12	28	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	13	28		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
+0	12	30	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	12	30	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	13	30		set __D0main, 10
+0	12	33	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	13	33		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	12	37	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	13	37		mov __D0main, __zfmain
+0	12	39	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	13	39		brtst 4, __NXC_Label_607, __zfmain
+0	12	42	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	13	42		jmp __NXC_Label_608
+0	13	44	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	14	44		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
+0	14	48	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	15	48		jmp __NXC_Label_606
+0	15	50	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	16	50		strcat __strbufmain, __constStr0011
+0	15	54	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	16	54		mov __main_7qG2_write_7qG2_000, __strbufmain
+0	15	56	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	15	56	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	16	56		mov __D0main, __main_7qG2_i_7qG2_001
+0	16	58	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	58		numtostr __strretvalmain, __D0main
+0	16	61	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	61		strcat __strbufmain, __strretvalmain
+0	16	65	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	65		mov __main_7qG2_tmp_7qG2_002, __strbufmain
+0	16	67	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	67		strcat __strbufmain, __main_7qG2_write_7qG2_000
+0	16	71	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	71		mov __ArrHelper__main_244_0, __strbufmain
+0	16	73	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	73		strcat __strbufmain, __main_7qG2_tmp_7qG2_002
+0	16	77	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	77		mov __ArrHelper__main_244_1, __strbufmain
+0	16	79	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	79		strcat __strbufmain, __constStr0012
+0	16	83	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	83		mov __ArrHelper__main_244_2, __strbufmain
+0	17	85	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	18	85		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	17	91	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	18	91		strcat __strbufmain, __strretvalmain
+0	17	95	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	18	95		mov __main_7qG2_write_7qG2_000, __strbufmain
+0	17	97	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	97	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	18	97	#pragma macro 9
+0	18	97		mov __FWriteArgs.FileHandle, __main_7qG2_fileHandle_7qG2_000
+0	18	99		strtoarr __FWriteFlattenBuf, __main_7qG2_write_7qG2_000
+0	18	102		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+0	18	107		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+0	18	110		syscall 4, __FWriteArgs
+0	18	113		mov __D0main, __FWriteArgs.Result
+0	5815	115	#line 5815 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	115	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	17	115	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	20	115	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	21	115		jmp __NXC_Label_609
+0	20	117	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	20	117	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	21	117	#pragma macro 5
+0	21	117		mov __FCArgs.FileHandle, __main_7qG2_fileHandle_7qG2_000
+0	21	119		syscall 5, __FCArgs
+0	21	122		mov __D0main, __FCArgs.Result
+0	5823	124	#line 5823 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	20	124	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	20	124	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	21	124	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	22	124	#pragma macro 6
+0	22	124		mov __FRArgs.OldFilename, __constStr0010
+0	22	126		mov __FRArgs.NewFilename, __constStr0009
+0	22	128		syscall 7, __FRArgs
+0	22	131		mov __D0main, __FRArgs.Result
+0	5827	133	#line 5827 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	21	133	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	21	133	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	22	133		exit -1, -1
+1	27	0	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+1	28	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc
+1	__initialize_global_data	136	C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc

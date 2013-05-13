@@ -1,0 +1,151 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	2
+1	__signed_stack_001main	6	1	4	4	2
+2	__D0main	6	1	8	4	4
+3	__FOMutex	9	0	12	4	2
+4	__constVal65535	6	0	16	4	1
+5	__RLSReturn	3	1	20	2	3
+6	__RLSByteCount	3	1	22	2	4
+7	__RLSMaxBytes	3	1	24	2	2
+8	____readStringLine_return	1	1	26	1	1
+9	__main_7qG2_handle_7qG2_000	1	1	27	1	2
+10	____initialize_global_data_return	1	1	28	1	3
+11	__constVal10	2	0	29	1	1
+12	__constVal13	2	0	30	1	1
+13	__constVal0	2	1	31	1	1
+14	__FReadTmpByte	1	1	32	1	3
+15	__RLSReturnAddress	1	1	33	1	2
+16	__constVal1	2	0	34	1	2
+17	__FOArgs	8	0	4	12	4
+18	__FOArgs.Result	3	1	36	2	4
+19	__FOArgs.FileHandle	1	1	38	1	4
+20	__FOArgs.Filename	7	0	40	4	4
+21	__FOArgs.Filename.Filename_type	1	0	0	1	0
+22	__FOArgs.Length	5	1	44	4	4
+23	__TextOutArgs	8	0	4	16	5
+24	__TextOutArgs.Result	2	1	48	1	5
+25	__TextOutArgs.Location	8	0	2	4	5
+26	__TextOutArgs.Location.X	4	1	52	2	5
+27	__TextOutArgs.Location.Y	4	1	54	2	5
+28	__TextOutArgs.Text	7	0	56	4	5
+29	__TextOutArgs.Text.Text_type	1	0	0	1	0
+30	__TextOutArgs.Options	5	1	60	4	5
+31	__FReadArgs	8	0	4	12	6
+32	__FReadArgs.Result	3	1	64	2	6
+33	__FReadArgs.FileHandle	1	1	66	1	6
+34	__FReadArgs.Buffer	7	0	68	4	6
+35	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+36	__FReadArgs.Length	5	1	72	4	6
+37	__RLSOutput	7	0	76	4	4
+38	__RLSOutput.__RLSOutput_type	1	0	0	1	0
+39	__constStr0009	7	0	78	4	1
+40	__constStr0009.__constStr0009_type	1	1	0	1	0
+41	__constStr0010	7	0	80	4	1
+42	__constStr0010.__constStr0010_type	1	1	0	1	0
+43	__main_7qG2_msg_7qG2_001	7	0	82	4	2
+44	__main_7qG2_msg_7qG2_001.__main_7qG2_msg_7qG2_001_type	1	0	0	1	0
+45	__strbufmain	7	0	84	4	7
+46	__strbufmain.__strbufmain_type	1	0	0	1	0
+47	__strretvalmain	7	0	86	4	2
+48	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+49	__main_7qG2_buff_7qG2_000	7	0	88	4	2
+50	__main_7qG2_buff_7qG2_000.__main_7qG2_buff_7qG2_000_type	1	0	0	1	0
+51	__RLSBuffer	7	0	90	4	2
+52	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	10	0	#line 10 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	11	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	10	2	#line 10 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	13	2	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	14	2	#pragma macro 7
+0	14	2		acquire __FOMutex
+0	14	3		mov __FOArgs.Filename, __constStr0009
+0	14	5		syscall 0, __FOArgs
+0	14	8		mov __main_7qG2_handle_7qG2_000, __FOArgs.FileHandle
+0	14	10		mov __D0main, __FOArgs.Result
+0	14	12		release __FOMutex
+0	5802	13	#line 5802 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	13	13	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	13	13	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	14	13	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	15	13	#pragma macro 7
+0	15	13		mov __FReadArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	15	15		mov __RLSMaxBytes, __constVal65535
+0	15	17		subcall __readStringLine, __RLSReturnAddress
+0	15	19		mov __D0main, __RLSReturn
+0	15	21		mov __main_7qG2_buff_7qG2_000, __RLSOutput
+0	5806	23	#line 5806 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	14	23	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	14	23	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	17	23	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	18	23	#pragma macro 4
+0	17	23	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	18	23		strcat __strbufmain, __constStr0010
+0	17	27	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	18	27		strcat __strbufmain, __main_7qG2_buff_7qG2_000
+0	17	31	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	18	31		set __D0main, 1
+0	18	34	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	19	34		fmtnum __strretvalmain, __strbufmain, __D0main
+0	18	38	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	19	38		strcat __strbufmain, __strretvalmain
+0	18	42	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	19	42		mov __main_7qG2_msg_7qG2_001, __strbufmain
+0	18	44	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	19	44		set __signed_stack_001main, 0
+0	18	47	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	18	47	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	19	47		set __signed_stack_002main, 56
+0	18	50	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	18	50	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	19	50		strcat __strbufmain, __main_7qG2_msg_7qG2_001
+0	19	54	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	19	54	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	20	54		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	19	56	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	20	56		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	19	58	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	20	58		set __TextOutArgs.Options, 0
+0	19	61	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	20	61		mov __TextOutArgs.Text, __strbufmain
+0	19	63	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	20	63		syscall 13, __TextOutArgs
+0	19	66	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	19	66	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	19	66	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	16	66	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	15	66	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	16	66	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	16	66	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	16	66	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	16	66	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	16	66	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	7921	66	#line 7921 "NXCDefs.h"
+0	7922	66		wait 2000
+0	7921	68	#line 7921 "NXCDefs.h"
+0	18	68	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+0	19	68		exit -1, -1
+1	8048	0		arrinit __RLSOutput, __constVal0, __constVal1
+1	8049	4		set __RLSByteCount, 0
+1	8051	7		set __FReadArgs.Length, 1
+1	8052	10		mov __RLSBuffer, __RLSOutput
+1	8053	12		syscall 3, __FReadArgs
+1	8054	15		mov __RLSReturn, __FReadArgs.Result
+1	8055	17		brtst 5, __RLSStringDone, __RLSReturn
+1	8056	20		index __FReadTmpByte, __FReadArgs.Buffer, 65535
+1	8057	24		brcmp 4, __RLSStringDone, __FReadTmpByte, __constVal10
+1	8058	28		brcmp 4, __RLSStringSkip, __FReadTmpByte, __constVal13
+1	8059	32		strcat __RLSOutput, __RLSBuffer, __FReadArgs.Buffer
+1	8060	37		add __RLSByteCount, __RLSByteCount, __constVal1
+1	8061	41		brcmp 3, __RLSStringDone, __RLSByteCount, __RLSMaxBytes
+1	8063	45		jmp __RLSStringLoop
+1	8065	47		subret __RLSReturnAddress
+2	21	0	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc"
+2	22	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc
+1	__readStringLine	71	NXTDefs.h
+2	__initialize_global_data	120	C:\Users\Apple\Documents\GitHub\NXC\ReadFileSystem.nxc
