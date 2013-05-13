@@ -1,6 +1,7 @@
 task main()
 {
      SetSensorUltrasonic(IN_1);
+
      SetSensorTouch(IN_2);
      SetSensorLight(IN_3);
 
@@ -11,20 +12,17 @@ task main()
 
    
 while(true) {
- o = SensorUS(IN_1) - 3;    //SensorUS value id inprecise
+ o = SensorUS(IN_1) - 3;    // SensorUS value id inprecise
  t = Sensor(IN_2);
  l = SensorValue(IN_3);
  Wait(100);
  ClearScreen();
- NumOut(LCD_LINE2, LCD_LINE2, i); //Output of var i
- NumOut(LCD_LINE1, 0, o);         //Output of SensorUS on IN_1
- NumOut(LCD_LINE1, LCD_LINE3, t); //Output of SensorTouch on IN_2, value is lagged due to Wait(100) on line 14
- NumOut(LCD_LINE1, LCD_LINE4, l); //Output of SensorLight on IN_3
+ NumOut(LCD_LINE2, LCD_LINE2, i); // Output of var i
+ NumOut(LCD_LINE1, 0, o);         // Output of SensorUS on IN_1
+ NumOut(LCD_LINE1, LCD_LINE3, t); // Output of SensorTouch on IN_2, value is lagged due to Wait(100) on line 14
+ NumOut(LCD_LINE1, LCD_LINE4, l); // Output of SensorLight on IN_3
  i++;
- if(i == 256) { SetSensorType(S3, SENSOR_TYPE_LIGHT_INACTIVE); } //Testing SensorLight on inactive mode
-
-
-
+ if(i == 256) { SetSensorType(S3, SENSOR_TYPE_LIGHT_INACTIVE); } // Testing SensorLight on inactive mode
 }
 
 }

@@ -1,0 +1,26 @@
+
+
+task main()
+{
+   byte fileHandle;
+   short fileSize = 1024;
+   short bytesWritten;
+   string write;
+   
+   DeleteFile("NXT.txt");
+   
+   CreateFile("NXT.txt", fileSize, fileHandle);
+   for(int i=2; i<=10; i++ )
+   {
+   write = "Hello World is ";
+   string tmp = NumToStr(i);
+   write = StrCat(write,tmp," times");
+   WriteLnString(fileHandle, write, bytesWritten);
+   }
+   
+   CloseFile(fileHandle);
+   RenameFile("NXT.txt", "Fancyshit.txt");
+   }
+
+
+}
