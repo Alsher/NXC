@@ -1,11 +1,19 @@
  task main()
  {
-  byte handle;
+  /*byte handle;
   int fsize, x;
   OpenFileRead("Fancyshit.txt", fsize, handle);
   ReadLn(handle, x);
   NumOut(30, LCD_LINE1, x);
   Wait(2000);
- 
+  */
+  
+  byte handle;
+  int fsize, x;
+  string buff;
+  OpenFileRead("Fancyshit.txt", fsize, handle);
+  ReadLnString(handle, buff);
+  printf("%d", buff);
+  Wait(2000);
  
  }
