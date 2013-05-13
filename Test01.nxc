@@ -1,0 +1,6 @@
+task main() {
+
+OnFwd(A,100);
+Wait(time(100));
+}
+
