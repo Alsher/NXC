@@ -1,26 +1,45 @@
+#define FILE_SIZE 1024
+#define FILE_NAME "randomNumber.txt"
+#define FILE_NAME_BUFF "buff.txt"
 
 
-task main()
+void readFile()
 {
-   byte fileHandle;
-   short fileSize = 1024;
+     byte handle2;
+  int fsize, x;
+  string buff;
+  OpenFileRead(FILE_NAME, fsize, handle2);
+  ReadLnString(handle2, buff);
+  printf("%d", buff);
+  Wait(2000);
+}
+
+void createFile()
+{
+    byte fileHandle;
+   short fileSize = FILE_SIZE;
    short bytesWritten;
    string write;
-   
-   DeleteFile("NXT.txt");
-   
-   CreateFile("NXT.txt", fileSize, fileHandle);
-   for(int i=2; i<=10; i++ )
-   {
-   write = "Hello World is ";
+
+   DeleteFile(FILE_NAME);
+
+   CreateFile(FILE_NAME_BUFF, fileSize, fileHandle);
+   int i;
+   i = Random(1000);
+
+   write = "Random: ";
    string tmp = NumToStr(i);
-   write = StrCat(write,tmp," times");
+   write = StrCat(write,tmp," ");
    WriteLnString(fileHandle, write, bytesWritten);
-   }
-   
+
+
    CloseFile(fileHandle);
-   RenameFile("NXT.txt", "Fancyshit.txt");
-   }
+   RenameFile(FILE_NAME_BUFF, FILE_NAME);
 
 
+}
+task main()
+{
+  createFile();
+  readFile();
 }

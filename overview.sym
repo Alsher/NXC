@@ -137,10 +137,10 @@ Clump	Line	PC	Source
 0	3694	43	#line 3694 "NXCDefs.h"
 0	3761	43	#line 3761 "NXCDefs.h"
 0	3768	43	#line 3768 "NXCDefs.h"
-0	3	43	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	3	43	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	4	43		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
-0	3	46	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	4	43	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	4	43	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	5	43		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	4	46	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
 0	3718	46	#line 3718 "NXCDefs.h"
 0	3719	46	#pragma macro 6
 0	3719	46		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
@@ -149,12 +149,12 @@ Clump	Line	PC	Source
 0	3719	56		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 0	6292	58	#line 6292 "NXCDefs.h"
 0	3718	58	#line 3718 "NXCDefs.h"
-0	4	58	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	4	58	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	5	58		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
-0	4	61	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	6	61	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	7	61		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	5	58	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	5	58	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	6	58		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	5	61	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	7	61	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	8	61		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	63	#line 3729 "NXCDefs.h"
 0	3730	63		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3729	65	#line 3729 "NXCDefs.h"
@@ -195,49 +195,49 @@ Clump	Line	PC	Source
 0	6386	100	#line 6386 "NXCDefs.h"
 0	3694	100	#line 3694 "NXCDefs.h"
 0	3732	100	#line 3732 "NXCDefs.h"
-0	6	100	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
 0	7	100	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	8	100		set __main_7qG2_i_7qG2_000, 1
-0	7	103	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	12	103	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	13	103		set __D0main, 1
-0	13	106	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	14	106		tst 5, __zfmain, __D0main
-0	13	109	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	14	109		brtst 4, __NXC_Label_613, __zfmain
-0	13	112	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	14	112	#pragma macro 26
-0	14	112		acquire __RLSBmutex0
-0	14	113		mov __RLSReadBuf0, __RLSBbufLSWrite1
-0	14	115		set __RLSBytesCount0, 1
-0	14	118		wait 15
-0	14	120		subcall __ReadLSBytes0, ____ReadLSBytes0_return
-0	14	122		index __D0main, __RLSReadBuf0, 65535
-0	14	126		release __RLSBmutex0
+0	8	100	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	9	100		set __main_7qG2_i_7qG2_000, 1
+0	8	103	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	13	103	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	14	103		set __D0main, 1
+0	14	106	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	15	106		tst 5, __zfmain, __D0main
+0	14	109	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	15	109		brtst 4, __NXC_Label_613, __zfmain
+0	14	112	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	15	112	#pragma macro 26
+0	15	112		acquire __RLSBmutex0
+0	15	113		mov __RLSReadBuf0, __RLSBbufLSWrite1
+0	15	115		set __RLSBytesCount0, 1
+0	15	118		wait 15
+0	15	120		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	15	122		index __D0main, __RLSReadBuf0, 65535
+0	15	126		release __RLSBmutex0
 0	6422	127	#line 6422 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	13	127	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
 0	14	127	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	14	127	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	15	127		sub __main_7qG2_o_7qG2_000, __D0main, __constVal3
-0	14	131	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	14	131	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	14	131	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	14	131	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	15	131		getin __main_7qG2_t_7qG2_000, __constVal1, 4
-0	14	135	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	14	135	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	14	135	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	15	127	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	15	127	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	16	127		sub __main_7qG2_o_7qG2_000, __D0main, __constVal3
+0	15	131	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	15	131	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	15	131	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	15	131	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	16	131		getin __main_7qG2_t_7qG2_000, __constVal1, 4
 0	15	135	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	16	135		getin __main_7qG2_l_7qG2_000, __constVal2, 4
-0	15	139	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	15	139	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	15	139	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	15	135	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	15	135	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	16	135	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	17	135		getin __main_7qG2_l_7qG2_000, __constVal2, 4
 0	16	139	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
 0	16	139	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	16	139	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	17	139	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	17	139	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
 0	7921	139	#line 7921 "NXCDefs.h"
 0	7922	139		wait 100
 0	7921	141	#line 7921 "NXCDefs.h"
-0	17	141	#line 17 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	18	141	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
 0	6069	141	#line 6069 "NXCDefs.h"
 0	6070	141	#pragma macro 6
 0	6070	141		mov __PointOutArgs.Location.X, __constVal200
@@ -246,125 +246,125 @@ Clump	Line	PC	Source
 0	6070	147		syscall 14, __PointOutArgs
 0	6466	150	#line 6466 "NXCDefs.h"
 0	6069	150	#line 6069 "NXCDefs.h"
-0	18	150	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	18	150	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	19	150		set __signed_stack_001main, 48
-0	18	153	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	18	153	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	19	153		set __signed_stack_002main, 48
-0	18	156	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	18	156	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	19	156		mov __D0main, __main_7qG2_i_7qG2_000
-0	19	158	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	19	158	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	158		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	19	160	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	160		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	19	162	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	162		set __TextOutArgs.Options, 0
-0	19	165	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	165		numtostr __TextOutArgs.Text, __D0main
-0	19	168	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	168		syscall 13, __TextOutArgs
-0	19	171	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	19	171	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	19	171	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	19	171	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	171		set __signed_stack_001main, 56
-0	19	174	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	19	174	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	174		set __signed_stack_002main, 0
-0	19	177	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	19	177	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	177		mov __D0main, __main_7qG2_o_7qG2_000
-0	20	179	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	179	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	179		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	20	181	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	181		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	20	183	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	183		set __TextOutArgs.Options, 0
-0	20	186	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	186		numtostr __TextOutArgs.Text, __D0main
-0	20	189	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	189		syscall 13, __TextOutArgs
-0	20	192	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	192	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	192	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	192	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	192		set __signed_stack_001main, 56
-0	20	195	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	195	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	195		set __signed_stack_002main, 40
-0	20	198	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	20	198	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	198		mov __DU0main, __main_7qG2_t_7qG2_000
-0	21	200	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	200	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	22	200		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	21	202	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	22	202		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	21	204	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	22	204		set __TextOutArgs.Options, 0
-0	21	207	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	22	207		numtostr __TextOutArgs.Text, __DU0main
-0	21	210	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	22	210		syscall 13, __TextOutArgs
-0	21	213	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	213	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	213	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	213	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	22	213		set __signed_stack_001main, 56
-0	21	216	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	216	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	22	216		set __signed_stack_002main, 32
-0	21	219	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	21	219	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	22	219		mov __D0main, __main_7qG2_l_7qG2_000
-0	22	221	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	22	221	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	23	221		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	22	223	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	23	223		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	22	225	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	23	225		set __TextOutArgs.Options, 0
-0	22	228	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	23	228		numtostr __TextOutArgs.Text, __D0main
-0	22	231	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	23	231		syscall 13, __TextOutArgs
-0	22	234	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	23	234		mov __D0main, __TextOutArgs.Result
-0	22	236	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	22	236	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	19	150	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	19	150	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	20	150		set __signed_stack_001main, 48
+0	19	153	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	19	153	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	20	153		set __signed_stack_002main, 48
+0	19	156	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	19	156	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	20	156		mov __D0main, __main_7qG2_i_7qG2_000
+0	20	158	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	20	158	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	158		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	20	160	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	160		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	20	162	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	162		set __TextOutArgs.Options, 0
+0	20	165	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	165		numtostr __TextOutArgs.Text, __D0main
+0	20	168	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	168		syscall 13, __TextOutArgs
+0	20	171	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	20	171	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	20	171	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	20	171	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	171		set __signed_stack_001main, 56
+0	20	174	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	20	174	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	174		set __signed_stack_002main, 0
+0	20	177	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	20	177	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	177		mov __D0main, __main_7qG2_o_7qG2_000
+0	21	179	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	179	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	179		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	21	181	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	181		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	21	183	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	183		set __TextOutArgs.Options, 0
+0	21	186	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	186		numtostr __TextOutArgs.Text, __D0main
+0	21	189	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	189		syscall 13, __TextOutArgs
+0	21	192	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	192	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	192	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	192	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	192		set __signed_stack_001main, 56
+0	21	195	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	195	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	195		set __signed_stack_002main, 40
+0	21	198	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	21	198	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	198		mov __DU0main, __main_7qG2_t_7qG2_000
+0	22	200	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	200	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	23	200		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	22	202	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	23	202		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	22	204	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	23	204		set __TextOutArgs.Options, 0
+0	22	207	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	23	207		numtostr __TextOutArgs.Text, __DU0main
+0	22	210	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	23	210		syscall 13, __TextOutArgs
+0	22	213	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	213	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	213	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	213	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	23	213		set __signed_stack_001main, 56
+0	22	216	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	216	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	23	216		set __signed_stack_002main, 32
+0	22	219	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	22	219	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	23	219		mov __D0main, __main_7qG2_l_7qG2_000
+0	23	221	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	23	221	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	221		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	23	223	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	223		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	23	225	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	225		set __TextOutArgs.Options, 0
+0	23	228	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	228		numtostr __TextOutArgs.Text, __D0main
+0	23	231	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	231		syscall 13, __TextOutArgs
+0	23	234	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	234		mov __D0main, __TextOutArgs.Result
 0	23	236	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	24	236		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
-0	23	240	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	23	240	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	24	240		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
-0	23	242	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	23	242	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	24	242		set __D0main, 256
-0	23	245	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	24	245		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	23	249	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	24	249		mov __D0main, __zfmain
-0	23	251	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	24	251		brtst 4, __NXC_Label_650, __zfmain
-0	23	254	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	24	254		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 2
-0	23	257	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	23	257	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	24	257		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 6
-0	23	260	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	23	236	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	236	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	25	236		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	24	240	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	240	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	25	240		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	24	242	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	242	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	25	242		set __D0main, 256
+0	24	245	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	25	245		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	24	249	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	25	249		mov __D0main, __zfmain
+0	24	251	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	25	251		brtst 4, __NXC_Label_650, __zfmain
+0	24	254	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	25	254		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 2
+0	24	257	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	257	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	25	257		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 6
+0	24	260	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
 0	3663	260	#line 3663 "NXCDefs.h"
 0	3664	260		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
 0	3663	264	#line 3663 "NXCDefs.h"
-0	23	264	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	24	264	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	27	264	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
 0	29	264	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	31	264	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	32	264		jmp __NXC_Label_612
-0	31	266	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	32	266		exit -1, -1
+0	30	264		jmp __NXC_Label_612
+0	29	266	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	30	266		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -411,8 +411,8 @@ Clump	Line	PC	Source
 2	5694	77		mov __RLSReadBuf0, __RLSLastGoodRead0
 2	5696	79		arrsize __RLSBytesCount0, __RLSReadBuf0
 2	5698	82		subret ____ReadLSBytes0_return
-3	32	0	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-3	33	0		subret ____initialize_global_data_return
+3	30	0	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+3	31	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Apple\Documents\GitHub\NXC\overview.nxc
