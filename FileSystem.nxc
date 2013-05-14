@@ -11,7 +11,9 @@ void readFile()
   OpenFileRead(FILE_NAME, fsize, handle2);
   ReadLnString(handle2, buff);
   printf("%d", buff);
-  Wait(2000);
+  Wait(200);
+
+
 }
 
 void createFile()
@@ -40,6 +42,9 @@ void createFile()
 }
 task main()
 {
+  while(true){
   createFile();
-  readFile();
+  readFile();}
+
+
 }

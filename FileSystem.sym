@@ -2,123 +2,134 @@
 Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__D0readFile	6	1	0	4	4
 1	__signed_stack_001readFile	6	1	4	4	2
-2	__D0createFile	6	1	8	4	9
-3	__constVal32768	6	0	12	4	1
-4	__constVal65536	6	0	16	4	1
-5	__FOMutex	9	0	20	4	4
-6	__constVal65535	6	0	24	4	1
-7	__RandomTmp	5	1	28	4	7
-8	__signed_stack_002readFile	6	1	32	4	2
-9	__RLSReturn	3	1	36	2	3
-10	__RLSByteCount	3	1	38	2	4
-11	__RLSMaxBytes	3	1	40	2	2
-12	__createFile_7qG2_i_7qG2_000	4	1	42	2	2
-13	__createFile_7qG2_fileSize_7qG2_000	4	1	44	2	2
-14	__createFile_return	1	1	46	1	3
-15	__constVal13	2	0	47	1	1
-16	__createFile_7qG2_fileHandle_7qG2_000	1	1	48	1	3
-17	__readFile_return	1	1	49	1	3
-18	__readFile_7qG2_handle2_7qG2_000	1	1	50	1	2
-19	__constVal10	2	0	51	1	1
-20	__FReadTmpByte	1	1	52	1	3
-21	__RLSReturnAddress	1	1	53	1	2
-22	____initialize_global_data_return	1	1	54	1	3
-23	____readStringLine_return	1	1	55	1	1
-24	__constVal1	2	0	56	1	2
-25	__constVal0	2	1	57	1	1
-26	__FRArgs	8	0	3	12	4
-27	__FRArgs.Result	3	1	60	2	4
-28	__FRArgs.OldFilename	7	0	62	4	4
-29	__FRArgs.OldFilename.OldFilename_type	1	0	0	1	0
-30	__FRArgs.NewFilename	7	0	64	4	4
-31	__FRArgs.NewFilename.NewFilename_type	1	0	0	1	0
-32	__FCArgs	8	0	2	4	3
-33	__FCArgs.Result	3	1	68	2	3
-34	__FCArgs.FileHandle	1	1	70	1	3
-35	__TextOutArgs	8	0	4	16	5
-36	__TextOutArgs.Result	2	1	72	1	5
-37	__TextOutArgs.Location	8	0	2	4	5
-38	__TextOutArgs.Location.X	4	1	76	2	5
-39	__TextOutArgs.Location.Y	4	1	78	2	5
-40	__TextOutArgs.Text	7	0	80	4	5
-41	__TextOutArgs.Text.Text_type	1	0	0	1	0
-42	__TextOutArgs.Options	5	1	84	4	5
-43	__RandomArgs	8	0	1	4	3
-44	__RandomArgs.Result	4	1	88	2	3
-45	__FOArgs	8	0	4	12	9
-46	__FOArgs.Result	3	1	92	2	9
-47	__FOArgs.FileHandle	1	1	94	1	9
-48	__FOArgs.Filename	7	0	96	4	9
-49	__FOArgs.Filename.Filename_type	1	0	0	1	0
-50	__FOArgs.Length	5	1	100	4	9
-51	__FDArgs	8	0	2	8	3
-52	__FDArgs.Result	3	1	104	2	3
-53	__FDArgs.Filename	7	0	106	4	3
-54	__FDArgs.Filename.Filename_type	1	0	0	1	0
-55	__FWriteArgs	8	0	4	12	6
-56	__FWriteArgs.Result	3	1	108	2	6
-57	__FWriteArgs.FileHandle	1	1	110	1	6
-58	__FWriteArgs.Buffer	7	0	112	4	6
-59	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
-60	__FWriteArgs.Length	5	1	116	4	6
-61	__FReadArgs	8	0	4	12	6
-62	__FReadArgs.Result	3	1	120	2	6
-63	__FReadArgs.FileHandle	1	1	122	1	6
-64	__FReadArgs.Buffer	7	0	124	4	6
-65	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
-66	__FReadArgs.Length	5	1	128	4	6
-67	__createFile_7qG2_tmp_7qG2_000	7	0	132	4	2
-68	__createFile_7qG2_tmp_7qG2_000.__createFile_7qG2_tmp_7qG2_000_type	1	0	0	1	0
-69	__constStr0010	7	0	134	4	1
+2	__signed_stack_002readFile	6	1	8	4	2
+3	__D0main	6	1	12	4	2
+4	__D0createFile	6	1	16	4	9
+5	__constVal65536	6	0	20	4	1
+6	__constVal32768	6	0	24	4	1
+7	__constVal65535	6	0	28	4	1
+8	__RandomTmp	5	1	32	4	7
+9	__FOMutex	9	0	36	4	4
+10	__RLSMaxBytes	3	1	40	2	2
+11	__RLSByteCount	3	1	42	2	4
+12	__createFile_7qG2_i_7qG2_000	4	1	44	2	2
+13	__createFile_7qG2_fileSize_7qG2_000	4	1	46	2	2
+14	__RLSReturn	3	1	48	2	3
+15	__createFile_return	1	1	50	1	3
+16	__createFile_7qG2_fileHandle_7qG2_000	1	1	51	1	3
+17	__FReadTmpByte	1	1	52	1	3
+18	__constVal1	2	0	53	1	2
+19	__readFile_return	1	1	54	1	3
+20	__constVal0	2	1	55	1	1
+21	__zfmain	1	1	56	1	2
+22	____initialize_global_data_return	1	1	57	1	3
+23	__readFile_7qG2_handle2_7qG2_000	1	1	58	1	2
+24	__RLSReturnAddress	1	1	59	1	2
+25	__constVal13	2	0	60	1	1
+26	__constVal10	2	0	61	1	1
+27	____readStringLine_return	1	1	62	1	1
+28	__FCArgs	8	0	2	4	3
+29	__FCArgs.Result	3	1	64	2	3
+30	__FCArgs.FileHandle	1	1	66	1	3
+31	__FRArgs	8	0	3	12	4
+32	__FRArgs.Result	3	1	68	2	4
+33	__FRArgs.OldFilename	7	0	70	4	4
+34	__FRArgs.OldFilename.OldFilename_type	1	0	0	1	0
+35	__FRArgs.NewFilename	7	0	72	4	4
+36	__FRArgs.NewFilename.NewFilename_type	1	0	0	1	0
+37	__FDArgs	8	0	2	8	3
+38	__FDArgs.Result	3	1	76	2	3
+39	__FDArgs.Filename	7	0	78	4	3
+40	__FDArgs.Filename.Filename_type	1	0	0	1	0
+41	__TextOutArgs	8	0	4	16	5
+42	__TextOutArgs.Result	2	1	80	1	5
+43	__TextOutArgs.Location	8	0	2	4	5
+44	__TextOutArgs.Location.X	4	1	84	2	5
+45	__TextOutArgs.Location.Y	4	1	86	2	5
+46	__TextOutArgs.Text	7	0	88	4	5
+47	__TextOutArgs.Text.Text_type	1	0	0	1	0
+48	__TextOutArgs.Options	5	1	92	4	5
+49	__RandomArgs	8	0	1	4	3
+50	__RandomArgs.Result	4	1	96	2	3
+51	__FOArgs	8	0	4	12	9
+52	__FOArgs.Result	3	1	100	2	9
+53	__FOArgs.FileHandle	1	1	102	1	9
+54	__FOArgs.Filename	7	0	104	4	9
+55	__FOArgs.Filename.Filename_type	1	0	0	1	0
+56	__FOArgs.Length	5	1	108	4	9
+57	__FReadArgs	8	0	4	12	6
+58	__FReadArgs.Result	3	1	112	2	6
+59	__FReadArgs.FileHandle	1	1	114	1	6
+60	__FReadArgs.Buffer	7	0	116	4	6
+61	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+62	__FReadArgs.Length	5	1	120	4	6
+63	__FWriteArgs	8	0	4	12	6
+64	__FWriteArgs.Result	3	1	124	2	6
+65	__FWriteArgs.FileHandle	1	1	126	1	6
+66	__FWriteArgs.Buffer	7	0	128	4	6
+67	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+68	__FWriteArgs.Length	5	1	132	4	6
+69	__constStr0010	7	0	136	4	1
 70	__constStr0010.__constStr0010_type	1	1	0	1	0
-71	__readFile_7qG2_msg_7qG2_001	7	0	136	4	2
+71	__readFile_7qG2_msg_7qG2_001	7	0	138	4	2
 72	__readFile_7qG2_msg_7qG2_001.__readFile_7qG2_msg_7qG2_001_type	1	0	0	1	0
-73	__constStr0011	7	0	138	4	2
+73	__constStr0011	7	0	140	4	2
 74	__constStr0011.__constStr0011_type	1	1	0	1	0
-75	__createFile_7qG2_write_7qG2_000	7	0	140	4	4
+75	__createFile_7qG2_write_7qG2_000	7	0	142	4	4
 76	__createFile_7qG2_write_7qG2_000.__createFile_7qG2_write_7qG2_000_type	1	0	0	1	0
-77	__constStr0012	7	0	142	4	1
-78	__constStr0012.__constStr0012_type	1	1	0	1	0
-79	__constStr0013	7	0	144	4	1
-80	__constStr0013.__constStr0013_type	1	1	0	1	0
-81	__FWriteLn	7	0	146	4	1
-82	__FWriteLn.__FWriteLn_type	1	0	0	1	0
-83	__ArrHelper__createFile_244_0	7	0	148	4	2
-84	__ArrHelper__createFile_244_0.__ArrHelper__createFile_244_0_type	1	0	0	1	0
-85	__ArrHelper__createFile_244_1	7	0	150	4	2
-86	__ArrHelper__createFile_244_1.__ArrHelper__createFile_244_1_type	1	0	0	1	0
-87	__RLSBuffer	7	0	152	4	2
-88	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
-89	__RLSOutput	7	0	154	4	4
-90	__RLSOutput.__RLSOutput_type	1	0	0	1	0
-91	__FWriteFlattenBuf	7	0	156	4	2
-92	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
-93	__ArrHelper__createFile_244_2	7	0	158	4	2
-94	__ArrHelper__createFile_244_2.__ArrHelper__createFile_244_2_type	1	0	0	1	0
-95	__strretvalreadFile	7	0	160	4	2
-96	__strretvalreadFile.__strretvalreadFile_type	1	0	0	1	0
-97	__readFile_7qG2_buff_7qG2_000	7	0	162	4	2
-98	__readFile_7qG2_buff_7qG2_000.__readFile_7qG2_buff_7qG2_000_type	1	0	0	1	0
-99	__constStr0009	7	0	164	4	3
-100	__constStr0009.__constStr0009_type	1	1	0	1	0
-101	__strbufcreateFile	7	0	166	4	12
-102	__strbufcreateFile.__strbufcreateFile_type	1	0	0	1	0
-103	__strretvalcreateFile	7	0	168	4	4
-104	__strretvalcreateFile.__strretvalcreateFile_type	1	0	0	1	0
-105	__strbufreadFile	7	0	170	4	7
-106	__strbufreadFile.__strbufreadFile_type	1	0	0	1	0
+77	__constStr0013	7	0	144	4	1
+78	__constStr0013.__constStr0013_type	1	1	0	1	0
+79	__createFile_7qG2_tmp_7qG2_000	7	0	146	4	2
+80	__createFile_7qG2_tmp_7qG2_000.__createFile_7qG2_tmp_7qG2_000_type	1	0	0	1	0
+81	__constStr0012	7	0	148	4	1
+82	__constStr0012.__constStr0012_type	1	1	0	1	0
+83	__FWriteLn	7	0	150	4	1
+84	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+85	__ArrHelper__createFile_244_0	7	0	152	4	2
+86	__ArrHelper__createFile_244_0.__ArrHelper__createFile_244_0_type	1	0	0	1	0
+87	__ArrHelper__createFile_244_1	7	0	154	4	2
+88	__ArrHelper__createFile_244_1.__ArrHelper__createFile_244_1_type	1	0	0	1	0
+89	__RLSBuffer	7	0	156	4	2
+90	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
+91	__RLSOutput	7	0	158	4	4
+92	__RLSOutput.__RLSOutput_type	1	0	0	1	0
+93	__FWriteFlattenBuf	7	0	160	4	2
+94	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+95	__ArrHelper__createFile_244_2	7	0	162	4	2
+96	__ArrHelper__createFile_244_2.__ArrHelper__createFile_244_2_type	1	0	0	1	0
+97	__strretvalreadFile	7	0	164	4	2
+98	__strretvalreadFile.__strretvalreadFile_type	1	0	0	1	0
+99	__readFile_7qG2_buff_7qG2_000	7	0	166	4	2
+100	__readFile_7qG2_buff_7qG2_000.__readFile_7qG2_buff_7qG2_000_type	1	0	0	1	0
+101	__constStr0009	7	0	168	4	3
+102	__constStr0009.__constStr0009_type	1	1	0	1	0
+103	__strbufcreateFile	7	0	170	4	12
+104	__strbufcreateFile.__strbufcreateFile_type	1	0	0	1	0
+105	__strretvalcreateFile	7	0	172	4	4
+106	__strretvalcreateFile.__strretvalcreateFile_type	1	0	0	1	0
+107	__strbufreadFile	7	0	174	4	7
+108	__strbufreadFile.__strbufreadFile_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	42	0	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-0	43	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	42	2	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-0	43	2	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-0	44	2		subcall createFile, __createFile_return
-0	43	4	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-0	46	4	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-0	47	4		subcall readFile, __readFile_return
-0	46	6	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-0	47	6		exit -1, -1
+0	44	0	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	45	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	44	2	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	44	2	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	45	2		set __D0main, 1
+0	45	5	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	46	5		tst 5, __zfmain, __D0main
+0	45	8	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	46	8		brtst 4, __NXC_Label_621, __zfmain
+0	46	11	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	47	11		subcall createFile, __createFile_return
+0	46	13	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	46	13	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	47	13		subcall readFile, __readFile_return
+0	46	15	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	51	15	#line 51 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	52	15		jmp __NXC_Label_620
+0	51	17	#line 51 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+0	52	17		exit -1, -1
 1	8048	0		arrinit __RLSOutput, __constVal0, __constVal1
 1	8049	4		set __RLSByteCount, 0
 1	8051	7		set __FReadArgs.Length, 1
@@ -199,115 +210,115 @@ Clump	Line	PC	Source
 2	13	64	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
 2	13	64	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
 2	7921	64	#line 7921 "NXCDefs.h"
-2	7922	64		wait 2000
+2	7922	64		wait 200
 2	7921	66	#line 7921 "NXCDefs.h"
-2	14	66	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
 2	16	66	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-2	17	66		subret __readFile_return
-3	20	0	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	21	0		set __createFile_7qG2_fileSize_7qG2_000, 1024
-3	20	3	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	23	3	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	24	3	#pragma macro 5
-3	24	3		mov __FDArgs.Filename, __constStr0009
-3	24	5		syscall 8, __FDArgs
-3	24	8		mov __D0createFile, __FDArgs.Result
+2	18	66	#line 18 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+2	19	66		subret __readFile_return
+3	22	0	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	23	0		set __createFile_7qG2_fileSize_7qG2_000, 1024
+3	22	3	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	25	3	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	26	3	#pragma macro 5
+3	26	3		mov __FDArgs.Filename, __constStr0009
+3	26	5		syscall 8, __FDArgs
+3	26	8		mov __D0createFile, __FDArgs.Result
 3	6065	10	#line 6065 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	23	10	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	23	10	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
 3	25	10	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	26	10	#pragma macro 7
-3	26	10		acquire __FOMutex
-3	26	11		mov __FOArgs.Filename, __constStr0011
-3	26	13		mov __FOArgs.Length, __createFile_7qG2_fileSize_7qG2_000
-3	26	15		syscall 1, __FOArgs
-3	26	18		mov __createFile_7qG2_fileHandle_7qG2_000, __FOArgs.FileHandle
-3	26	20		mov __D0createFile, __FOArgs.Result
-3	26	22		release __FOMutex
+3	25	10	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	27	10	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	28	10	#pragma macro 7
+3	28	10		acquire __FOMutex
+3	28	11		mov __FOArgs.Filename, __constStr0011
+3	28	13		mov __FOArgs.Length, __createFile_7qG2_fileSize_7qG2_000
+3	28	15		syscall 1, __FOArgs
+3	28	18		mov __createFile_7qG2_fileHandle_7qG2_000, __FOArgs.FileHandle
+3	28	20		mov __D0createFile, __FOArgs.Result
+3	28	22		release __FOMutex
 3	6069	23	#line 6069 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	25	23	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	25	23	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
 3	27	23	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	28	23		set __D0createFile, 1000
-3	29	26	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	30	26	#pragma macro 8
-3	30	26		syscall 24, __RandomArgs
-3	30	29		mov __RandomTmp, __RandomArgs.Result
-3	30	31		add __RandomTmp, __RandomArgs.Result, __constVal32768
-3	30	35		mul __RandomTmp, __RandomTmp, __D0createFile
-3	30	39		div __RandomTmp, __RandomTmp, __constVal65536
-3	30	43		mov __createFile_7qG2_i_7qG2_000, __RandomTmp
+3	27	23	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	29	23	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	30	23		set __D0createFile, 1000
+3	31	26	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	32	26	#pragma macro 8
+3	32	26		syscall 24, __RandomArgs
+3	32	29		mov __RandomTmp, __RandomArgs.Result
+3	32	31		add __RandomTmp, __RandomArgs.Result, __constVal32768
+3	32	35		mul __RandomTmp, __RandomTmp, __D0createFile
+3	32	39		div __RandomTmp, __RandomTmp, __constVal65536
+3	32	43		mov __createFile_7qG2_i_7qG2_000, __RandomTmp
 3	6081	45	#line 6081 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	29	45	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	29	45	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	30	45	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	31	45		strcat __strbufcreateFile, __constStr0012
-3	30	49	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	31	49		mov __createFile_7qG2_write_7qG2_000, __strbufcreateFile
-3	30	51	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	30	51	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	31	51		mov __D0createFile, __createFile_7qG2_i_7qG2_000
-3	31	53	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	53		numtostr __strretvalcreateFile, __D0createFile
-3	31	56	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	56		strcat __strbufcreateFile, __strretvalcreateFile
-3	31	60	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	60		mov __createFile_7qG2_tmp_7qG2_000, __strbufcreateFile
-3	31	62	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	62		strcat __strbufcreateFile, __createFile_7qG2_write_7qG2_000
-3	31	66	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	66		mov __ArrHelper__createFile_244_0, __strbufcreateFile
-3	31	68	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	68		strcat __strbufcreateFile, __createFile_7qG2_tmp_7qG2_000
-3	31	72	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	72		mov __ArrHelper__createFile_244_1, __strbufcreateFile
-3	31	74	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	74		strcat __strbufcreateFile, __constStr0013
-3	31	78	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	78		mov __ArrHelper__createFile_244_2, __strbufcreateFile
-3	32	80	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	33	80		strcat __strretvalcreateFile, __ArrHelper__createFile_244_0, __ArrHelper__createFile_244_1, __ArrHelper__createFile_244_2
-3	32	86	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	33	86		strcat __strbufcreateFile, __strretvalcreateFile
-3	32	90	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	33	90		mov __createFile_7qG2_write_7qG2_000, __strbufcreateFile
-3	32	92	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	92	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	33	92	#pragma macro 9
-3	33	92		mov __FWriteArgs.FileHandle, __createFile_7qG2_fileHandle_7qG2_000
-3	33	94		strtoarr __FWriteFlattenBuf, __createFile_7qG2_write_7qG2_000
-3	33	97		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
-3	33	102		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
-3	33	105		syscall 4, __FWriteArgs
-3	33	108		mov __D0createFile, __FWriteArgs.Result
+3	31	45	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	31	45	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	32	45	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	33	45		strcat __strbufcreateFile, __constStr0012
+3	32	49	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	33	49		mov __createFile_7qG2_write_7qG2_000, __strbufcreateFile
+3	32	51	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	32	51	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	33	51		mov __D0createFile, __createFile_7qG2_i_7qG2_000
+3	33	53	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	53		numtostr __strretvalcreateFile, __D0createFile
+3	33	56	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	56		strcat __strbufcreateFile, __strretvalcreateFile
+3	33	60	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	60		mov __createFile_7qG2_tmp_7qG2_000, __strbufcreateFile
+3	33	62	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	62		strcat __strbufcreateFile, __createFile_7qG2_write_7qG2_000
+3	33	66	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	66		mov __ArrHelper__createFile_244_0, __strbufcreateFile
+3	33	68	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	68		strcat __strbufcreateFile, __createFile_7qG2_tmp_7qG2_000
+3	33	72	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	72		mov __ArrHelper__createFile_244_1, __strbufcreateFile
+3	33	74	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	74		strcat __strbufcreateFile, __constStr0013
+3	33	78	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	78		mov __ArrHelper__createFile_244_2, __strbufcreateFile
+3	34	80	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	35	80		strcat __strretvalcreateFile, __ArrHelper__createFile_244_0, __ArrHelper__createFile_244_1, __ArrHelper__createFile_244_2
+3	34	86	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	35	86		strcat __strbufcreateFile, __strretvalcreateFile
+3	34	90	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	35	90		mov __createFile_7qG2_write_7qG2_000, __strbufcreateFile
+3	34	92	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	92	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	35	92	#pragma macro 9
+3	35	92		mov __FWriteArgs.FileHandle, __createFile_7qG2_fileHandle_7qG2_000
+3	35	94		strtoarr __FWriteFlattenBuf, __createFile_7qG2_write_7qG2_000
+3	35	97		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+3	35	102		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+3	35	105		syscall 4, __FWriteArgs
+3	35	108		mov __D0createFile, __FWriteArgs.Result
 3	6126	110	#line 6126 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	110	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	32	110	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	35	110	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	36	110	#pragma macro 5
-3	36	110		mov __FCArgs.FileHandle, __createFile_7qG2_fileHandle_7qG2_000
-3	36	112		syscall 5, __FCArgs
-3	36	115		mov __D0createFile, __FCArgs.Result
+3	34	110	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	34	110	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	37	110	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	38	110	#pragma macro 5
+3	38	110		mov __FCArgs.FileHandle, __createFile_7qG2_fileHandle_7qG2_000
+3	38	112		syscall 5, __FCArgs
+3	38	115		mov __D0createFile, __FCArgs.Result
 3	6130	117	#line 6130 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	35	117	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	35	117	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	36	117	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	37	117	#pragma macro 6
-3	37	117		mov __FRArgs.OldFilename, __constStr0011
-3	37	119		mov __FRArgs.NewFilename, __constStr0009
-3	37	121		syscall 7, __FRArgs
-3	37	124		mov __D0createFile, __FRArgs.Result
+3	37	117	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	37	117	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	38	117	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	39	117	#pragma macro 6
+3	39	117		mov __FRArgs.OldFilename, __constStr0011
+3	39	119		mov __FRArgs.NewFilename, __constStr0009
+3	39	121		syscall 7, __FRArgs
+3	39	124		mov __D0createFile, __FRArgs.Result
 3	6134	126	#line 6134 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	36	126	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	36	126	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	40	126	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-3	41	126		subret __createFile_return
-4	49	0	#line 49 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
-4	50	0		subret ____initialize_global_data_return
+3	38	126	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	38	126	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	42	126	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+3	43	126		subret __createFile_return
+4	52	0	#line 52 "C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc"
+4	53	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc
-1	__readStringLine	9	NXTDefs.h
-2	readFile	58	C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc
-3	createFile	126	C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc
-4	__initialize_global_data	254	C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc
+1	__readStringLine	20	NXTDefs.h
+2	readFile	69	C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc
+3	createFile	137	C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc
+4	__initialize_global_data	265	C:\Users\Apple\Documents\GitHub\NXC\FileSystem.nxc

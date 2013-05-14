@@ -1,29 +1,59 @@
-task main()
+#define TEXT "Sensor(Touch):"
+#define TEXT2 "Sensor(UltaS):"
+#define TEXT3 "Sensor(Light):"
+
+void prepareSensor()
 {
      SetSensorUltrasonic(IN_1);
+     SetSensorTouch(IN_3);
+     SetSensorLight(IN_2);
+}
 
-     SetSensorTouch(IN_2);
-     SetSensorLight(IN_3);
-
+void sensor()
+{
      int i = 1;
      int o;
      bool t;
      int l;
 
-   
-while(true) {
- o = SensorUS(IN_1) - 3;    // SensorUS value id inprecise
- t = Sensor(IN_2);
- l = SensorValue(IN_3);
- Wait(100);
+
+ while(true) {
+
+ o = SensorUS(IN_1) - 3;    // SensorUS value is inprecise
+ t = Sensor(IN_3);
+ l = SensorValue(IN_2);
+ 
+ string tS = NumToStr(t);
+ string oS = NumToStr(o);
+ string lS = NumToStr(l) ;
+ string iS = NumToStr(i);
+ 
+ string iSC = StrCat("var i: ", iS);
+ string tSC = StrCat(TEXT, tS);
+ string oSC = StrCat(TEXT2, oS);
+ string lSC = StrCat(TEXT3, lS);
+ 
+ Wait(120);
  ClearScreen();
- NumOut(LCD_LINE2, LCD_LINE2, i); // Output of var i
- NumOut(LCD_LINE1, 0, o);         // Output of SensorUS on IN_1
- NumOut(LCD_LINE1, LCD_LINE3, t); // Output of SensorTouch on IN_2, value is lagged due to Wait(100) on line 14
- NumOut(LCD_LINE1, LCD_LINE4, l); // Output of SensorLight on IN_3
+
+
+ TextOut(0, LCD_LINE1, tSC); // value is lagged due to Wait(120) on line 41
+ TextOut(0, LCD_LINE2, oSC);
+ TextOut(0, LCD_LINE3, lSC);
+ TextOut(0, LCD_LINE4, iSC);
+
  i++;
- if(i == 256) { SetSensorType(S3, SENSOR_TYPE_LIGHT_INACTIVE); } // Testing SensorLight on inactive mode
+   if(i == 256) { SetSensorType(S2, SENSOR_TYPE_LIGHT_INACTIVE); }
+ }
 }
 
+
+task main()
+{
+    prepareSensor();
+     sensor();
+     
 }
+
+
 
