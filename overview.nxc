@@ -37,7 +37,7 @@ void sensor()
  ClearScreen();
 
 
- TextOut(0, LCD_LINE1, tSC); // value is lagged due to Wait(120) on line 41
+ TextOut(0, LCD_LINE1, tSC); // value is lagged due to Wait(120) on line 52
  TextOut(0, LCD_LINE2, oSC);
  TextOut(0, LCD_LINE3, lSC);
  TextOut(0, LCD_LINE4, iSC);
