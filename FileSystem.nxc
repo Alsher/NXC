@@ -10,7 +10,7 @@ void readFile()
   string buff;
   OpenFileRead(FILE_NAME, fsize, handle2);
   ReadLnString(handle2, buff);
-  printf("%d", buff);
+  printf("%d",buff);
   Wait(200);
 
 

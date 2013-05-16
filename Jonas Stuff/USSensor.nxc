@@ -1,0 +1,19 @@
+task main ()
+{
+SetSensorUltrasonic(IN_1);
+int i;
+while (true)
+{
+  i=SensorUS(IN_1);
+  if (i< 30)
+  {
+  OnRev(OUT_ABC, 50);
+  Wait (100);
+  OnFwd(OUT_A, 75);
+  Wait (400);
+  }
+  else
+  OnFwd(OUT_ABC, 100);
+  }
+}
+
