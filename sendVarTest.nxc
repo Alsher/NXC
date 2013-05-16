@@ -1,6 +1,6 @@
 void var(int var)
 {
-NumOut(0,0, var);
+NumOut(0,0, var);               // NumOut
 }
 
 task main()
