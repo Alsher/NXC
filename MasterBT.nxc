@@ -1,0 +1,49 @@
+                      //Master brick
+                      
+#include "NXCDefs.h"
+#define connection 1
+#define OutputBox 5
+#define InputBox 1
+int iS;
+void BTCheck(int conn){
+if (!BluetoothStatus(conn)==NO_ERR)
+   {
+   TextOut(5,LCD_LINE2,"Error, no connection");
+   Wait(1000);
+   Stop(true);
+   }
+}
+
+void sensor()
+{
+ int i = SensorValue(IN_2);
+ if(i > 38)
+      iS = 1;
+ else
+ iS = 0;
+}
+
+
+task main()
+{
+SetSensorLight(IN_2);
+SetSensorType(IN_2, SENSOR_TYPE_LIGHT_INACTIVE);
+
+int ack, iSe;
+BTCheck(connection);
+TextOut(10,LCD_LINE1,"Master sending");
+                             while(true)
+                             {
+                             sensor();
+                             iSe = iS;
+                             TextOut(0,LCD_LINE3," ");
+                             NumOut(5,LCD_LINE3,iSe);
+                             ack = 0;
+                             SendRemoteNumber(connection,OutputBox,iSe);
+                             until(ack==0xFF)
+                              {
+                              until(ReceiveRemoteNumber(InputBox,true,ack) == NO_ERR);
+                              }
+                             Wait(250);
+                             }
+}

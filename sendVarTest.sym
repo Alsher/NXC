@@ -1,0 +1,90 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0var	6	1	0	4	3
+1	__D0main	6	1	4	4	4
+2	__signed_stack_001var	6	1	8	4	2
+3	__constVal65536	6	0	12	4	1
+4	__signed_stack_002var	6	1	16	4	2
+5	__RandomTmp	5	1	20	4	7
+6	__constVal32768	6	0	24	4	1
+7	__var_7qG2_var_7qG2_000	4	1	28	2	2
+8	__main_7qG2_i_7qG2_000	4	1	30	2	2
+9	____initialize_global_data_return	1	1	32	1	3
+10	__zfmain	1	1	33	1	2
+11	__var_return	1	1	34	1	3
+12	__PFTmp	1	1	35	1	1
+13	__TextOutArgs	8	0	4	16	6
+14	__TextOutArgs.Result	2	1	36	1	6
+15	__TextOutArgs.Location	8	0	2	4	6
+16	__TextOutArgs.Location.X	4	1	40	2	6
+17	__TextOutArgs.Location.Y	4	1	42	2	6
+18	__TextOutArgs.Text	7	0	44	4	6
+19	__TextOutArgs.Text.Text_type	1	0	0	1	0
+20	__TextOutArgs.Options	5	1	48	4	6
+21	__RandomArgs	8	0	1	4	3
+22	__RandomArgs.Result	4	1	52	2	3
+#SOURCES
+Clump	Line	PC	Source
+0	7	0	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	8	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	7	2	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	7	2	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	8	2		set __D0main, 42
+0	8	5	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	9	5	#pragma macro 8
+0	9	5		syscall 24, __RandomArgs
+0	9	8		mov __RandomTmp, __RandomArgs.Result
+0	9	10		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	9	14		mul __RandomTmp, __RandomTmp, __D0main
+0	9	18		div __RandomTmp, __RandomTmp, __constVal65536
+0	9	22		mov __main_7qG2_i_7qG2_000, __RandomTmp
+0	3573	24	#line 3573 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	8	24	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	9	24	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	10	24		set __D0main, 1
+0	9	27	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	10	27		tst 5, __zfmain, __D0main
+0	9	30	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	10	30		brtst 4, __NXC_Label_500, __zfmain
+0	9	33	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	10	33		mov __var_7qG2_var_7qG2_000, __main_7qG2_i_7qG2_000
+0	9	35	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	9	35	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	10	35		subcall var, __var_return
+0	9	37	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	12	37	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	13	37		jmp __NXC_Label_499
+0	12	39	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	13	39		exit -1, -1
+1	2	0	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	3	0		set __signed_stack_001var, 0
+1	2	3	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	2	3	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	3	3		set __signed_stack_002var, 0
+1	2	6	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	2	6	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	3	6		mov __D0var, __var_7qG2_var_7qG2_000
+1	3	8	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	3	8	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	4	8		mov __TextOutArgs.Location.X, __signed_stack_001var
+1	3	10	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	4	10		mov __TextOutArgs.Location.Y, __signed_stack_002var
+1	3	12	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	4	12		set __TextOutArgs.Options, 0
+1	3	15	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	4	15		numtostr __TextOutArgs.Text, __D0var
+1	3	18	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	4	18		syscall 13, __TextOutArgs
+1	3	21	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	4	21		mov __D0var, __TextOutArgs.Result
+1	3	23	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	3	23	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	5	23	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+1	6	23		subret __var_return
+2	13	0	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+2	14	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc
+1	var	42	C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc
+2	__initialize_global_data	67	C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc

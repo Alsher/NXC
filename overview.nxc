@@ -7,6 +7,8 @@ void prepareSensor()
      SetSensorUltrasonic(IN_1);
      SetSensorTouch(IN_3);
      SetSensorLight(IN_2);
+     SetSensorType(IN_2, SENSOR_TYPE_LIGHT_INACTIVE);
+
 }
 
 void sensor()
@@ -43,7 +45,7 @@ void sensor()
  TextOut(0, LCD_LINE4, iSC);
 
  i++;
-   if(i == 256) { SetSensorType(S2, SENSOR_TYPE_LIGHT_INACTIVE); }
+   //if(i == 256) { SetSensorType(S2, SENSOR_TYPE_LIGHT_INACTIVE); }
  }
 }
 

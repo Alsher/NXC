@@ -1,0 +1,238 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	2
+1	__signed_stack_001main	6	1	4	4	2
+2	__CLSWMutex1	9	0	8	4	2
+3	__CLSRMutex1	9	0	12	4	2
+4	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	16	4	3
+5	__D0main	6	1	20	4	6
+6	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	24	4	2
+7	__RLSBmutex1	9	0	28	4	2
+8	__CLSCSMutex1	9	0	32	4	2
+9	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	36	4	2
+10	__main_7qG2_i_7qG2_001	4	1	40	2	2
+11	__constVal200	4	0	42	2	2
+12	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	44	1	2
+13	__PFTmp	1	1	45	1	1
+14	__zfmain	1	1	46	1	2
+15	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	47	1	2
+16	____initialize_global_data_return	1	1	48	1	3
+17	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	49	1	4
+18	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	50	1	2
+19	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	51	1	2
+20	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	52	1	2
+21	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	53	1	2
+22	__constVal15	2	0	54	1	3
+23	____ReadLSBytes1_return	1	1	55	1	3
+24	__ResetSensorPort	1	1	56	1	3
+25	____ResetSensorSubroutine_return	1	1	57	1	3
+26	__ResetSensorTmp	1	1	58	1	2
+27	__RLSBIterations1	1	1	59	1	4
+28	__constVal1	2	0	60	1	5
+29	__RLSBytesCount1	1	1	61	1	7
+30	__constVal0	2	1	62	1	1
+31	__RLSBResult1	2	1	63	1	7
+32	__CLSCSArgs1	8	0	3	4	4
+33	__CLSCSArgs1.Result	2	1	64	1	4
+34	__CLSCSArgs1.Port	1	1	65	1	4
+35	__CLSCSArgs1.BytesReady	1	1	66	1	4
+36	__CLSWArgs1	8	0	4	12	5
+37	__CLSWArgs1.Result	2	1	68	1	5
+38	__CLSWArgs1.Port	1	1	69	1	5
+39	__CLSWArgs1.Buffer	7	0	70	4	5
+40	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+41	__CLSWArgs1.ReturnLen	1	1	72	1	5
+42	__PointOutArgs	8	0	3	12	4
+43	__PointOutArgs.Result	2	1	76	1	4
+44	__PointOutArgs.Location	8	0	2	4	4
+45	__PointOutArgs.Location.X	4	1	80	2	4
+46	__PointOutArgs.Location.Y	4	1	82	2	4
+47	__PointOutArgs.Options	5	1	84	4	4
+48	__TextOutArgs	8	0	4	16	5
+49	__TextOutArgs.Result	2	1	88	1	5
+50	__TextOutArgs.Location	8	0	2	4	5
+51	__TextOutArgs.Location.X	4	1	92	2	5
+52	__TextOutArgs.Location.Y	4	1	94	2	5
+53	__TextOutArgs.Text	7	0	96	4	5
+54	__TextOutArgs.Text.Text_type	1	0	0	1	0
+55	__TextOutArgs.Options	5	1	100	4	5
+56	__CLSRArgs1	8	0	4	12	5
+57	__CLSRArgs1.Result	2	1	104	1	5
+58	__CLSRArgs1.Port	1	1	105	1	5
+59	__CLSRArgs1.Buffer	7	0	106	4	5
+60	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+61	__CLSRArgs1.BufferLen	1	1	108	1	5
+62	__RLSReadBuf1	7	0	110	4	8
+63	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+64	__RLSLastGoodRead1	7	0	112	4	2
+65	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+66	__RLSBbufLSWrite1	7	0	114	4	1
+67	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	2	0	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	2	2	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	2	2	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	2	2	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	3768	2	#line 3768 "NXCDefs.h"
+0	3769	2		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3768	4	#line 3768 "NXCDefs.h"
+0	3768	4	#line 3768 "NXCDefs.h"
+0	3769	4		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3758	6	#line 3758 "NXCDefs.h"
+0	3759	6		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	8	#line 3758 "NXCDefs.h"
+0	3758	8	#line 3758 "NXCDefs.h"
+0	3759	8		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	10	#line 3758 "NXCDefs.h"
+0	3759	10		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	13	#line 3758 "NXCDefs.h"
+0	3759	13		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	16	#line 3758 "NXCDefs.h"
+0	3759	16		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	3758	19	#line 3758 "NXCDefs.h"
+0	3759	19		jmp __001__001__NXC_Label_37
+0	3758	21	#line 3758 "NXCDefs.h"
+0	3759	21		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	3758	24	#line 3758 "NXCDefs.h"
+0	3759	24		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3663	26	#line 3663 "NXCDefs.h"
+0	3664	26		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3663	30	#line 3663 "NXCDefs.h"
+0	3759	30	#line 3759 "NXCDefs.h"
+0	3759	30	#line 3759 "NXCDefs.h"
+0	3760	30		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3759	32	#line 3759 "NXCDefs.h"
+0	3759	32	#line 3759 "NXCDefs.h"
+0	3760	32		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3759	35	#line 3759 "NXCDefs.h"
+0	3676	35	#line 3676 "NXCDefs.h"
+0	3677	35		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	3676	39	#line 3676 "NXCDefs.h"
+0	3760	39	#line 3760 "NXCDefs.h"
+0	3760	39	#line 3760 "NXCDefs.h"
+0	3760	39	#line 3760 "NXCDefs.h"
+0	3694	39	#line 3694 "NXCDefs.h"
+0	3695	39	#pragma macro 4
+0	3695	39		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3695	41		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3707	43	#line 3707 "NXCDefs.h"
+0	3694	43	#line 3694 "NXCDefs.h"
+0	3761	43	#line 3761 "NXCDefs.h"
+0	3768	43	#line 3768 "NXCDefs.h"
+0	3	43	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	3	43	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	4	43		set __D0main, 1
+0	4	46	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	5	46		tst 5, __zfmain, __D0main
+0	4	49	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	5	49		brtst 4, __NXC_Label_492, __zfmain
+0	4	52	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	5	52	#pragma macro 26
+0	5	52		acquire __RLSBmutex1
+0	5	53		mov __RLSReadBuf1, __RLSBbufLSWrite1
+0	5	55		set __RLSBytesCount1, 1
+0	5	58		wait2 NA, __constVal15
+0	5	61		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+0	5	63		index __D0main, __RLSReadBuf1, 65535
+0	5	67		release __RLSBmutex1
+0	3726	68	#line 3726 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	4	68	#line 4 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	5	68		mov __main_7qG2_i_7qG2_001, __D0main
+0	5	70	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	6	70		set __signed_stack_001main, 10
+0	5	73	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	5	73	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	6	73		set __signed_stack_002main, 10
+0	5	76	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	5	76	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	6	76		mov __D0main, __main_7qG2_i_7qG2_001
+0	7	78	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	7	78	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	8	78		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	7	80	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	8	80		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	7	82	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	8	82		set __TextOutArgs.Options, 0
+0	7	85	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	8	85		numtostr __TextOutArgs.Text, __D0main
+0	7	88	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	8	88		syscall 13, __TextOutArgs
+0	7	91	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	7	91	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	7	91	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	7	91	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	8	91		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	7	94	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	7921	94	#line 7921 "NXCDefs.h"
+0	7922	94		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	97	#line 7921 "NXCDefs.h"
+0	8	97	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	6069	97	#line 6069 "NXCDefs.h"
+0	6070	97	#pragma macro 6
+0	6070	97		mov __PointOutArgs.Location.X, __constVal200
+0	6070	99		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	101		mov __PointOutArgs.Options, __constVal1
+0	6070	103		syscall 14, __PointOutArgs
+0	3779	106	#line 3779 "NXCDefs.h"
+0	6069	106	#line 6069 "NXCDefs.h"
+0	9	106	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	13	106	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	14	106		jmp __NXC_Label_491
+0	13	108	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+0	14	108		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5710	0	#pragma macro 25
+2	5710	0		acquire __CLSWMutex1
+2	5710	1		set __CLSWArgs1.Port, 1
+2	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+2	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+2	5710	8		syscall 21, __CLSWArgs1
+2	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+2	5710	13		release __CLSWMutex1
+2	5710	14	#line 5710 "NXTDefs.h"
+2	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+2	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+2	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+2	5714	24		set __RLSBIterations1, 4
+2	5716	27	#pragma macro 23
+2	5716	27		acquire __CLSCSMutex1
+2	5716	28		set __CLSCSArgs1.Port, 1
+2	5716	31		syscall 23, __CLSCSArgs1
+2	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+2	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+2	5716	38		release __CLSCSMutex1
+2	5716	39	#line 5716 "NXTDefs.h"
+2	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+2	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+2	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+2	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+2	5722	52		wait2 NA, __constVal15
+2	5723	55		jmp __RLSBDoCheckStatus1
+2	5726	57	#pragma macro 25
+2	5726	57		acquire __CLSRMutex1
+2	5726	58		set __CLSRArgs1.Port, 1
+2	5726	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+2	5726	63		syscall 22, __CLSRArgs1
+2	5726	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+2	5726	68		mov __RLSBResult1, __CLSRArgs1.Result
+2	5726	70		release __CLSRMutex1
+2	5726	71	#line 5726 "NXTDefs.h"
+2	5727	71		brtst 5, __RLSBError1, __RLSBResult1
+2	5728	74		mov __RLSLastGoodRead1, __RLSReadBuf1
+2	5729	76		jmp __RLSBDone1
+2	5731	78		mov __RLSReadBuf1, __RLSLastGoodRead1
+2	5733	80		arrsize __RLSBytesCount1, __RLSReadBuf1
+2	5735	83		subret ____ReadLSBytes1_return
+3	14	0	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc"
+3	15	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc
+1	__ResetSensorSubroutine	111	NXTDefs.h
+2	__ReadLSBytes1	124	NXTDefs.h
+3	__initialize_global_data	209	C:\Users\Apple\Documents\GitHub\NXC\getMotorOutput.nxc

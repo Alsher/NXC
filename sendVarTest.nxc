@@ -1,0 +1,11 @@
+void var(int var)
+{
+NumOut(0,0, var);
+}
+
+task main()
+{
+int i = 42;
+while(true)
+{var(i);}
+}

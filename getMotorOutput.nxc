@@ -1,0 +1,12 @@
+task main()
+{
+  SetSensorUltrasonic(IN_2);
+  while(true){
+  int i = SensorUS(IN_2);
+  NumOut(10,10, i);
+
+  Wait(200);
+  ClearScreen();
+  }
+
+}

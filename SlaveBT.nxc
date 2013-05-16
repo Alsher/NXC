@@ -1,0 +1,54 @@
+                          // Slave Brick
+#include "NXCDefs.h"
+#define connection 1
+#define OutputBox 1
+#define InputBox 5
+
+void BTCheck(int conn){
+    if (!BluetoothStatus(conn)==NO_ERR)
+    {
+    TextOut(5,LCD_LINE2,"Error, no connection");
+    Wait(1000);
+    Stop(true);
+    }
+}
+
+void move(int move)
+{
+ int move2;
+ move2 = move;
+ int power;
+ 
+ if(move2 == 1)
+ {power = 0;}
+ if(move2 == 0)
+ {power = 50;}
+ 
+ OnFwd(OUT_ABC, power);
+ NumOut(0,0, move2);
+ ClearLine(LCD_LINE4);
+
+}
+
+task main(){
+int in;
+BTCheck(0);
+TextOut(5,LCD_LINE1,"Slave receiving");
+SendResponseNumber(OutputBox,0xFF); //unblock master
+while(true)
+  {
+
+            if (ReceiveRemoteNumber(InputBox,true,in) != STAT_MSG_EMPTY_MAILBOX)
+            {
+            TextOut(0,LCD_LINE3," ");
+            move(in);
+            NumOut(5,LCD_LINE3,in);
+
+            SendResponseNumber(OutputBox,0xFF);
+
+            }
+
+//Wait(5); //take breath (optional)
+
+  }
+}

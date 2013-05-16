@@ -1,0 +1,410 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0sensor	6	1	0	4	3
+1	__D0SetSensorLight_inline_main	6	1	4	4	3
+2	__DU0SetSensorLight_inline_main	5	1	8	4	2
+3	__SRSTmpLongVal	6	1	12	4	2
+4	__D0BTCheck	6	1	16	4	6
+5	__D0main	6	1	20	4	16
+6	__signed_stack_001BTCheck	6	1	24	4	4
+7	__signed_stack_001sensor	6	1	28	4	2
+8	__Wait_7qG2_ms_7qG2_000_inline_BTCheck	5	1	32	4	2
+9	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	36	4	2
+10	__signed_stack_002BTCheck	6	1	40	4	2
+11	__signed_stack_001main	6	1	44	4	10
+12	__signed_stack_002main	6	1	48	4	6
+13	__RRNTmpVal	6	1	52	4	4
+14	__TextOutMutex	9	0	56	4	8
+15	__BTCheck_7qG2_conn_7qG2_000	4	1	60	2	2
+16	__main_7qG2_iSe_7qG2_000	4	1	62	2	3
+17	__sensor_7qG2_i_7qG2_000	4	1	64	2	2
+18	iS	4	1	66	2	3
+19	__main_7qG2_ack_7qG2_000	4	1	68	2	3
+20	__sensor_return	1	1	70	1	3
+21	__constVal5	2	0	71	1	2
+22	__constVal1	2	0	72	1	6
+23	__BTCheck_return	1	1	73	1	3
+24	__constVal3	2	0	74	1	1
+25	____initialize_global_data_return	1	1	75	1	3
+26	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	76	1	2
+27	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	77	1	2
+28	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	78	1	2
+29	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	79	1	2
+30	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	80	1	2
+31	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	81	1	4
+32	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	82	1	2
+33	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	83	1	2
+34	__ResetSensorPort	1	1	84	1	3
+35	__zfmain	1	1	85	1	12
+36	__zfsensor	1	1	86	1	3
+37	__zfBTCheck	1	1	87	1	3
+38	__PFTmp	1	1	88	1	1
+39	__RRNErr	1	1	89	1	1
+40	__constVal2	2	0	90	1	1
+41	__zfSetSensorLight_inline_main	1	1	91	1	2
+42	____ResetSensorSubroutine_return	1	1	92	1	3
+43	__ResetSensorTmp	1	1	93	1	2
+44	__TextOutArgs	8	0	4	16	24
+45	__TextOutArgs.Result	2	1	96	1	24
+46	__TextOutArgs.Location	8	0	2	4	24
+47	__TextOutArgs.Location.X	4	1	100	2	24
+48	__TextOutArgs.Location.Y	4	1	102	2	24
+49	__TextOutArgs.Text	7	0	104	4	24
+50	__TextOutArgs.Text.Text_type	1	0	0	1	0
+51	__TextOutArgs.Options	5	1	108	4	24
+52	__MRArgs	8	0	4	8	5
+53	__MRArgs.Result	2	1	112	1	5
+54	__MRArgs.QueueID	1	1	113	1	5
+55	__MRArgs.Remove	1	1	114	1	5
+56	__MRArgs.Message	7	0	116	4	5
+57	__MRArgs.Message.Message_type	1	0	0	1	0
+58	__CBTWArgs	8	0	3	8	4
+59	__CBTWArgs.Result	2	1	120	1	4
+60	__CBTWArgs.Connection	1	1	121	1	4
+61	__CBTWArgs.Buffer	7	0	122	4	4
+62	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+63	__CBTCSArgs	8	0	2	4	4
+64	__CBTCSArgs.Result	2	1	124	1	4
+65	__CBTCSArgs.Connection	1	1	125	1	4
+66	__SRSSendBuf	7	0	126	4	2
+67	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+68	__SRSTmpBuf	7	0	128	4	6
+69	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+70	__constStr0011	7	0	130	4	1
+71	__constStr0011.__constStr0011_type	1	1	0	1	0
+72	__constStr0010	7	0	132	4	1
+73	__constStr0010.__constStr0010_type	1	1	0	1	0
+74	__strbufmain	7	0	134	4	4
+75	__strbufmain.__strbufmain_type	1	0	0	1	0
+76	__constStr0009	7	0	136	4	1
+77	__constStr0009.__constStr0009_type	1	1	0	1	0
+78	__strbufBTCheck	7	0	138	4	2
+79	__strbufBTCheck.__strbufBTCheck_type	1	0	0	1	0
+80	__SRSFlattenBuf	7	0	140	4	2
+81	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
+82	__DCMessageWritePacket	7	0	142	4	1
+83	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	28	0	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	29	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	28	2	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	28	2	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	29	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	28	5	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	29	5	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	30	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	7	#line 3729 "NXCDefs.h"
+0	3730	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3730	9		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	11	#line 3729 "NXCDefs.h"
+0	3730	11		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	14	#line 3729 "NXCDefs.h"
+0	3730	14		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	17	#line 3729 "NXCDefs.h"
+0	3730	17		set __D0SetSensorLight_inline_main, 5
+0	3729	20	#line 3729 "NXCDefs.h"
+0	3730	20		jmp __001__NXC_Label_5
+0	3729	22	#line 3729 "NXCDefs.h"
+0	3730	22		set __D0SetSensorLight_inline_main, 6
+0	3729	25	#line 3729 "NXCDefs.h"
+0	3730	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3731	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3731	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	36	#line 3730 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3694	40	#line 3694 "NXCDefs.h"
+0	3695	40	#pragma macro 4
+0	3695	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3954	44	#line 3954 "NXCDefs.h"
+0	3694	44	#line 3694 "NXCDefs.h"
+0	3732	44	#line 3732 "NXCDefs.h"
+0	29	44	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	29	44	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	30	44		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 1
+0	29	47	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	29	47	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	30	47		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 6
+0	29	50	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	3663	50	#line 3663 "NXCDefs.h"
+0	3664	50		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	54	#line 3663 "NXCDefs.h"
+0	31	54	#line 31 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	32	54	#line 32 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	33	54		set __BTCheck_7qG2_conn_7qG2_000, 1
+0	32	57	#line 32 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	33	57	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	34	57		subcall BTCheck, __BTCheck_return
+0	33	59	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	33	59	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	34	59		set __signed_stack_001main, 10
+0	33	62	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	33	62	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	34	62		set __signed_stack_002main, 56
+0	33	65	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	33	65	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	34	65		strcat __strbufmain, __constStr0010
+0	34	69	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	35	69		acquire __TextOutMutex
+0	34	70	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	35	70		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	34	72	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	35	72		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	34	74	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	35	74		set __TextOutArgs.Options, 0
+0	34	77	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	35	77		mov __TextOutArgs.Text, __strbufmain
+0	34	79	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	35	79		syscall 13, __TextOutArgs
+0	34	82	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	35	82		mov __D0main, __TextOutArgs.Result
+0	34	84	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	35	84		release __TextOutMutex
+0	34	85	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	35	85	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	36	85		set __D0main, 1
+0	36	88	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	37	88		tst 5, __zfmain, __D0main
+0	36	91	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	37	91		brtst 4, __NXC_Label_523, __zfmain
+0	37	94	#line 37 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	38	94		subcall sensor, __sensor_return
+0	37	96	#line 37 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	38	96	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	39	96		mov __main_7qG2_iSe_7qG2_000, iS
+0	38	98	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	38	98	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	38	98	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	39	98		set __signed_stack_001main, 0
+0	38	101	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	38	101	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	39	101		set __signed_stack_002main, 40
+0	38	104	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	38	104	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	39	104		strcat __strbufmain, __constStr0011
+0	39	108	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	108		acquire __TextOutMutex
+0	39	109	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	109		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	39	111	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	111		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	39	113	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	113		set __TextOutArgs.Options, 0
+0	39	116	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	116		mov __TextOutArgs.Text, __strbufmain
+0	39	118	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	118		syscall 13, __TextOutArgs
+0	39	121	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	121		mov __D0main, __TextOutArgs.Result
+0	39	123	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	123		release __TextOutMutex
+0	39	124	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	39	124	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	124		set __signed_stack_001main, 5
+0	39	127	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	39	127	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	127		set __signed_stack_002main, 40
+0	39	130	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	39	130	#line 39 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	40	130		mov __D0main, __main_7qG2_iSe_7qG2_000
+0	40	132	#line 40 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	132		acquire __TextOutMutex
+0	40	133	#line 40 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	133		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	40	135	#line 40 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	135		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	40	137	#line 40 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	137		set __TextOutArgs.Options, 0
+0	40	140	#line 40 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	140		numtostr __TextOutArgs.Text, __D0main
+0	40	143	#line 40 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	143		syscall 13, __TextOutArgs
+0	40	146	#line 40 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	146		mov __D0main, __TextOutArgs.Result
+0	40	148	#line 40 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	148		release __TextOutMutex
+0	40	149	#line 40 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	149	#line 41 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	42	149		set __main_7qG2_ack_7qG2_000, 0
+0	41	152	#line 41 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	152	#line 41 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	152	#line 41 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	42	152	#pragma macro 14
+0	42	152		mov __SRSTmpBuf, __DCMessageWritePacket
+0	42	154		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal5
+0	42	159		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+0	42	164		mov __SRSTmpLongVal, __main_7qG2_iSe_7qG2_000
+0	42	166		flatten __SRSFlattenBuf, __SRSTmpLongVal
+0	42	169		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+0	42	174		mov __CBTWArgs.Connection, __constVal1
+0	42	176		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	42	178		syscall 29, __CBTWArgs
+0	42	181		mov __D0main, __CBTWArgs.Result
+0	4121	183	#line 4121 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	183	#line 41 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	41	183	#line 41 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	42	183	#line 42 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	43	183		mov __signed_stack_001main, __main_7qG2_ack_7qG2_000
+0	42	185	#line 42 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	42	185	#line 42 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	43	185		set __D0main, 255
+0	42	188	#line 42 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	43	188		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	42	192	#line 42 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	43	192	#line 43 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	44	192		not __D0main, __zfmain
+0	44	195	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	45	195		tst 5, __zfmain, __D0main
+0	44	198	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	45	198		brtst 4, __NXC_Label_541, __zfmain
+0	44	201	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	45	201	#pragma macro 9
+0	45	201		mov __MRArgs.QueueID, __constVal1
+0	45	203		mov __MRArgs.Remove, __constVal1
+0	45	205		set __RRNTmpVal, 0
+0	45	208		syscall 27, __MRArgs
+0	45	211		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	45	216		mov __main_7qG2_ack_7qG2_000, __RRNTmpVal
+0	45	218		mov __signed_stack_001main, __MRArgs.Result
+0	4147	220	#line 4147 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	44	220	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	44	220	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	45	220		set __D0main, 0
+0	44	223	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	45	223		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	44	227	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	44	227	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	45	227		not __D0main, __zfmain
+0	45	230	#line 45 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	46	230		tst 5, __zfmain, __D0main
+0	45	233	#line 45 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	46	233		brtst 4, __NXC_Label_547, __zfmain
+0	45	236	#line 45 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	45	236	#line 45 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	46	236		jmp __NXC_Label_546
+0	45	238	#line 45 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	46	238	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	47	238		jmp __NXC_Label_540
+0	46	240	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	46	240	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	47	240		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	46	243	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	7921	243	#line 7921 "NXCDefs.h"
+0	7922	243		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	246	#line 7921 "NXCDefs.h"
+0	47	246	#line 47 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	50	246	#line 50 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	51	246		jmp __NXC_Label_522
+0	50	248	#line 50 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	51	248		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	8	0	#line 8 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	9	0	#pragma macro 5
+2	9	0		mov __CBTCSArgs.Connection, __BTCheck_7qG2_conn_7qG2_000
+2	9	2		syscall 28, __CBTCSArgs
+2	3737	5	#line 3737 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	8	5	#line 8 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	9	5		not __signed_stack_001BTCheck, __CBTCSArgs.Result
+2	8	8	#line 8 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	9	8	#line 9 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	10	8		set __D0BTCheck, 0
+2	9	11	#line 9 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	10	11		cmp 4, __zfBTCheck, __signed_stack_001BTCheck, __D0BTCheck
+2	9	15	#line 9 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	10	15		mov __D0BTCheck, __zfBTCheck
+2	10	17	#line 10 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	11	17		brtst 4, __NXC_Label_491, __zfBTCheck
+2	10	20	#line 10 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	11	20		set __signed_stack_001BTCheck, 5
+2	10	23	#line 10 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	10	23	#line 10 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	11	23		set __signed_stack_002BTCheck, 48
+2	10	26	#line 10 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	10	26	#line 10 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	11	26		strcat __strbufBTCheck, __constStr0009
+2	11	30	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	30		acquire __TextOutMutex
+2	11	31	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	31		mov __TextOutArgs.Location.X, __signed_stack_001BTCheck
+2	11	33	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	33		mov __TextOutArgs.Location.Y, __signed_stack_002BTCheck
+2	11	35	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	35		set __TextOutArgs.Options, 0
+2	11	38	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	38		mov __TextOutArgs.Text, __strbufBTCheck
+2	11	40	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	40		syscall 13, __TextOutArgs
+2	11	43	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	43		mov __D0BTCheck, __TextOutArgs.Result
+2	11	45	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	45		release __TextOutMutex
+2	11	46	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	11	46	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	46		set __Wait_7qG2_ms_7qG2_000_inline_BTCheck, 1000
+2	11	49	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	7921	49	#line 7921 "NXCDefs.h"
+2	7922	49		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_BTCheck
+2	7921	52	#line 7921 "NXCDefs.h"
+2	12	52	#line 12 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	52	#line 12 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	13	52		set __D0BTCheck, 1
+2	13	55	#line 13 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	14	55		stop __D0BTCheck
+2	13	57	#line 13 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	16	57	#line 16 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	16	57	#line 16 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	17	57		subret __BTCheck_return
+3	18	0	#line 18 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	19	0		getin __sensor_7qG2_i_7qG2_000, __constVal1, 4
+3	18	4	#line 18 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	19	4	#line 19 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	20	4		mov __signed_stack_001sensor, __sensor_7qG2_i_7qG2_000
+3	19	6	#line 19 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	20	6	#line 20 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	21	6		set __D0sensor, 38
+3	20	9	#line 20 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	21	9		cmp 1, __zfsensor, __signed_stack_001sensor, __D0sensor
+3	20	13	#line 20 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	21	13		mov __D0sensor, __zfsensor
+3	20	15	#line 20 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	21	15		brtst 4, __NXC_Label_504, __zfsensor
+3	21	18	#line 21 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	22	18		set iS, 1
+3	21	21	#line 21 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	21	21	#line 21 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	22	21	#line 22 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	23	21		jmp __NXC_Label_507
+3	23	23	#line 23 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	24	23		set iS, 0
+3	23	26	#line 23 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	23	26	#line 23 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	23	26	#line 23 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	26	26	#line 26 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	27	26		subret __sensor_return
+4	51	0	#line 51 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	52	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	251	NXTDefs.h
+2	BTCheck	264	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+3	sensor	323	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+4	__initialize_global_data	351	C:\Users\Apple\AppData\Local\Temp\temp.nxc

@@ -2,10 +2,10 @@
 Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__DU0sensor	5	1	0	4	2
 1	__D0SetSensorLight_inline_prepareSensor	6	1	4	4	3
-2	__D0sensor	6	1	8	4	14
+2	__D0sensor	6	1	8	4	11
 3	__CLSRMutex0	9	0	12	4	2
 4	__RLSBmutex0	9	0	16	4	2
-5	__signed_stack_001sensor	6	1	20	4	10
+5	__signed_stack_001sensor	6	1	20	4	8
 6	__signed_stack_002sensor	6	1	24	4	8
 7	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	28	4	2
 8	__DU0SetSensorLight_inline_prepareSensor	5	1	32	4	2
@@ -13,25 +13,25 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 10	__CLSWMutex0	9	0	40	4	2
 11	__CLSCSMutex0	9	0	44	4	2
 12	__sensor_7qG2_o_7qG2_000	4	1	48	2	2
-13	__constVal200	4	0	50	2	2
-14	__sensor_7qG2_i_7qG2_000	4	1	52	2	5
-15	__sensor_7qG2_l_7qG2_000	4	1	54	2	2
+13	__sensor_7qG2_i_7qG2_000	4	1	50	2	4
+14	__sensor_7qG2_l_7qG2_000	4	1	52	2	2
+15	__constVal200	4	0	54	2	2
 16	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_prepareSensor	1	1	56	1	2
 17	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_prepareSensor	1	1	57	1	2
 18	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_prepareSensor	1	1	58	1	2
 19	__SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor	1	1	59	1	4
-20	__constVal1	2	0	60	1	8
-21	__prepareSensor_return	1	1	61	1	3
-22	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_prepareSensor	1	1	62	1	4
-23	__constVal32	2	0	63	1	1
-24	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_prepareSensor	1	1	64	1	2
-25	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_prepareSensor	1	1	65	1	2
+20	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_prepareSensor	1	1	60	1	2
+21	__constVal32	2	0	61	1	1
+22	__constVal1	2	0	62	1	8
+23	__prepareSensor_return	1	1	63	1	3
+24	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_prepareSensor	1	1	64	1	2
+25	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_prepareSensor	1	1	65	1	4
 26	__SetSensorLight_7qG2_port_7qG2_000_inline_prepareSensor	1	1	66	1	4
-27	__sensor_7qG2_t_7qG2_000	1	1	67	1	2
-28	__sensor_return	1	1	68	1	3
-29	__SetSensorType_7qG2_port_7qG2_000_inline_sensor	1	1	69	1	2
+27	__SetSensorType_7qG2_type_7qG2_000_inline_prepareSensor	1	1	67	1	2
+28	__SetSensorType_7qG2_port_7qG2_000_inline_prepareSensor	1	1	68	1	2
+29	__sensor_return	1	1	69	1	3
 30	____initialize_global_data_return	1	1	70	1	3
-31	__SetSensorType_7qG2_type_7qG2_000_inline_sensor	1	1	71	1	2
+31	__sensor_7qG2_t_7qG2_000	1	1	71	1	2
 32	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_prepareSensor	1	1	72	1	2
 33	__SetSensorLight_7qG2_bActive_7qG2_000_inline_prepareSensor	1	1	73	1	2
 34	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_prepareSensor	1	1	74	1	2
@@ -40,7 +40,7 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 37	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	77	1	2
 38	__constVal2	2	0	78	1	1
 39	____ResetSensorSubroutine_return	1	1	79	1	5
-40	__zfsensor	1	1	80	1	5
+40	__zfsensor	1	1	80	1	2
 41	__RLSBIterations0	1	1	81	1	4
 42	____ReadLSBytes0_return	1	1	82	1	3
 43	__RLSBResult0	2	1	83	1	7
@@ -50,86 +50,86 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 47	__zfSetSensorLight_inline_prepareSensor	1	1	87	1	2
 48	__constVal0	2	1	88	1	2
 49	__constVal3	2	0	89	1	1
-50	__CLSRArgs0	8	0	4	12	5
-51	__CLSRArgs0.Result	2	1	92	1	5
-52	__CLSRArgs0.Port	1	1	93	1	5
-53	__CLSRArgs0.Buffer	7	0	94	4	5
-54	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
-55	__CLSRArgs0.BufferLen	1	1	96	1	5
-56	__CLSWArgs0	8	0	4	12	5
-57	__CLSWArgs0.Result	2	1	100	1	5
-58	__CLSWArgs0.Port	1	1	101	1	5
-59	__CLSWArgs0.Buffer	7	0	102	4	5
-60	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
-61	__CLSWArgs0.ReturnLen	1	1	104	1	5
+50	__CLSWArgs0	8	0	4	12	5
+51	__CLSWArgs0.Result	2	1	92	1	5
+52	__CLSWArgs0.Port	1	1	93	1	5
+53	__CLSWArgs0.Buffer	7	0	94	4	5
+54	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+55	__CLSWArgs0.ReturnLen	1	1	96	1	5
+56	__CLSRArgs0	8	0	4	12	5
+57	__CLSRArgs0.Result	2	1	100	1	5
+58	__CLSRArgs0.Port	1	1	101	1	5
+59	__CLSRArgs0.Buffer	7	0	102	4	5
+60	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+61	__CLSRArgs0.BufferLen	1	1	104	1	5
 62	__PointOutArgs	8	0	3	12	4
 63	__PointOutArgs.Result	2	1	108	1	4
 64	__PointOutArgs.Location	8	0	2	4	4
 65	__PointOutArgs.Location.X	4	1	112	2	4
 66	__PointOutArgs.Location.Y	4	1	114	2	4
 67	__PointOutArgs.Options	5	1	116	4	4
-68	__CLSCSArgs0	8	0	3	4	4
-69	__CLSCSArgs0.Result	2	1	120	1	4
-70	__CLSCSArgs0.Port	1	1	121	1	4
-71	__CLSCSArgs0.BytesReady	1	1	122	1	4
-72	__TextOutArgs	8	0	4	16	21
-73	__TextOutArgs.Result	2	1	124	1	21
-74	__TextOutArgs.Location	8	0	2	4	21
-75	__TextOutArgs.Location.X	4	1	128	2	21
-76	__TextOutArgs.Location.Y	4	1	130	2	21
-77	__TextOutArgs.Text	7	0	132	4	21
-78	__TextOutArgs.Text.Text_type	1	0	0	1	0
-79	__TextOutArgs.Options	5	1	136	4	21
-80	__sensor_7qG2_tSC_7qG2_001	7	0	140	4	2
-81	__sensor_7qG2_tSC_7qG2_001.__sensor_7qG2_tSC_7qG2_001_type	1	0	0	1	0
-82	__constStr0010	7	0	142	4	1
-83	__constStr0010.__constStr0010_type	1	1	0	1	0
-84	__sensor_7qG2_iSC_7qG2_001	7	0	144	4	2
-85	__sensor_7qG2_iSC_7qG2_001.__sensor_7qG2_iSC_7qG2_001_type	1	0	0	1	0
-86	__constStr0009	7	0	146	4	1
-87	__constStr0009.__constStr0009_type	1	1	0	1	0
-88	__sensor_7qG2_lSC_7qG2_001	7	0	148	4	2
-89	__sensor_7qG2_lSC_7qG2_001.__sensor_7qG2_lSC_7qG2_001_type	1	0	0	1	0
+68	__TextOutArgs	8	0	4	16	21
+69	__TextOutArgs.Result	2	1	120	1	21
+70	__TextOutArgs.Location	8	0	2	4	21
+71	__TextOutArgs.Location.X	4	1	124	2	21
+72	__TextOutArgs.Location.Y	4	1	126	2	21
+73	__TextOutArgs.Text	7	0	128	4	21
+74	__TextOutArgs.Text.Text_type	1	0	0	1	0
+75	__TextOutArgs.Options	5	1	132	4	21
+76	__CLSCSArgs0	8	0	3	4	4
+77	__CLSCSArgs0.Result	2	1	136	1	4
+78	__CLSCSArgs0.Port	1	1	137	1	4
+79	__CLSCSArgs0.BytesReady	1	1	138	1	4
+80	__sensor_7qG2_iS_7qG2_001	7	0	140	4	2
+81	__sensor_7qG2_iS_7qG2_001.__sensor_7qG2_iS_7qG2_001_type	1	0	0	1	0
+82	__sensor_7qG2_iSC_7qG2_001	7	0	142	4	2
+83	__sensor_7qG2_iSC_7qG2_001.__sensor_7qG2_iSC_7qG2_001_type	1	0	0	1	0
+84	__constStr0009	7	0	144	4	1
+85	__constStr0009.__constStr0009_type	1	1	0	1	0
+86	__sensor_7qG2_lSC_7qG2_001	7	0	146	4	2
+87	__sensor_7qG2_lSC_7qG2_001.__sensor_7qG2_lSC_7qG2_001_type	1	0	0	1	0
+88	__sensor_7qG2_oSC_7qG2_001	7	0	148	4	2
+89	__sensor_7qG2_oSC_7qG2_001.__sensor_7qG2_oSC_7qG2_001_type	1	0	0	1	0
 90	__constStr0011	7	0	150	4	1
 91	__constStr0011.__constStr0011_type	1	1	0	1	0
-92	__constStr0012	7	0	152	4	1
-93	__constStr0012.__constStr0012_type	1	1	0	1	0
-94	__sensor_7qG2_oSC_7qG2_001	7	0	154	4	2
-95	__sensor_7qG2_oSC_7qG2_001.__sensor_7qG2_oSC_7qG2_001_type	1	0	0	1	0
-96	__ArrHelper__sensor_244_0	7	0	156	4	8
-97	__ArrHelper__sensor_244_0.__ArrHelper__sensor_244_0_type	1	0	0	1	0
-98	__RLSReadBuf0	7	0	158	4	8
-99	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
-100	__ArrHelper__sensor_244_1	7	0	160	4	8
-101	__ArrHelper__sensor_244_1.__ArrHelper__sensor_244_1_type	1	0	0	1	0
-102	__strretvalsensor	7	0	162	4	16
-103	__strretvalsensor.__strretvalsensor_type	1	0	0	1	0
-104	__strbufsensor	7	0	164	4	40
-105	__strbufsensor.__strbufsensor_type	1	0	0	1	0
-106	__RLSLastGoodRead0	7	0	166	4	2
-107	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
-108	__sensor_7qG2_lS_7qG2_001	7	0	168	4	2
-109	__sensor_7qG2_lS_7qG2_001.__sensor_7qG2_lS_7qG2_001_type	1	0	0	1	0
-110	__sensor_7qG2_iS_7qG2_001	7	0	170	4	2
-111	__sensor_7qG2_iS_7qG2_001.__sensor_7qG2_iS_7qG2_001_type	1	0	0	1	0
-112	__sensor_7qG2_oS_7qG2_001	7	0	172	4	2
-113	__sensor_7qG2_oS_7qG2_001.__sensor_7qG2_oS_7qG2_001_type	1	0	0	1	0
-114	__RLSBbufLSWrite1	7	0	174	4	1
-115	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
-116	__sensor_7qG2_tS_7qG2_001	7	0	176	4	2
-117	__sensor_7qG2_tS_7qG2_001.__sensor_7qG2_tS_7qG2_001_type	1	0	0	1	0
+92	__sensor_7qG2_tSC_7qG2_001	7	0	152	4	2
+93	__sensor_7qG2_tSC_7qG2_001.__sensor_7qG2_tSC_7qG2_001_type	1	0	0	1	0
+94	__constStr0012	7	0	154	4	1
+95	__constStr0012.__constStr0012_type	1	1	0	1	0
+96	__constStr0010	7	0	156	4	1
+97	__constStr0010.__constStr0010_type	1	1	0	1	0
+98	__ArrHelper__sensor_244_0	7	0	158	4	8
+99	__ArrHelper__sensor_244_0.__ArrHelper__sensor_244_0_type	1	0	0	1	0
+100	__RLSReadBuf0	7	0	160	4	8
+101	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+102	__ArrHelper__sensor_244_1	7	0	162	4	8
+103	__ArrHelper__sensor_244_1.__ArrHelper__sensor_244_1_type	1	0	0	1	0
+104	__strretvalsensor	7	0	164	4	16
+105	__strretvalsensor.__strretvalsensor_type	1	0	0	1	0
+106	__strbufsensor	7	0	166	4	40
+107	__strbufsensor.__strbufsensor_type	1	0	0	1	0
+108	__sensor_7qG2_oS_7qG2_001	7	0	168	4	2
+109	__sensor_7qG2_oS_7qG2_001.__sensor_7qG2_oS_7qG2_001_type	1	0	0	1	0
+110	__sensor_7qG2_lS_7qG2_001	7	0	170	4	2
+111	__sensor_7qG2_lS_7qG2_001.__sensor_7qG2_lS_7qG2_001_type	1	0	0	1	0
+112	__sensor_7qG2_tS_7qG2_001	7	0	172	4	2
+113	__sensor_7qG2_tS_7qG2_001.__sensor_7qG2_tS_7qG2_001_type	1	0	0	1	0
+114	__RLSLastGoodRead0	7	0	174	4	2
+115	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+116	__RLSBbufLSWrite1	7	0	176	4	1
+117	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	52	0	#line 52 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	53	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	52	2	#line 52 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	53	2	#line 53 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	54	2		subcall prepareSensor, __prepareSensor_return
-0	53	4	#line 53 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	54	0	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	55	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	54	2	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	55	2	#line 55 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	56	2		subcall prepareSensor, __prepareSensor_return
 0	55	4	#line 55 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	56	4		subcall sensor, __sensor_return
-0	55	6	#line 55 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-0	56	6		exit -1, -1
+0	57	4	#line 57 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	58	4		subcall sensor, __sensor_return
+0	57	6	#line 57 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+0	58	6		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -283,273 +283,261 @@ Clump	Line	PC	Source
 3	3694	98	#line 3694 "NXCDefs.h"
 3	3732	98	#line 3732 "NXCDefs.h"
 3	9	98	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-3	11	98	#line 11 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-3	12	98		subret __prepareSensor_return
-4	14	0	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	15	0		set __sensor_7qG2_i_7qG2_000, 1
-4	14	3	#line 14 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	19	3	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	20	3		set __D0sensor, 1
-4	21	6	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	22	6		tst 5, __zfsensor, __D0sensor
-4	21	9	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	22	9		brtst 4, __NXC_Label_613, __zfsensor
-4	21	12	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	22	12	#pragma macro 26
-4	22	12		acquire __RLSBmutex0
-4	22	13		mov __RLSReadBuf0, __RLSBbufLSWrite1
-4	22	15		set __RLSBytesCount0, 1
-4	22	18		wait 15
-4	22	20		subcall __ReadLSBytes0, ____ReadLSBytes0_return
-4	22	22		index __D0sensor, __RLSReadBuf0, 65535
-4	22	26		release __RLSBmutex0
-4	6583	27	#line 6583 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	21	27	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	22	27	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	22	27	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	23	27		sub __sensor_7qG2_o_7qG2_000, __D0sensor, __constVal3
-4	22	31	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	22	31	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	22	31	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	22	31	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	23	31		getin __sensor_7qG2_t_7qG2_000, __constVal2, 4
-4	22	35	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	22	35	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	22	35	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	23	35	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	24	35		getin __sensor_7qG2_l_7qG2_000, __constVal1, 4
-4	23	39	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	23	39	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	23	39	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+3	9	98	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+3	10	98		set __SetSensorType_7qG2_port_7qG2_000_inline_prepareSensor, 1
+3	9	101	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+3	9	101	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+3	10	101		set __SetSensorType_7qG2_type_7qG2_000_inline_prepareSensor, 6
+3	9	104	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+3	3663	104	#line 3663 "NXCDefs.h"
+3	3664	104		setin __SetSensorType_7qG2_type_7qG2_000_inline_prepareSensor, __SetSensorType_7qG2_port_7qG2_000_inline_prepareSensor, 0
+3	3663	108	#line 3663 "NXCDefs.h"
+3	11	108	#line 11 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+3	13	108	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+3	14	108		subret __prepareSensor_return
+4	16	0	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	17	0		set __sensor_7qG2_i_7qG2_000, 1
+4	16	3	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	21	3	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	22	3		set __D0sensor, 1
+4	23	6	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	24	6		tst 5, __zfsensor, __D0sensor
+4	23	9	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	24	9		brtst 4, __NXC_Label_617, __zfsensor
+4	23	12	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	24	12	#pragma macro 26
+4	24	12		acquire __RLSBmutex0
+4	24	13		mov __RLSReadBuf0, __RLSBbufLSWrite1
+4	24	15		set __RLSBytesCount0, 1
+4	24	18		wait 15
+4	24	20		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+4	24	22		index __D0sensor, __RLSReadBuf0, 65535
+4	24	26		release __RLSBmutex0
+4	6607	27	#line 6607 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	23	27	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	24	27	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	24	27	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	25	27		sub __sensor_7qG2_o_7qG2_000, __D0sensor, __constVal3
+4	24	31	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	24	31	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	24	31	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	24	31	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	25	31		getin __sensor_7qG2_t_7qG2_000, __constVal2, 4
+4	24	35	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	24	35	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	24	35	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	25	35	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	26	35		getin __sensor_7qG2_l_7qG2_000, __constVal1, 4
 4	25	39	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	26	39		mov __DU0sensor, __sensor_7qG2_t_7qG2_000
-4	26	41	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	27	41		numtostr __strretvalsensor, __DU0sensor
-4	26	44	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	27	44		strcat __strbufsensor, __strretvalsensor
-4	26	48	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	27	48		mov __sensor_7qG2_tS_7qG2_001, __strbufsensor
-4	26	50	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	27	50		mov __D0sensor, __sensor_7qG2_o_7qG2_000
-4	27	52	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	28	52		numtostr __strretvalsensor, __D0sensor
-4	27	55	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	28	55		strcat __strbufsensor, __strretvalsensor
-4	27	59	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	28	59		mov __sensor_7qG2_oS_7qG2_001, __strbufsensor
-4	27	61	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	28	61		mov __D0sensor, __sensor_7qG2_l_7qG2_000
-4	28	63	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	29	63		numtostr __strretvalsensor, __D0sensor
-4	28	66	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	29	66		strcat __strbufsensor, __strretvalsensor
-4	28	70	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	29	70		mov __sensor_7qG2_lS_7qG2_001, __strbufsensor
-4	28	72	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	29	72		mov __D0sensor, __sensor_7qG2_i_7qG2_000
-4	30	74	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	31	74		numtostr __strretvalsensor, __D0sensor
-4	30	77	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	31	77		strcat __strbufsensor, __strretvalsensor
-4	30	81	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	31	81		mov __sensor_7qG2_iS_7qG2_001, __strbufsensor
-4	30	83	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	31	83		strcat __strbufsensor, __constStr0009
-4	30	87	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	31	87		mov __ArrHelper__sensor_244_0, __strbufsensor
-4	30	89	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	31	89		strcat __strbufsensor, __sensor_7qG2_iS_7qG2_001
-4	30	93	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	31	93		mov __ArrHelper__sensor_244_1, __strbufsensor
-4	31	95	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	32	95		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
-4	31	100	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	32	100		strcat __strbufsensor, __strretvalsensor
-4	31	104	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	32	104		mov __sensor_7qG2_iSC_7qG2_001, __strbufsensor
-4	31	106	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	32	106		strcat __strbufsensor, __constStr0010
-4	31	110	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	32	110		mov __ArrHelper__sensor_244_0, __strbufsensor
-4	31	112	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	32	112		strcat __strbufsensor, __sensor_7qG2_tS_7qG2_001
-4	31	116	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	32	116		mov __ArrHelper__sensor_244_1, __strbufsensor
-4	32	118	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	33	118		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
-4	32	123	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	33	123		strcat __strbufsensor, __strretvalsensor
-4	32	127	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	33	127		mov __sensor_7qG2_tSC_7qG2_001, __strbufsensor
-4	32	129	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	33	129		strcat __strbufsensor, __constStr0011
-4	32	133	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	33	133		mov __ArrHelper__sensor_244_0, __strbufsensor
-4	32	135	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	33	135		strcat __strbufsensor, __sensor_7qG2_oS_7qG2_001
-4	32	139	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	33	139		mov __ArrHelper__sensor_244_1, __strbufsensor
-4	33	141	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	34	141		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
-4	33	146	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	34	146		strcat __strbufsensor, __strretvalsensor
-4	33	150	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	34	150		mov __sensor_7qG2_oSC_7qG2_001, __strbufsensor
-4	33	152	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	34	152		strcat __strbufsensor, __constStr0012
-4	33	156	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	34	156		mov __ArrHelper__sensor_244_0, __strbufsensor
-4	33	158	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	34	158		strcat __strbufsensor, __sensor_7qG2_lS_7qG2_001
-4	33	162	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	34	162		mov __ArrHelper__sensor_244_1, __strbufsensor
-4	35	164	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	36	164		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
-4	35	169	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	36	169		strcat __strbufsensor, __strretvalsensor
-4	35	173	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	36	173		mov __sensor_7qG2_lSC_7qG2_001, __strbufsensor
-4	35	175	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	35	175	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	25	39	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	25	39	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	27	39	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	28	39		mov __DU0sensor, __sensor_7qG2_t_7qG2_000
+4	28	41	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	29	41		numtostr __strretvalsensor, __DU0sensor
+4	28	44	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	29	44		strcat __strbufsensor, __strretvalsensor
+4	28	48	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	29	48		mov __sensor_7qG2_tS_7qG2_001, __strbufsensor
+4	28	50	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	29	50		mov __D0sensor, __sensor_7qG2_o_7qG2_000
+4	29	52	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	30	52		numtostr __strretvalsensor, __D0sensor
+4	29	55	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	30	55		strcat __strbufsensor, __strretvalsensor
+4	29	59	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	30	59		mov __sensor_7qG2_oS_7qG2_001, __strbufsensor
+4	29	61	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	30	61		mov __D0sensor, __sensor_7qG2_l_7qG2_000
+4	30	63	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	31	63		numtostr __strretvalsensor, __D0sensor
+4	30	66	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	31	66		strcat __strbufsensor, __strretvalsensor
+4	30	70	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	31	70		mov __sensor_7qG2_lS_7qG2_001, __strbufsensor
+4	30	72	#line 30 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	31	72		mov __D0sensor, __sensor_7qG2_i_7qG2_000
+4	32	74	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	33	74		numtostr __strretvalsensor, __D0sensor
+4	32	77	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	33	77		strcat __strbufsensor, __strretvalsensor
+4	32	81	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	33	81		mov __sensor_7qG2_iS_7qG2_001, __strbufsensor
+4	32	83	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	33	83		strcat __strbufsensor, __constStr0009
+4	32	87	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	33	87		mov __ArrHelper__sensor_244_0, __strbufsensor
+4	32	89	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	33	89		strcat __strbufsensor, __sensor_7qG2_iS_7qG2_001
+4	32	93	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	33	93		mov __ArrHelper__sensor_244_1, __strbufsensor
+4	33	95	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	34	95		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
+4	33	100	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	34	100		strcat __strbufsensor, __strretvalsensor
+4	33	104	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	34	104		mov __sensor_7qG2_iSC_7qG2_001, __strbufsensor
+4	33	106	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	34	106		strcat __strbufsensor, __constStr0010
+4	33	110	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	34	110		mov __ArrHelper__sensor_244_0, __strbufsensor
+4	33	112	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	34	112		strcat __strbufsensor, __sensor_7qG2_tS_7qG2_001
+4	33	116	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	34	116		mov __ArrHelper__sensor_244_1, __strbufsensor
+4	34	118	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	35	118		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
+4	34	123	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	35	123		strcat __strbufsensor, __strretvalsensor
+4	34	127	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	35	127		mov __sensor_7qG2_tSC_7qG2_001, __strbufsensor
+4	34	129	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	35	129		strcat __strbufsensor, __constStr0011
+4	34	133	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	35	133		mov __ArrHelper__sensor_244_0, __strbufsensor
+4	34	135	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	35	135		strcat __strbufsensor, __sensor_7qG2_oS_7qG2_001
+4	34	139	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	35	139		mov __ArrHelper__sensor_244_1, __strbufsensor
+4	35	141	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	36	141		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
+4	35	146	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	36	146		strcat __strbufsensor, __strretvalsensor
+4	35	150	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	36	150		mov __sensor_7qG2_oSC_7qG2_001, __strbufsensor
+4	35	152	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	36	152		strcat __strbufsensor, __constStr0012
+4	35	156	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	36	156		mov __ArrHelper__sensor_244_0, __strbufsensor
+4	35	158	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	36	158		strcat __strbufsensor, __sensor_7qG2_lS_7qG2_001
+4	35	162	#line 35 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	36	162		mov __ArrHelper__sensor_244_1, __strbufsensor
+4	37	164	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	38	164		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
+4	37	169	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	38	169		strcat __strbufsensor, __strretvalsensor
+4	37	173	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	38	173		mov __sensor_7qG2_lSC_7qG2_001, __strbufsensor
+4	37	175	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	37	175	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
 4	7921	175	#line 7921 "NXCDefs.h"
 4	7922	175		wait 120
 4	7921	177	#line 7921 "NXCDefs.h"
-4	36	177	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	38	177	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
 4	6069	177	#line 6069 "NXCDefs.h"
 4	6070	177	#pragma macro 6
 4	6070	177		mov __PointOutArgs.Location.X, __constVal200
 4	6070	179		mov __PointOutArgs.Location.Y, __constVal200
 4	6070	181		mov __PointOutArgs.Options, __constVal1
 4	6070	183		syscall 14, __PointOutArgs
-4	6755	186	#line 6755 "NXCDefs.h"
+4	6779	186	#line 6779 "NXCDefs.h"
 4	6069	186	#line 6069 "NXCDefs.h"
-4	39	186	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	39	186	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	40	186		set __signed_stack_001sensor, 0
-4	39	189	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	39	189	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	40	189		set __signed_stack_002sensor, 56
-4	39	192	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	39	192	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	40	192		strcat __strbufsensor, __sensor_7qG2_tSC_7qG2_001
-4	40	196	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	40	196	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	196		mov __TextOutArgs.Location.X, __signed_stack_001sensor
-4	40	198	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	198		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
-4	40	200	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	200		set __TextOutArgs.Options, 0
-4	40	203	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	203		mov __TextOutArgs.Text, __strbufsensor
-4	40	205	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	205		syscall 13, __TextOutArgs
-4	40	208	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	40	208	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	40	208	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	40	208	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	208		set __signed_stack_001sensor, 0
-4	40	211	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	40	211	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	211		set __signed_stack_002sensor, 48
-4	40	214	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	40	214	#line 40 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	214		strcat __strbufsensor, __sensor_7qG2_oSC_7qG2_001
-4	41	218	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	218	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	218		mov __TextOutArgs.Location.X, __signed_stack_001sensor
-4	41	220	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	220		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
-4	41	222	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	222		set __TextOutArgs.Options, 0
-4	41	225	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	225		mov __TextOutArgs.Text, __strbufsensor
-4	41	227	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	227		syscall 13, __TextOutArgs
-4	41	230	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	230	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	230	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	230	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	230		set __signed_stack_001sensor, 0
-4	41	233	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	233	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	233		set __signed_stack_002sensor, 40
-4	41	236	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	41	236	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	236		strcat __strbufsensor, __sensor_7qG2_lSC_7qG2_001
-4	42	240	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	240	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	43	240		mov __TextOutArgs.Location.X, __signed_stack_001sensor
-4	42	242	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	43	242		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
-4	42	244	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	43	244		set __TextOutArgs.Options, 0
-4	42	247	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	43	247		mov __TextOutArgs.Text, __strbufsensor
-4	42	249	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	43	249		syscall 13, __TextOutArgs
-4	42	252	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	252	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	252	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	252	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	43	252		set __signed_stack_001sensor, 0
-4	42	255	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	255	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	43	255		set __signed_stack_002sensor, 32
-4	42	258	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	42	258	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	43	258		strcat __strbufsensor, __sensor_7qG2_iSC_7qG2_001
-4	44	262	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	44	262	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	45	262		mov __TextOutArgs.Location.X, __signed_stack_001sensor
-4	44	264	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	45	264		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
-4	44	266	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	45	266		set __TextOutArgs.Options, 0
-4	44	269	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	45	269		mov __TextOutArgs.Text, __strbufsensor
-4	44	271	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	45	271		syscall 13, __TextOutArgs
-4	44	274	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	45	274		mov __D0sensor, __TextOutArgs.Result
-4	44	276	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	44	276	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	45	276	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	46	276		add __sensor_7qG2_i_7qG2_000, __sensor_7qG2_i_7qG2_000, __constVal1
-4	45	280	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	45	280	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	46	280		mov __signed_stack_001sensor, __sensor_7qG2_i_7qG2_000
-4	45	282	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	45	282	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	46	282		set __D0sensor, 256
-4	45	285	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	46	285		cmp 4, __zfsensor, __signed_stack_001sensor, __D0sensor
-4	45	289	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	46	289		mov __D0sensor, __zfsensor
-4	45	291	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	46	291		brtst 4, __NXC_Label_650, __zfsensor
-4	45	294	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	46	294		set __SetSensorType_7qG2_port_7qG2_000_inline_sensor, 1
-4	45	297	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	45	297	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	46	297		set __SetSensorType_7qG2_type_7qG2_000_inline_sensor, 6
-4	45	300	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	3663	300	#line 3663 "NXCDefs.h"
-4	3664	300		setin __SetSensorType_7qG2_type_7qG2_000_inline_sensor, __SetSensorType_7qG2_port_7qG2_000_inline_sensor, 0
-4	3663	304	#line 3663 "NXCDefs.h"
-4	45	304	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	47	304	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	50	304	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	51	304		jmp __NXC_Label_612
-4	50	306	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	50	306	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-4	51	306		subret __sensor_return
-5	60	0	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
-5	61	0		subret ____initialize_global_data_return
+4	41	186	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	41	186	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	42	186		set __signed_stack_001sensor, 0
+4	41	189	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	41	189	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	42	189		set __signed_stack_002sensor, 56
+4	41	192	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	41	192	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	42	192		strcat __strbufsensor, __sensor_7qG2_tSC_7qG2_001
+4	42	196	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	42	196	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	196		mov __TextOutArgs.Location.X, __signed_stack_001sensor
+4	42	198	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	198		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
+4	42	200	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	200		set __TextOutArgs.Options, 0
+4	42	203	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	203		mov __TextOutArgs.Text, __strbufsensor
+4	42	205	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	205		syscall 13, __TextOutArgs
+4	42	208	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	42	208	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	42	208	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	42	208	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	208		set __signed_stack_001sensor, 0
+4	42	211	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	42	211	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	211		set __signed_stack_002sensor, 48
+4	42	214	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	42	214	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	214		strcat __strbufsensor, __sensor_7qG2_oSC_7qG2_001
+4	43	218	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	218	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	218		mov __TextOutArgs.Location.X, __signed_stack_001sensor
+4	43	220	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	220		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
+4	43	222	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	222		set __TextOutArgs.Options, 0
+4	43	225	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	225		mov __TextOutArgs.Text, __strbufsensor
+4	43	227	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	227		syscall 13, __TextOutArgs
+4	43	230	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	230	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	230	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	230	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	230		set __signed_stack_001sensor, 0
+4	43	233	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	233	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	233		set __signed_stack_002sensor, 40
+4	43	236	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	43	236	#line 43 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	236		strcat __strbufsensor, __sensor_7qG2_lSC_7qG2_001
+4	44	240	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	240	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	45	240		mov __TextOutArgs.Location.X, __signed_stack_001sensor
+4	44	242	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	45	242		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
+4	44	244	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	45	244		set __TextOutArgs.Options, 0
+4	44	247	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	45	247		mov __TextOutArgs.Text, __strbufsensor
+4	44	249	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	45	249		syscall 13, __TextOutArgs
+4	44	252	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	252	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	252	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	252	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	45	252		set __signed_stack_001sensor, 0
+4	44	255	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	255	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	45	255		set __signed_stack_002sensor, 32
+4	44	258	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	44	258	#line 44 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	45	258		strcat __strbufsensor, __sensor_7qG2_iSC_7qG2_001
+4	46	262	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	46	262	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	47	262		mov __TextOutArgs.Location.X, __signed_stack_001sensor
+4	46	264	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	47	264		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
+4	46	266	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	47	266		set __TextOutArgs.Options, 0
+4	46	269	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	47	269		mov __TextOutArgs.Text, __strbufsensor
+4	46	271	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	47	271		syscall 13, __TextOutArgs
+4	46	274	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	47	274		mov __D0sensor, __TextOutArgs.Result
+4	46	276	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	46	276	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	48	276	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	49	276		add __sensor_7qG2_i_7qG2_000, __sensor_7qG2_i_7qG2_000, __constVal1
+4	48	280	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	52	280	#line 52 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	53	280		jmp __NXC_Label_616
+4	52	282	#line 52 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	52	282	#line 52 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+4	53	282		subret __sensor_return
+5	62	0	#line 62 "C:\Users\Apple\Documents\GitHub\NXC\overview.nxc"
+5	63	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Apple\Documents\GitHub\NXC\overview.nxc
 1	__ResetSensorSubroutine	9	NXTDefs.h
 2	__ReadLSBytes0	22	NXTDefs.h
 3	prepareSensor	106	C:\Users\Apple\Documents\GitHub\NXC\overview.nxc
-4	sensor	206	C:\Users\Apple\Documents\GitHub\NXC\overview.nxc
-5	__initialize_global_data	514	C:\Users\Apple\Documents\GitHub\NXC\overview.nxc
+4	sensor	216	C:\Users\Apple\Documents\GitHub\NXC\overview.nxc
+5	__initialize_global_data	500	C:\Users\Apple\Documents\GitHub\NXC\overview.nxc
