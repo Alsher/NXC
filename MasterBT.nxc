@@ -6,7 +6,7 @@
 #define InputBox 1
 int iS;
 void BTCheck(int conn){
-if (!BluetoothStatus(conn)==NO_ERR)
+if (!BluetoothStatus(conn)==NO_ERR)                      // make sure the bluetooth connection is presistent/ existing
    {
    TextOut(5,LCD_LINE2,"Error, no connection");
    Wait(1000);

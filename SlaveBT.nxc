@@ -4,7 +4,7 @@
 #define OutputBox 1
 #define InputBox 5
 
-void BTCheck(int conn){
+void BTCheck(int conn){                                    // makes sure the bluetooth connection is presistent/ existing
     if (!BluetoothStatus(conn)==NO_ERR)
     {
     TextOut(5,LCD_LINE2,"Error, no connection");
