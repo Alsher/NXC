@@ -1,5 +1,5 @@
 #define TEXT "Sensor(Touch):"
-#define TEXT2 "Sensor(UltaS):"
+#define TEXT2 "Sensor(UltS):"
 #define TEXT3 "Sensor(Light):"
 
 void prepareSensor()

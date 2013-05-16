@@ -59,11 +59,11 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 56	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	2	0	#line 2 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	2	0	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	2	2	#line 2 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	2	2	#line 2 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	2	2	#line 2 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	2	2	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	2	2	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	2	2	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	3768	2	#line 3768 "NXCDefs.h"
 0	3769	2		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal0
 0	3768	4	#line 3768 "NXCDefs.h"
@@ -110,14 +110,14 @@ Clump	Line	PC	Source
 0	3694	43	#line 3694 "NXCDefs.h"
 0	3761	43	#line 3761 "NXCDefs.h"
 0	3768	43	#line 3768 "NXCDefs.h"
-0	3	43	#line 3 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	5	43	#line 5 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	3	43	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	5	43	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	6	43		set __D0main, 1
-0	6	46	#line 6 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	6	46	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	7	46		tst 5, __zfmain, __D0main
-0	6	49	#line 6 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	6	49	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	7	49		brtst 4, __NXC_Label_607, __zfmain
-0	6	52	#line 6 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	6	52	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	7	52	#pragma macro 26
 0	7	52		acquire __RLSBmutex0
 0	7	53		mov __RLSReadBuf0, __RLSBbufLSWrite1
@@ -126,62 +126,62 @@ Clump	Line	PC	Source
 0	7	60		subcall __ReadLSBytes0, ____ReadLSBytes0_return
 0	7	62		index __D0main, __RLSReadBuf0, 65535
 0	7	66		release __RLSBmutex0
-0	5983	67	#line 5983 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	6	67	#line 6 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	6	67	#line 6 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	6	67	#line 6 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	7	67	#line 7 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	5983	67	#line 5983 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	6	67	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	6	67	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	6	67	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	7	67	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	8	67		mov __signed_stack_001main, __D0main
-0	7	69	#line 7 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	8	69	#line 8 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	7	69	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	8	69	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	9	69		set __D0main, 30
-0	8	72	#line 8 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	8	72	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	9	72		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	8	76	#line 8 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	8	76	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	9	76		mov __D0main, __zfmain
-0	9	78	#line 9 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	9	78	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	10	78		brtst 4, __NXC_Label_614, __zfmain
-0	9	81	#line 9 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	10	81	#line 10 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	9	81	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	10	81	#line 10 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	11	81	#pragma macro 10
 0	11	81		neg __OnRev_Tmp, __constVal50
 0	11	84		setout __OUT_ABC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6009	107	#line 6009 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	10	107	#line 10 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	10	107	#line 10 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	6009	107	#line 6009 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	10	107	#line 10 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	10	107	#line 10 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	11	107		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
-0	10	110	#line 10 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	10	110	#line 10 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	7921	110	#line 7921 "NXCDefs.h"
 0	7922	110		wait 100
 0	7921	112	#line 7921 "NXCDefs.h"
-0	11	112	#line 11 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	11	112	#line 11 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	11	112	#line 11 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	11	112	#line 11 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	12	112		set __D0main, 75
-0	12	115	#line 12 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	12	115	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	13	115	#pragma macro 7
 0	13	115		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6030	138	#line 6030 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	12	138	#line 12 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	12	138	#line 12 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	6030	138	#line 6030 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	12	138	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	12	138	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	13	138		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	12	141	#line 12 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	12	141	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	7921	141	#line 7921 "NXCDefs.h"
 0	7922	141		wait 400
 0	7921	143	#line 7921 "NXCDefs.h"
-0	13	143	#line 13 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	15	143	#line 15 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	13	143	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	15	143	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	16	143		jmp __NXC_Label_623
-0	15	145	#line 15 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	15	145	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	16	145		set __D0main, 100
-0	16	148	#line 16 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	16	148	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	17	148	#pragma macro 7
 0	17	148		setout __OUT_ABC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6050	171	#line 6050 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	16	171	#line 16 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	16	171	#line 16 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
-0	19	171	#line 19 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	6050	171	#line 6050 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	16	171	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	16	171	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
+0	19	171	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	20	171		jmp __NXC_Label_606
-0	19	173	#line 19 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+0	19	173	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 0	20	173		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
@@ -229,11 +229,11 @@ Clump	Line	PC	Source
 2	5694	77		mov __RLSReadBuf0, __RLSLastGoodRead0
 2	5696	79		arrsize __RLSBytesCount0, __RLSReadBuf0
 2	5698	82		subret ____ReadLSBytes0_return
-3	20	0	#line 20 "C:\Users\Jonas\AppData\Local\Temp\temp.nxc"
+3	20	0	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc"
 3	21	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Jonas\AppData\Local\Temp\temp.nxc
+0	main	0	C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc
 1	__ResetSensorSubroutine	176	NXTDefs.h
 2	__ReadLSBytes0	189	NXTDefs.h
-3	__initialize_global_data	273	C:\Users\Jonas\AppData\Local\Temp\temp.nxc
+3	__initialize_global_data	273	C:\Users\Apple\Documents\GitHub\NXC\Jonas Stuff\USSensor.nxc
