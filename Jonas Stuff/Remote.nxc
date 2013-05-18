@@ -1,0 +1,25 @@
+void sensors ()
+{
+     SetSensorTouch(IN_1);
+     SetSensorTouch(IN_2);
+     SetSensorTouch(IN_3);
+     SetSensorTouch(IN_4);
+}
+
+void var ()
+{
+ if
+ {
+   Sensor(IN_1)                                     // how could you tell the program to do smth if the sensor is triggerd?
+}
+
+void remote ()
+{
+
+}
+
+
+task main ()
+{
+
+}
