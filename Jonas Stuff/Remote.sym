@@ -1,0 +1,119 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0var	6	1	0	4	3
+1	__signed_stack_001var	6	1	4	4	2
+2	buffer	4	1	8	2	2
+3	__sensors_return	1	1	10	1	3
+4	__remote_return	1	1	11	1	3
+5	____initialize_global_data_return	1	1	12	1	3
+6	__SetSensorTouch_7qG2_port_7qG2_000_inline_sensors	1	1	13	1	16
+7	__var_return	1	1	14	1	3
+8	__constVal0	2	1	15	1	1
+9	__constVal1	2	0	16	1	5
+10	__constVal32	2	0	17	1	4
+11	__ResetSensorPort	1	1	18	1	6
+12	__zfvar	1	1	19	1	2
+13	____ResetSensorSubroutine_return	1	1	20	1	6
+14	__ResetSensorTmp	1	1	21	1	2
+#SOURCES
+Clump	Line	PC	Source
+0	28	0	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	29	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	28	2	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	29	2	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	30	2		subcall sensors, __sensors_return
+0	29	4	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	30	4	#line 30 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	31	4		subcall var, __var_return
+0	30	6	#line 30 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	32	6	#line 32 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	33	6		subcall remote, __remote_return
+0	32	8	#line 32 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	33	8		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5	0	#line 5 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	6	0		set __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 0
+2	5	3	#line 5 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	3718	3	#line 3718 "NXCDefs.h"
+2	3719	3	#pragma macro 6
+2	3719	3		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 0
+2	3719	7		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 1
+2	3719	11		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors
+2	3719	13		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+2	6034	15	#line 6034 "NXCDefs.h"
+2	3718	15	#line 3718 "NXCDefs.h"
+2	6	15	#line 6 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	6	15	#line 6 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	7	15		set __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 1
+2	6	18	#line 6 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	3718	18	#line 3718 "NXCDefs.h"
+2	3719	18	#pragma macro 6
+2	3719	18		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 0
+2	3719	22		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 1
+2	3719	26		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors
+2	3719	28		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+2	6044	30	#line 6044 "NXCDefs.h"
+2	3718	30	#line 3718 "NXCDefs.h"
+2	7	30	#line 7 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	7	30	#line 7 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	8	30		set __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 2
+2	7	33	#line 7 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	3718	33	#line 3718 "NXCDefs.h"
+2	3719	33	#pragma macro 6
+2	3719	33		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 0
+2	3719	37		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 1
+2	3719	41		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors
+2	3719	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+2	6054	45	#line 6054 "NXCDefs.h"
+2	3718	45	#line 3718 "NXCDefs.h"
+2	8	45	#line 8 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	8	45	#line 8 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	9	45		set __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 3
+2	8	48	#line 8 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	3718	48	#line 3718 "NXCDefs.h"
+2	3719	48	#pragma macro 6
+2	3719	48		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 0
+2	3719	52		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors, 1
+2	3719	56		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_sensors
+2	3719	58		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+2	6064	60	#line 6064 "NXCDefs.h"
+2	3718	60	#line 3718 "NXCDefs.h"
+2	9	60	#line 9 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	11	60	#line 11 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	12	60		subret __sensors_return
+3	13	0	#line 13 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	14	0		getin buffer, __constVal0, 4
+3	13	4	#line 13 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	13	4	#line 13 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	13	4	#line 13 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	15	4	#line 15 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	16	4		mov __signed_stack_001var, buffer
+3	15	6	#line 15 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	16	6	#line 16 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	17	6		set __D0var, 1
+3	16	9	#line 16 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	17	9		cmp 4, __zfvar, __signed_stack_001var, __D0var
+3	16	13	#line 16 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	17	13		mov __D0var, __zfvar
+3	17	15	#line 17 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	18	15	#line 18 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	18	15	#line 18 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	18	15	#line 18 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	20	15	#line 20 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	20	15	#line 20 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	21	15		subret __var_return
+4	26	0	#line 26 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	27	0		subret __remote_return
+5	35	0	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	36	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	11	NXTDefs.h
+2	sensors	24	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+3	var	86	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+4	remote	103	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+5	__initialize_global_data	105	C:\Users\Apple\AppData\Local\Temp\temp.nxc

@@ -1,0 +1,8 @@
+task main()
+{
+ while(true)
+ {
+ OnFwd(OUT_BC, 20);
+ OnRev(OUT_A, 20);
+ }
+}

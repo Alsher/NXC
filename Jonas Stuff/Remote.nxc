@@ -1,4 +1,7 @@
-void sensors ()
+int buffer;
+int buffer2;
+
+void sensors()
 {
      SetSensorTouch(IN_1);
      SetSensorTouch(IN_2);
@@ -6,20 +9,25 @@ void sensors ()
      SetSensorTouch(IN_4);
 }
 
-void var ()
+void var()
 {
- if
+ buffer = Sensor(IN_1);
+ 
+ if(buffer == 1)                                   // buffer/ 1 is a placeholder
  {
-   Sensor(IN_1)                                     // how could you tell the program to do smth if the sensor is triggerd?
+    buffer2 = 1;                                    // like that. buffer2 is placeholder
+ }
 }
-
-void remote ()
+void remote()
 {
 
 }
 
 
-task main ()
+task main()
 {
+ sensors();
+ var();
+ remote();
 
 }

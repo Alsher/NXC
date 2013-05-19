@@ -24,7 +24,8 @@ void move(int move)
  if(move2 == 0)
  {power = 50;}
  
- OnFwd(OUT_ABC, power);
+ OnFwd(OUT_BC, power);
+ OnRev(OUT_A, power);
  NumOut(0,0, move2);
  ClearLine(LCD_LINE4);
 
