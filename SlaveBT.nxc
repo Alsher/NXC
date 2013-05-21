@@ -1,5 +1,5 @@
                           // Slave Brick
-                          //broken
+
 #include "NXCDefs.h"
 #define connection 1
 #define OutputBox 1
