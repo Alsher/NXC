@@ -1,8 +1,12 @@
                           // Slave Brick
+                          //broken
 #include "NXCDefs.h"
 #define connection 1
 #define OutputBox 1
 #define InputBox 5
+#define OutputBox2 2
+#define InputBox2 4
+
 
 void BTCheck(int conn){                                    // makes sure the bluetooth connection is presistent/ existing
     if (!BluetoothStatus(conn)==NO_ERR)
@@ -30,24 +34,46 @@ void move(int move)
  ClearLine(LCD_LINE4);
 
 }
+/*void receive()
+{
 
+ if(ReceiveRemoteNumber(InputBox2,true,in2) != STAT_MSG_EMPTY_MAILBOX)
+            {
+            TextOut(0,LCD_LINE6,"test");
+            //move(in2);
+            NumOut(5,LCD_LINE5,in2);
+
+
+            SendResponseNumber(OutputBox2,0xFF);
+            }
+
+}*/
 task main(){
 int in;
+
+
 BTCheck(0);
+
 TextOut(5,LCD_LINE1,"Slave receiving");
 SendResponseNumber(OutputBox,0xFF); //unblock master
+//SendResponseNumber(OutputBox2, 0xFF);
 while(true)
   {
 
-            if (ReceiveRemoteNumber(InputBox,true,in) != STAT_MSG_EMPTY_MAILBOX)
+            if(ReceiveRemoteNumber(InputBox,true,in) != STAT_MSG_EMPTY_MAILBOX)
             {
+            //receive();
             TextOut(0,LCD_LINE3," ");
-            move(in);
+            //move(in);
+
+
             NumOut(5,LCD_LINE3,in);
 
             SendResponseNumber(OutputBox,0xFF);
-
             }
+
+
+
 
 //Wait(5); //take breath (optional)
 

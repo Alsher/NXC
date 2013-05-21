@@ -1,11 +1,26 @@
                       //Master brick
+                      //broken
                       
 #include "NXCDefs.h"
 #define connection 1
+#define connection2 2
 #define OutputBox 5
 #define InputBox 1
+#define OutputBox2 4
+#define InputBox2 2
 int iS;
-void BTCheck(int conn){
+int iSe2;
+
+int driveSpeed;
+int driveDirection;
+
+string driveSpeedS;
+string driveDirectionS;
+
+string stringbuff;
+int intsend;
+
+void BluetoothCheck(int conn){
 if (!BluetoothStatus(conn)==NO_ERR)                      // make sure the bluetooth connection is presistent/ existing
    {
    TextOut(5,LCD_LINE2,"Error, no connection");
@@ -14,36 +29,99 @@ if (!BluetoothStatus(conn)==NO_ERR)                      // make sure the blueto
    }
 }
 
-void sensor()
+
+void sensor()    // unused
 {
  int i = SensorValue(IN_2);
+ int i2 = i+1;
  if(i > 38)
-      iS = 1;
+      {iS = 1;
+      iSe2 = 0;}
  else
- iS = 0;
+ {iS = 0;
+ iSe2 = 1;}
+
 }
 
+
+void sensorv2()
+{
+ int s1 = Sensor(IN_1);   // Forward
+ int s2 = Sensor(IN_2);   // Reverse
+ int s3 = Sensor(IN_3);   // Left
+ int s4 = Sensor(IN_4);   // Right
+ 
+ /*
+ if(s1 == 1 && s2 == 0)
+ driveDirection = 1;
+ if(s1 == 1 && s2 == 1)
+ driveDirection = 3;
+ if(s1 == 0 && s2 == 1)
+ driveDirection = 2;
+ if(s1 == 0 && s2 == 0)
+ driveDirection = 4;
+ 
+ if(s3 == 1 && s4 == 0)
+ driveSpeed = 1;
+ if(s3 == 1 && s4 == 1)
+ driveSpeed = 3;
+ if(s3 == 0 && s4 == 1)
+ driveSpeed = 2;
+ if(s3 == 0 && s4 == 0)
+ driveSpeed = 4;
+ */
+ driveSpeed = 4;      // testing with fixed var due to a lack of material
+ driveDirection = 3;  // testing with fixed var due to lack of material
+ 
+ driveSpeedS = NumToStr(driveSpeed);
+ driveDirectionS = NumToStr(driveDirection);
+
+ 
+ stringbuff = StrCat(driveSpeedS, driveDirectionS);
+ 
+ intsend = StrToNum(stringbuff);
+ 
+ 
+
+
+}
+void bluetooth()
+{
+ int  iSe, ack;
+
+BluetoothCheck(connection);
+TextOut(10,LCD_LINE1,"Master sending");
+                             while(true)
+                             {
+                             sensorv2();
+                             iSe = iS;
+
+
+
+
+                             TextOut(0,LCD_LINE3," ");
+                             NumOut(20,LCD_LINE3,intsend);
+                             
+
+                             ack = 0;
+                             SendRemoteNumber(connection,OutputBox,intsend);
+
+
+                             until(ack==0xFF)
+                              {
+                              until(ReceiveRemoteNumber(InputBox,true,ack) == NO_ERR);
+
+                              }
+
+                             Wait(250);
+                             }
+}
 
 task main()
 {
 SetSensorLight(IN_2);
 SetSensorType(IN_2, SENSOR_TYPE_LIGHT_INACTIVE);
 
-int ack, iSe;
-BTCheck(connection);
-TextOut(10,LCD_LINE1,"Master sending");
-                             while(true)
-                             {
-                             sensor();
-                             iSe = iS;
-                             TextOut(0,LCD_LINE3," ");
-                             NumOut(5,LCD_LINE3,iSe);
-                             ack = 0;
-                             SendRemoteNumber(connection,OutputBox,iSe);
-                             until(ack==0xFF)
-                              {
-                              until(ReceiveRemoteNumber(InputBox,true,ack) == NO_ERR);
-                              }
-                             Wait(250);
-                             }
+bluetooth();
+
 }

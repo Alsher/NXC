@@ -15,7 +15,7 @@ void var()
  
  if(buffer == 1)                                   // buffer/ 1 is a placeholder
  {
-    buffer2 = 1;                                    // like that. buffer2 is placeholder
+    buffer2 = 1;                                    // like that, buffer2 is placeholder
  }
 }
 void remote()

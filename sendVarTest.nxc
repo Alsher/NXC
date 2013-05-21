@@ -1,11 +1,25 @@
-void var(int var)
-{
-NumOut(0,0, var);               // NumOut
-}
+
 
 task main()
+
 {
-int i = Random(42);
-while(true)
-{var(i);}
+ while(true){
+ SetSensorLight(IN_2);
+ SetSensorUltrasonic(IN_1);
+ int i = SensorValue(IN_2);
+ int i2 = SensorUS(IN_1);
+
+
+ int array[];
+ ArrayInit(array, 0, 10);
+ 
+ array[1] = i;
+ array[2] = i2;
+ 
+ 
+ NumOut(LCD_LINE1,20, array[1]);
+ NumOut(LCD_LINE2,10, array[2]);
+
+ }
+
 }

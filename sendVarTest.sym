@@ -1,90 +1,409 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0var	6	1	0	4	3
-1	__D0main	6	1	4	4	4
-2	__signed_stack_001var	6	1	8	4	2
-3	__constVal65536	6	0	12	4	1
-4	__signed_stack_002var	6	1	16	4	2
-5	__RandomTmp	5	1	20	4	7
-6	__constVal32768	6	0	24	4	1
-7	__var_7qG2_var_7qG2_000	4	1	28	2	2
-8	__main_7qG2_i_7qG2_000	4	1	30	2	2
-9	____initialize_global_data_return	1	1	32	1	3
-10	__zfmain	1	1	33	1	2
-11	__var_return	1	1	34	1	3
-12	__PFTmp	1	1	35	1	1
-13	__TextOutArgs	8	0	4	16	6
-14	__TextOutArgs.Result	2	1	36	1	6
-15	__TextOutArgs.Location	8	0	2	4	6
-16	__TextOutArgs.Location.X	4	1	40	2	6
-17	__TextOutArgs.Location.Y	4	1	42	2	6
-18	__TextOutArgs.Text	7	0	44	4	6
-19	__TextOutArgs.Text.Text_type	1	0	0	1	0
-20	__TextOutArgs.Options	5	1	48	4	6
-21	__RandomArgs	8	0	1	4	3
-22	__RandomArgs.Result	4	1	52	2	3
+0	__D0SetSensorLight_inline_main	6	1	0	4	3
+1	__DU0SetSensorLight_inline_main	5	1	4	4	2
+2	__D0main	6	1	8	4	19
+3	__CLSRMutex0	9	0	12	4	2
+4	__RLSBmutex0	9	0	16	4	2
+5	__signed_stack_002main	6	1	20	4	6
+6	__signed_stack_003main	6	1	24	4	4
+7	__signed_stack_001main	6	1	28	4	11
+8	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	32	4	3
+9	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	36	4	2
+10	__CLSWMutex0	9	0	40	4	2
+11	__CLSCSMutex0	9	0	44	4	2
+12	__main_7qG2_i_7qG2_001	4	1	48	2	2
+13	__ArrHelper__main_73_0	4	1	50	2	4
+14	__main_7qG2_driveDirection_7qG2_001	4	1	52	2	2
+15	__main_7qG2_intsend_7qG2_001	4	1	54	2	2
+16	__main_7qG2_i2_7qG2_001	4	1	56	2	2
+17	__main_7qG2_driveSpeed_7qG2_001	4	1	58	2	2
+18	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	60	1	2
+19	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	61	1	2
+20	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	62	1	4
+21	__constVal0	2	1	63	1	3
+22	__ResetSensorPort	1	1	64	1	4
+23	____initialize_global_data_return	1	1	65	1	3
+24	__constVal1	2	0	66	1	5
+25	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	67	1	2
+26	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	68	1	2
+27	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	69	1	2
+28	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	70	1	2
+29	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	71	1	2
+30	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	72	1	2
+31	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	73	1	2
+32	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	74	1	2
+33	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	75	1	4
+34	__RLSBytesCount0	1	1	76	1	7
+35	__RLSBResult0	2	1	77	1	7
+36	__zfmain	1	1	78	1	2
+37	__constVal10	2	0	79	1	1
+38	__RLSBIterations0	1	1	80	1	4
+39	__ResetSensorTmp	1	1	81	1	2
+40	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	82	1	2
+41	____ResetSensorSubroutine_return	1	1	83	1	4
+42	____ReadLSBytes0_return	1	1	84	1	3
+43	__zfSetSensorLight_inline_main	1	1	85	1	2
+44	__TextOutArgs	8	0	4	16	16
+45	__TextOutArgs.Result	2	1	88	1	16
+46	__TextOutArgs.Location	8	0	2	4	16
+47	__TextOutArgs.Location.X	4	1	92	2	16
+48	__TextOutArgs.Location.Y	4	1	94	2	16
+49	__TextOutArgs.Text	7	0	96	4	16
+50	__TextOutArgs.Text.Text_type	1	0	0	1	0
+51	__TextOutArgs.Options	5	1	100	4	16
+52	__CLSWArgs0	8	0	4	12	5
+53	__CLSWArgs0.Result	2	1	104	1	5
+54	__CLSWArgs0.Port	1	1	105	1	5
+55	__CLSWArgs0.Buffer	7	0	106	4	5
+56	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+57	__CLSWArgs0.ReturnLen	1	1	108	1	5
+58	__CLSRArgs0	8	0	4	12	5
+59	__CLSRArgs0.Result	2	1	112	1	5
+60	__CLSRArgs0.Port	1	1	113	1	5
+61	__CLSRArgs0.Buffer	7	0	114	4	5
+62	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+63	__CLSRArgs0.BufferLen	1	1	116	1	5
+64	__CLSCSArgs0	8	0	3	4	4
+65	__CLSCSArgs0.Result	2	1	120	1	4
+66	__CLSCSArgs0.Port	1	1	121	1	4
+67	__CLSCSArgs0.BytesReady	1	1	122	1	4
+68	__RLSBbufLSWrite1	7	0	124	4	1
+69	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+70	__main_7qG2_driveSpeedS_7qG2_001	7	0	126	4	2
+71	__main_7qG2_driveSpeedS_7qG2_001.__main_7qG2_driveSpeedS_7qG2_001_type	1	0	0	1	0
+72	__main_7qG2_driveDirectionS_7qG2_001	7	0	128	4	2
+73	__main_7qG2_driveDirectionS_7qG2_001.__main_7qG2_driveDirectionS_7qG2_001_type	1	0	0	1	0
+74	__main_7qG2_stringbuff_7qG2_001	7	0	130	4	2
+75	__main_7qG2_stringbuff_7qG2_001.__main_7qG2_stringbuff_7qG2_001_type	1	0	0	1	0
+76	__main_7qG2_array_7qG2_001	7	0	132	4	7
+77	__main_7qG2_array_7qG2_001.__main_7qG2_array_7qG2_001_type	4	0	0	2	0
+78	__ArrHelper__main_244_1	7	0	134	4	2
+79	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+80	__strbufmain	7	0	136	4	12
+81	__strbufmain.__strbufmain_type	1	0	0	1	0
+82	__strretvalmain	7	0	138	4	6
+83	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+84	__RLSLastGoodRead0	7	0	140	4	2
+85	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+86	__RLSReadBuf0	7	0	142	4	8
+87	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+88	__ArrHelper__main_244_0	7	0	144	4	2
+89	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	7	0	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	8	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	7	2	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	7	2	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	8	2		set __D0main, 42
-0	8	5	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	9	5	#pragma macro 8
-0	9	5		syscall 24, __RandomArgs
-0	9	8		mov __RandomTmp, __RandomArgs.Result
-0	9	10		add __RandomTmp, __RandomArgs.Result, __constVal32768
-0	9	14		mul __RandomTmp, __RandomTmp, __D0main
-0	9	18		div __RandomTmp, __RandomTmp, __constVal65536
-0	9	22		mov __main_7qG2_i_7qG2_000, __RandomTmp
-0	3573	24	#line 3573 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	8	24	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	9	24	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	10	24		set __D0main, 1
-0	9	27	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	10	27		tst 5, __zfmain, __D0main
-0	9	30	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	10	30		brtst 4, __NXC_Label_500, __zfmain
-0	9	33	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	10	33		mov __var_7qG2_var_7qG2_000, __main_7qG2_i_7qG2_000
-0	9	35	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	9	35	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	10	35		subcall var, __var_return
-0	9	37	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	12	37	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	13	37		jmp __NXC_Label_499
-0	12	39	#line 12 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-0	13	39		exit -1, -1
-1	2	0	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	3	0		set __signed_stack_001var, 0
-1	2	3	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	2	3	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	3	3		set __signed_stack_002var, 0
-1	2	6	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	2	6	#line 2 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	3	6		mov __D0var, __var_7qG2_var_7qG2_000
-1	3	8	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	3	8	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	4	8		mov __TextOutArgs.Location.X, __signed_stack_001var
-1	3	10	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	4	10		mov __TextOutArgs.Location.Y, __signed_stack_002var
-1	3	12	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	4	12		set __TextOutArgs.Options, 0
-1	3	15	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	4	15		numtostr __TextOutArgs.Text, __D0var
-1	3	18	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	4	18		syscall 13, __TextOutArgs
-1	3	21	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	4	21		mov __D0var, __TextOutArgs.Result
-1	3	23	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	3	23	#line 3 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	5	23	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-1	6	23		subret __var_return
-2	13	0	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
-2	14	0		subret ____initialize_global_data_return
+0	5	0	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	6	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	5	2	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	5	2	#line 5 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	6	2		set __D0main, 1
+0	6	5	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	7	5		tst 5, __zfmain, __D0main
+0	6	8	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	7	8		brtst 4, __NXC_Label_605, __zfmain
+0	6	11	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	7	11		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	6	14	#line 6 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	7	14	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	8	14		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	16	#line 3729 "NXCDefs.h"
+0	3730	16		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	18	#line 3729 "NXCDefs.h"
+0	3729	18	#line 3729 "NXCDefs.h"
+0	3730	18		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	20	#line 3729 "NXCDefs.h"
+0	3730	20		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	23	#line 3729 "NXCDefs.h"
+0	3730	23		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	26	#line 3729 "NXCDefs.h"
+0	3730	26		set __D0SetSensorLight_inline_main, 5
+0	3729	29	#line 3729 "NXCDefs.h"
+0	3730	29		jmp __001__NXC_Label_5
+0	3729	31	#line 3729 "NXCDefs.h"
+0	3730	31		set __D0SetSensorLight_inline_main, 6
+0	3729	34	#line 3729 "NXCDefs.h"
+0	3730	34		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	36	#line 3663 "NXCDefs.h"
+0	3664	36		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	40	#line 3663 "NXCDefs.h"
+0	3730	40	#line 3730 "NXCDefs.h"
+0	3730	40	#line 3730 "NXCDefs.h"
+0	3731	40		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	42	#line 3730 "NXCDefs.h"
+0	3730	42	#line 3730 "NXCDefs.h"
+0	3731	42		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	45	#line 3730 "NXCDefs.h"
+0	3676	45	#line 3676 "NXCDefs.h"
+0	3677	45		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	49	#line 3676 "NXCDefs.h"
+0	3731	49	#line 3731 "NXCDefs.h"
+0	3731	49	#line 3731 "NXCDefs.h"
+0	3731	49	#line 3731 "NXCDefs.h"
+0	3694	49	#line 3694 "NXCDefs.h"
+0	3695	49	#pragma macro 4
+0	3695	49		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	51		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5969	53	#line 5969 "NXCDefs.h"
+0	3694	53	#line 3694 "NXCDefs.h"
+0	3732	53	#line 3732 "NXCDefs.h"
+0	7	53	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	7	53	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	7	53	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	3768	53	#line 3768 "NXCDefs.h"
+0	3769	53		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal0
+0	3768	55	#line 3768 "NXCDefs.h"
+0	3768	55	#line 3768 "NXCDefs.h"
+0	3769	55		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3758	57	#line 3758 "NXCDefs.h"
+0	3759	57		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	59	#line 3758 "NXCDefs.h"
+0	3758	59	#line 3758 "NXCDefs.h"
+0	3759	59		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	61	#line 3758 "NXCDefs.h"
+0	3759	61		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	64	#line 3758 "NXCDefs.h"
+0	3759	64		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	67	#line 3758 "NXCDefs.h"
+0	3759	67		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	3758	70	#line 3758 "NXCDefs.h"
+0	3759	70		jmp __001__001__NXC_Label_37
+0	3758	72	#line 3758 "NXCDefs.h"
+0	3759	72		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	3758	75	#line 3758 "NXCDefs.h"
+0	3759	75		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3663	77	#line 3663 "NXCDefs.h"
+0	3664	77		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3663	81	#line 3663 "NXCDefs.h"
+0	3759	81	#line 3759 "NXCDefs.h"
+0	3759	81	#line 3759 "NXCDefs.h"
+0	3760	81		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3759	83	#line 3759 "NXCDefs.h"
+0	3759	83	#line 3759 "NXCDefs.h"
+0	3760	83		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3759	86	#line 3759 "NXCDefs.h"
+0	3676	86	#line 3676 "NXCDefs.h"
+0	3677	86		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	3676	90	#line 3676 "NXCDefs.h"
+0	3760	90	#line 3760 "NXCDefs.h"
+0	3760	90	#line 3760 "NXCDefs.h"
+0	3760	90	#line 3760 "NXCDefs.h"
+0	3694	90	#line 3694 "NXCDefs.h"
+0	3695	90	#pragma macro 4
+0	3695	90		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3695	92		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6074	94	#line 6074 "NXCDefs.h"
+0	3694	94	#line 3694 "NXCDefs.h"
+0	3761	94	#line 3761 "NXCDefs.h"
+0	3768	94	#line 3768 "NXCDefs.h"
+0	8	94	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	8	94	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	9	94		getin __main_7qG2_i_7qG2_001, __constVal1, 4
+0	8	98	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	9	98	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	10	98	#pragma macro 26
+0	10	98		acquire __RLSBmutex0
+0	10	99		mov __RLSReadBuf0, __RLSBbufLSWrite1
+0	10	101		set __RLSBytesCount0, 1
+0	10	104		wait 15
+0	10	106		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	10	108		index __D0main, __RLSReadBuf0, 65535
+0	10	112		release __RLSBmutex0
+0	6094	113	#line 6094 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	9	113	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	10	113		mov __main_7qG2_i2_7qG2_001, __D0main
+0	13	115	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	14	115		arrinit __main_7qG2_array_7qG2_001, __constVal0, __constVal10
+0	13	119	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	13	119	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	15	119	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	16	119		set __signed_stack_001main, 1
+0	15	122	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	16	122	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	17	122		mov __D0main, __main_7qG2_i_7qG2_001
+0	16	124	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	17	124		replace __main_7qG2_array_7qG2_001, __main_7qG2_array_7qG2_001, __signed_stack_001main, __D0main
+0	16	129	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	16	129	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	17	129		set __signed_stack_001main, 2
+0	16	132	#line 16 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	19	132	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	132		mov __D0main, __main_7qG2_i2_7qG2_001
+0	19	134	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	134		replace __main_7qG2_array_7qG2_001, __main_7qG2_array_7qG2_001, __signed_stack_001main, __D0main
+0	19	139	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	19	139	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	139		set __signed_stack_001main, 56
+0	19	142	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	19	142	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	142		set __signed_stack_002main, 20
+0	19	145	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	19	145	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	145		set __signed_stack_003main, 1
+0	19	148	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	19	148	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	148		index __ArrHelper__main_73_0, __main_7qG2_array_7qG2_001, __signed_stack_003main
+0	19	152	#line 19 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	152		mov __D0main, __ArrHelper__main_73_0
+0	20	154	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	154	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	21	154		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	20	156	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	21	156		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	20	158	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	21	158		set __TextOutArgs.Options, 0
+0	20	161	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	21	161		numtostr __TextOutArgs.Text, __D0main
+0	20	164	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	21	164		syscall 13, __TextOutArgs
+0	20	167	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	167	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	167	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	167	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	21	167		set __signed_stack_001main, 48
+0	20	170	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	170	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	21	170		set __signed_stack_002main, 10
+0	20	173	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	173	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	21	173		set __signed_stack_003main, 2
+0	20	176	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	20	176	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	21	176		index __ArrHelper__main_73_0, __main_7qG2_array_7qG2_001, __signed_stack_003main
+0	20	180	#line 20 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	21	180		mov __D0main, __ArrHelper__main_73_0
+0	22	182	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	22	182	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	23	182		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	22	184	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	23	184		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	22	186	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	23	186		set __TextOutArgs.Options, 0
+0	22	189	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	23	189		numtostr __TextOutArgs.Text, __D0main
+0	22	192	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	23	192		syscall 13, __TextOutArgs
+0	22	195	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	22	195	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	22	195	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	23	195	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	24	195		set __main_7qG2_driveSpeed_7qG2_001, 2
+0	23	198	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	25	198	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	26	198		set __main_7qG2_driveDirection_7qG2_001, 3
+0	25	201	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	25	201	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	26	201		mov __D0main, __main_7qG2_driveSpeed_7qG2_001
+0	26	203	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	27	203		numtostr __strretvalmain, __D0main
+0	26	206	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	27	206		strcat __strbufmain, __strretvalmain
+0	26	210	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	27	210		mov __main_7qG2_driveSpeedS_7qG2_001, __strbufmain
+0	26	212	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	27	212		mov __D0main, __main_7qG2_driveDirection_7qG2_001
+0	29	214	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	30	214		numtostr __strretvalmain, __D0main
+0	29	217	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	30	217		strcat __strbufmain, __strretvalmain
+0	29	221	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	30	221		mov __main_7qG2_driveDirectionS_7qG2_001, __strbufmain
+0	29	223	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	30	223		strcat __strbufmain, __main_7qG2_driveSpeedS_7qG2_001
+0	29	227	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	30	227		mov __ArrHelper__main_244_0, __strbufmain
+0	29	229	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	30	229		strcat __strbufmain, __main_7qG2_driveDirectionS_7qG2_001
+0	29	233	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	30	233		mov __ArrHelper__main_244_1, __strbufmain
+0	31	235	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	32	235		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	31	240	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	32	240		strcat __strbufmain, __strretvalmain
+0	31	244	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	32	244		mov __main_7qG2_stringbuff_7qG2_001, __strbufmain
+0	31	246	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	32	246		strcat __strbufmain, __main_7qG2_stringbuff_7qG2_001
+0	32	250	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	33	250		strtonum __main_7qG2_intsend_7qG2_001, __signed_stack_001main, __strbufmain, 65535, 65535
+0	32	256	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	32	256	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	33	256		set __signed_stack_001main, 0
+0	32	259	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	32	259	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	33	259		set __signed_stack_002main, 0
+0	32	262	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	32	262	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	33	262		mov __D0main, __main_7qG2_intsend_7qG2_001
+0	34	264	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	34	264	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	35	264		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	34	266	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	35	266		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	34	268	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	35	268		set __TextOutArgs.Options, 0
+0	34	271	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	35	271		numtostr __TextOutArgs.Text, __D0main
+0	34	274	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	35	274		syscall 13, __TextOutArgs
+0	34	277	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	35	277		mov __D0main, __TextOutArgs.Result
+0	34	279	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	34	279	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	38	279	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	39	279		jmp __NXC_Label_604
+0	38	281	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+0	39	281		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5672	0	#pragma macro 25
+2	5672	0		acquire __CLSWMutex0
+2	5672	1		set __CLSWArgs0.Port, 0
+2	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	5672	8		syscall 21, __CLSWArgs0
+2	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
+2	5672	13		release __CLSWMutex0
+2	5673	14	#line 5673 "NXTDefs.h"
+2	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	5676	21		brtst 5, __RLSBError0, __RLSBResult0
+2	5677	24		set __RLSBIterations0, 4
+2	5679	27	#pragma macro 23
+2	5679	27		acquire __CLSCSMutex0
+2	5679	28		set __CLSCSArgs0.Port, 0
+2	5679	31		syscall 23, __CLSCSArgs0
+2	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
+2	5679	38		release __CLSCSMutex0
+2	5679	39	#line 5679 "NXTDefs.h"
+2	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
+2	5682	46		brtst 0, __RLSBError0, __RLSBResult0
+2	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	5685	52		wait 15
+2	5686	54		jmp __RLSBDoCheckStatus0
+2	5689	56	#pragma macro 25
+2	5689	56		acquire __CLSRMutex0
+2	5689	57		set __CLSRArgs0.Port, 0
+2	5689	60		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	5689	62		syscall 22, __CLSRArgs0
+2	5689	65		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	5689	67		mov __RLSBResult0, __CLSRArgs0.Result
+2	5689	69		release __CLSRMutex0
+2	5689	70	#line 5689 "NXTDefs.h"
+2	5690	70		brtst 5, __RLSBError0, __RLSBResult0
+2	5691	73		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	5692	75		jmp __RLSBDone0
+2	5694	77		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	5696	79		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	5698	82		subret ____ReadLSBytes0_return
+3	39	0	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc"
+3	40	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc
-1	var	42	C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc
-2	__initialize_global_data	67	C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc
+1	__ResetSensorSubroutine	284	NXTDefs.h
+2	__ReadLSBytes0	297	NXTDefs.h
+3	__initialize_global_data	381	C:\Users\Apple\Documents\GitHub\NXC\sendVarTest.nxc
