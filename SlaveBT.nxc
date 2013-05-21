@@ -23,14 +23,25 @@ void move(int move)
  move2 = move;
  int power;
  
+ string presplit = NumToStr(move);
+
+ string split1 = SubStr(presplit, 0, 1);
+ string split2 = SubStr(presplit, 1, 2);
+ 
+ int aftersplit1 = StrToNum(split1);
+ int aftersplit2 = StrToNum(split2);
+ 
  if(move2 == 1)
  {power = 0;}
  if(move2 == 0)
  {power = 50;}
  
- OnFwd(OUT_BC, power);
- OnRev(OUT_A, power);
- NumOut(0,0, move2);
+ /*OnFwd(OUT_BC, power);
+ OnRev(OUT_A, power);*/
+ 
+ TextOut(0, LCD_LINE5, "Splited: ");
+ NumOut(LCD_LINE2, LCD_LINE5, aftersplit1);
+ NumOut(LCD_LINE1, LCD_LINE5, aftersplit2);
  ClearLine(LCD_LINE4);
 
 }
@@ -50,12 +61,12 @@ while(true)
 
             if(ReceiveRemoteNumber(InputBox,true,in) != STAT_MSG_EMPTY_MAILBOX)
             {
-            //receive();
-            TextOut(0,LCD_LINE3," ");
-            //move(in);
+
+            TextOut(0,LCD_LINE3,"In:");
+            move(in);
 
 
-            NumOut(5,LCD_LINE3,in);
+            NumOut(20,LCD_LINE3,in);
 
             SendResponseNumber(OutputBox,0xFF);
             }
