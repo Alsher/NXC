@@ -1,0 +1,365 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0sensor	5	1	0	4	2
+1	__D0sensor	6	1	4	4	9
+2	__signed_stack_002sensor	6	1	8	4	8
+3	__signed_stack_001sensor	6	1	12	4	8
+4	__sensor_7qG2_o_7qG2_000	4	1	16	2	2
+5	__sensor_7qG2_i_7qG2_000	4	1	18	2	4
+6	__constVal200	4	0	20	2	2
+7	__sensor_7qG2_l_7qG2_000	4	1	22	2	2
+8	__constVal1	2	0	24	1	8
+9	__prepareSensor_return	1	1	25	1	3
+10	__constVal32	2	0	26	1	4
+11	__SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor	1	1	27	1	16
+12	____initialize_global_data_return	1	1	28	1	3
+13	__sensor_7qG2_t_7qG2_000	1	1	29	1	2
+14	__sensor_return	1	1	30	1	3
+15	__zfsensor	1	1	31	1	2
+16	____ResetSensorSubroutine_return	1	1	32	1	6
+17	__constVal2	2	0	33	1	1
+18	__ResetSensorPort	1	1	34	1	6
+19	__ResetSensorTmp	1	1	35	1	2
+20	__constVal3	2	0	36	1	1
+21	__constVal0	2	1	37	1	1
+22	__TextOutArgs	8	0	4	16	21
+23	__TextOutArgs.Result	2	1	40	1	21
+24	__TextOutArgs.Location	8	0	2	4	21
+25	__TextOutArgs.Location.X	4	1	44	2	21
+26	__TextOutArgs.Location.Y	4	1	46	2	21
+27	__TextOutArgs.Text	7	0	48	4	21
+28	__TextOutArgs.Text.Text_type	1	0	0	1	0
+29	__TextOutArgs.Options	5	1	52	4	21
+30	__PointOutArgs	8	0	3	12	4
+31	__PointOutArgs.Result	2	1	56	1	4
+32	__PointOutArgs.Location	8	0	2	4	4
+33	__PointOutArgs.Location.X	4	1	60	2	4
+34	__PointOutArgs.Location.Y	4	1	62	2	4
+35	__PointOutArgs.Options	5	1	64	4	4
+36	__sensor_7qG2_tSC_7qG2_001	7	0	68	4	2
+37	__sensor_7qG2_tSC_7qG2_001.__sensor_7qG2_tSC_7qG2_001_type	1	0	0	1	0
+38	__constStr0009	7	0	70	4	4
+39	__constStr0009.__constStr0009_type	1	1	0	1	0
+40	__sensor_7qG2_iSC_7qG2_001	7	0	72	4	2
+41	__sensor_7qG2_iSC_7qG2_001.__sensor_7qG2_iSC_7qG2_001_type	1	0	0	1	0
+42	__sensor_7qG2_lSC_7qG2_001	7	0	74	4	2
+43	__sensor_7qG2_lSC_7qG2_001.__sensor_7qG2_lSC_7qG2_001_type	1	0	0	1	0
+44	__strbufsensor	7	0	76	4	40
+45	__strbufsensor.__strbufsensor_type	1	0	0	1	0
+46	__sensor_7qG2_oSC_7qG2_001	7	0	78	4	2
+47	__sensor_7qG2_oSC_7qG2_001.__sensor_7qG2_oSC_7qG2_001_type	1	0	0	1	0
+48	__sensor_7qG2_iS_7qG2_001	7	0	80	4	2
+49	__sensor_7qG2_iS_7qG2_001.__sensor_7qG2_iS_7qG2_001_type	1	0	0	1	0
+50	__strretvalsensor	7	0	82	4	16
+51	__strretvalsensor.__strretvalsensor_type	1	0	0	1	0
+52	__ArrHelper__sensor_244_0	7	0	84	4	8
+53	__ArrHelper__sensor_244_0.__ArrHelper__sensor_244_0_type	1	0	0	1	0
+54	__ArrHelper__sensor_244_1	7	0	86	4	8
+55	__ArrHelper__sensor_244_1.__ArrHelper__sensor_244_1_type	1	0	0	1	0
+56	__sensor_7qG2_lS_7qG2_001	7	0	88	4	2
+57	__sensor_7qG2_lS_7qG2_001.__sensor_7qG2_lS_7qG2_001_type	1	0	0	1	0
+58	__sensor_7qG2_oS_7qG2_001	7	0	90	4	2
+59	__sensor_7qG2_oS_7qG2_001.__sensor_7qG2_oS_7qG2_001_type	1	0	0	1	0
+60	__sensor_7qG2_tS_7qG2_001	7	0	92	4	2
+61	__sensor_7qG2_tS_7qG2_001.__sensor_7qG2_tS_7qG2_001_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	58	0	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+0	59	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	58	2	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+0	59	2	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+0	60	2		subcall prepareSensor, __prepareSensor_return
+0	59	4	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+0	61	4	#line 61 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+0	62	4		subcall sensor, __sensor_return
+0	61	6	#line 61 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+0	62	6		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	7	0	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	8	0		set __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 0
+2	7	3	#line 7 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	3718	3	#line 3718 "NXCDefs.h"
+2	3719	3	#pragma macro 6
+2	3719	3		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 0
+2	3719	7		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 1
+2	3719	11		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor
+2	3719	13		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+2	6108	15	#line 6108 "NXCDefs.h"
+2	3718	15	#line 3718 "NXCDefs.h"
+2	8	15	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	8	15	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	9	15		set __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 1
+2	8	18	#line 8 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	3718	18	#line 3718 "NXCDefs.h"
+2	3719	18	#pragma macro 6
+2	3719	18		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 0
+2	3719	22		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 1
+2	3719	26		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor
+2	3719	28		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+2	6118	30	#line 6118 "NXCDefs.h"
+2	3718	30	#line 3718 "NXCDefs.h"
+2	9	30	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	9	30	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	10	30		set __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 2
+2	9	33	#line 9 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	3718	33	#line 3718 "NXCDefs.h"
+2	3719	33	#pragma macro 6
+2	3719	33		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 0
+2	3719	37		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 1
+2	3719	41		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor
+2	3719	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+2	6128	45	#line 6128 "NXCDefs.h"
+2	3718	45	#line 3718 "NXCDefs.h"
+2	10	45	#line 10 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	10	45	#line 10 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	11	45		set __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 3
+2	10	48	#line 10 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	3718	48	#line 3718 "NXCDefs.h"
+2	3719	48	#pragma macro 6
+2	3719	48		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 0
+2	3719	52		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor, 1
+2	3719	56		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_prepareSensor
+2	3719	58		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+2	6138	60	#line 6138 "NXCDefs.h"
+2	3718	60	#line 3718 "NXCDefs.h"
+2	13	60	#line 13 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	15	60	#line 15 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+2	16	60		subret __prepareSensor_return
+3	23	0	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	24	0		set __D0sensor, 1
+3	25	3	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	26	3		tst 5, __zfsensor, __D0sensor
+3	25	6	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	26	6		brtst 4, __NXC_Label_613, __zfsensor
+3	25	9	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	26	9		getin __sensor_7qG2_o_7qG2_000, __constVal0, 4
+3	25	13	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	25	13	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	25	13	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	26	13	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	27	13		getin __sensor_7qG2_t_7qG2_000, __constVal1, 4
+3	26	17	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	26	17	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	26	17	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	27	17	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	28	17		getin __sensor_7qG2_l_7qG2_000, __constVal2, 4
+3	27	21	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	27	21	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	27	21	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	28	21	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	29	21		getin __sensor_7qG2_i_7qG2_000, __constVal3, 4
+3	28	25	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	28	25	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	28	25	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	31	25	#line 31 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	32	25		mov __DU0sensor, __sensor_7qG2_t_7qG2_000
+3	32	27	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	33	27		numtostr __strretvalsensor, __DU0sensor
+3	32	30	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	33	30		strcat __strbufsensor, __strretvalsensor
+3	32	34	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	33	34		mov __sensor_7qG2_tS_7qG2_001, __strbufsensor
+3	32	36	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	33	36		mov __D0sensor, __sensor_7qG2_o_7qG2_000
+3	33	38	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	34	38		numtostr __strretvalsensor, __D0sensor
+3	33	41	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	34	41		strcat __strbufsensor, __strretvalsensor
+3	33	45	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	34	45		mov __sensor_7qG2_oS_7qG2_001, __strbufsensor
+3	33	47	#line 33 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	34	47		mov __D0sensor, __sensor_7qG2_l_7qG2_000
+3	34	49	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	35	49		numtostr __strretvalsensor, __D0sensor
+3	34	52	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	35	52		strcat __strbufsensor, __strretvalsensor
+3	34	56	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	35	56		mov __sensor_7qG2_lS_7qG2_001, __strbufsensor
+3	34	58	#line 34 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	35	58		mov __D0sensor, __sensor_7qG2_i_7qG2_000
+3	36	60	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	37	60		numtostr __strretvalsensor, __D0sensor
+3	36	63	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	37	63		strcat __strbufsensor, __strretvalsensor
+3	36	67	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	37	67		mov __sensor_7qG2_iS_7qG2_001, __strbufsensor
+3	36	69	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	37	69		strcat __strbufsensor, __constStr0009
+3	36	73	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	37	73		mov __ArrHelper__sensor_244_0, __strbufsensor
+3	36	75	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	37	75		strcat __strbufsensor, __sensor_7qG2_iS_7qG2_001
+3	36	79	#line 36 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	37	79		mov __ArrHelper__sensor_244_1, __strbufsensor
+3	37	81	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	38	81		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
+3	37	86	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	38	86		strcat __strbufsensor, __strretvalsensor
+3	37	90	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	38	90		mov __sensor_7qG2_iSC_7qG2_001, __strbufsensor
+3	37	92	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	38	92		strcat __strbufsensor, __constStr0009
+3	37	96	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	38	96		mov __ArrHelper__sensor_244_0, __strbufsensor
+3	37	98	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	38	98		strcat __strbufsensor, __sensor_7qG2_tS_7qG2_001
+3	37	102	#line 37 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	38	102		mov __ArrHelper__sensor_244_1, __strbufsensor
+3	38	104	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	39	104		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
+3	38	109	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	39	109		strcat __strbufsensor, __strretvalsensor
+3	38	113	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	39	113		mov __sensor_7qG2_tSC_7qG2_001, __strbufsensor
+3	38	115	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	39	115		strcat __strbufsensor, __constStr0009
+3	38	119	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	39	119		mov __ArrHelper__sensor_244_0, __strbufsensor
+3	38	121	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	39	121		strcat __strbufsensor, __sensor_7qG2_oS_7qG2_001
+3	38	125	#line 38 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	39	125		mov __ArrHelper__sensor_244_1, __strbufsensor
+3	39	127	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	40	127		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
+3	39	132	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	40	132		strcat __strbufsensor, __strretvalsensor
+3	39	136	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	40	136		mov __sensor_7qG2_oSC_7qG2_001, __strbufsensor
+3	39	138	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	40	138		strcat __strbufsensor, __constStr0009
+3	39	142	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	40	142		mov __ArrHelper__sensor_244_0, __strbufsensor
+3	39	144	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	40	144		strcat __strbufsensor, __sensor_7qG2_lS_7qG2_001
+3	39	148	#line 39 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	40	148		mov __ArrHelper__sensor_244_1, __strbufsensor
+3	41	150	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	42	150		strcat __strretvalsensor, __ArrHelper__sensor_244_0, __ArrHelper__sensor_244_1
+3	41	155	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	42	155		strcat __strbufsensor, __strretvalsensor
+3	41	159	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	42	159		mov __sensor_7qG2_lSC_7qG2_001, __strbufsensor
+3	41	161	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	41	161	#line 41 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	7921	161	#line 7921 "NXCDefs.h"
+3	7922	161		wait 50
+3	7921	163	#line 7921 "NXCDefs.h"
+3	42	163	#line 42 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	6069	163	#line 6069 "NXCDefs.h"
+3	6070	163	#pragma macro 6
+3	6070	163		mov __PointOutArgs.Location.X, __constVal200
+3	6070	165		mov __PointOutArgs.Location.Y, __constVal200
+3	6070	167		mov __PointOutArgs.Options, __constVal1
+3	6070	169		syscall 14, __PointOutArgs
+3	6346	172	#line 6346 "NXCDefs.h"
+3	6069	172	#line 6069 "NXCDefs.h"
+3	45	172	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	45	172	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	46	172		set __signed_stack_001sensor, 0
+3	45	175	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	45	175	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	46	175		set __signed_stack_002sensor, 56
+3	45	178	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	45	178	#line 45 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	46	178		strcat __strbufsensor, __sensor_7qG2_tSC_7qG2_001
+3	46	182	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	46	182	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	182		mov __TextOutArgs.Location.X, __signed_stack_001sensor
+3	46	184	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	184		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
+3	46	186	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	186		set __TextOutArgs.Options, 0
+3	46	189	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	189		mov __TextOutArgs.Text, __strbufsensor
+3	46	191	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	191		syscall 13, __TextOutArgs
+3	46	194	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	46	194	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	46	194	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	46	194	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	194		set __signed_stack_001sensor, 0
+3	46	197	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	46	197	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	197		set __signed_stack_002sensor, 48
+3	46	200	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	46	200	#line 46 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	200		strcat __strbufsensor, __sensor_7qG2_oSC_7qG2_001
+3	47	204	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	204	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	204		mov __TextOutArgs.Location.X, __signed_stack_001sensor
+3	47	206	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	206		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
+3	47	208	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	208		set __TextOutArgs.Options, 0
+3	47	211	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	211		mov __TextOutArgs.Text, __strbufsensor
+3	47	213	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	213		syscall 13, __TextOutArgs
+3	47	216	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	216	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	216	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	216	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	216		set __signed_stack_001sensor, 0
+3	47	219	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	219	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	219		set __signed_stack_002sensor, 40
+3	47	222	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	47	222	#line 47 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	222		strcat __strbufsensor, __sensor_7qG2_lSC_7qG2_001
+3	48	226	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	226	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	49	226		mov __TextOutArgs.Location.X, __signed_stack_001sensor
+3	48	228	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	49	228		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
+3	48	230	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	49	230		set __TextOutArgs.Options, 0
+3	48	233	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	49	233		mov __TextOutArgs.Text, __strbufsensor
+3	48	235	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	49	235		syscall 13, __TextOutArgs
+3	48	238	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	238	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	238	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	238	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	49	238		set __signed_stack_001sensor, 0
+3	48	241	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	241	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	49	241		set __signed_stack_002sensor, 32
+3	48	244	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	48	244	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	49	244		strcat __strbufsensor, __sensor_7qG2_iSC_7qG2_001
+3	50	248	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	50	248	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	51	248		mov __TextOutArgs.Location.X, __signed_stack_001sensor
+3	50	250	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	51	250		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
+3	50	252	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	51	252		set __TextOutArgs.Options, 0
+3	50	255	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	51	255		mov __TextOutArgs.Text, __strbufsensor
+3	50	257	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	51	257		syscall 13, __TextOutArgs
+3	50	260	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	51	260		mov __D0sensor, __TextOutArgs.Result
+3	50	262	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	50	262	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	52	262	#line 52 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	53	262		add __sensor_7qG2_i_7qG2_000, __sensor_7qG2_i_7qG2_000, __constVal1
+3	52	266	#line 52 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	56	266	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	57	266		jmp __NXC_Label_612
+3	56	268	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	56	268	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+3	57	268		subret __sensor_return
+4	66	0	#line 66 "C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc"
+4	67	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc
+1	__ResetSensorSubroutine	9	NXTDefs.h
+2	prepareSensor	22	C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc
+3	sensor	84	C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc
+4	__initialize_global_data	354	C:\Users\Apple\Documents\GitHub\NXC\overviewTouch.nxc

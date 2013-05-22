@@ -51,27 +51,27 @@ void sensorv2()
  int s3 = Sensor(IN_3);   // Left
  int s4 = Sensor(IN_4);   // Right
  
- /*
+
  if(s1 == 1 && s2 == 0)
- driveDirection = 1;
+ driveSpeed = 1;          // Forward
  if(s1 == 1 && s2 == 1)
- driveDirection = 3;
+ driveSpeed = 3;          // nothing
  if(s1 == 0 && s2 == 1)
- driveDirection = 2;
+ driveSpeed = 2;          // Reverse
  if(s1 == 0 && s2 == 0)
- driveDirection = 4;
+ driveSpeed = 4;          // nothing
  
  if(s3 == 1 && s4 == 0)
- driveSpeed = 1;
+ driveDirection = 1;      // Left
  if(s3 == 1 && s4 == 1)
- driveSpeed = 3;
+ driveDirection = 3;      // straight
  if(s3 == 0 && s4 == 1)
- driveSpeed = 2;
+ driveDirection = 2;      // Right
  if(s3 == 0 && s4 == 0)
- driveSpeed = 4;
- */
- driveSpeed = 4;      // testing with fixed var due to a lack of material
- driveDirection = 3;  // testing with fixed var due to lack of material
+ driveDirection = 3;      // straight
+
+ /*driveSpeed = 4;      // testing with fixed var due to a lack of material
+ driveDirection = 3;  // testing with fixed var due to lack of material     */
  
  driveSpeedS = NumToStr(driveSpeed);
  driveDirectionS = NumToStr(driveDirection);
@@ -113,15 +113,16 @@ TextOut(10,LCD_LINE1,"Master sending");
 
                               }
 
-                             Wait(250);
+                             Wait(150);
                              }
 }
 
 task main()
 {
-SetSensorLight(IN_2);
-SetSensorType(IN_2, SENSOR_TYPE_LIGHT_INACTIVE);
-
+SetSensorTouch(IN_1);
+SetSensorTouch(IN_2);
+SetSensorTouch(IN_3);
+SetSensorTouch(IN_4);
 bluetooth();
 
 }

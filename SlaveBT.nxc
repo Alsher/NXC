@@ -7,6 +7,11 @@
 #define OutputBox2 2
 #define InputBox2 4
 
+int driveLeft;
+int driveRight;
+
+int driveLeftR;
+int driveRightR;
 
 void BluetoothCheck(int conn){                                    // makes sure the bluetooth connection is presistent/ existing
     if (!BluetoothStatus(conn)==NO_ERR)
@@ -17,34 +22,93 @@ void BluetoothCheck(int conn){                                    // makes sure 
     }
 }
 
-void move(int move)
+void moveForward(int moveLeft, int moveRight)                                     // Debug
 {
- int move2;
- move2 = move;
- int power;
+  ClearLine(LCD_LINE2);
+  NumOut(LCD_LINE2, LCD_LINE2, moveLeft);
+  NumOut(LCD_LINE5, LCD_LINE2, moveRight);
+}
+
+void moveReverse(int moveLeftR, int moveRightR)                                    // Debug
+{
+ ClearLine(LCD_LINE2);
+ NumOut(LCD_LINE1, LCD_LINE2, moveLeftR);
+  NumOut(LCD_LINE4, LCD_LINE2, moveRightR);
+}
+
+void moveVar(int split1Speed, int split2Direction)   // split1r = speed,        split2r = direction
+{                                                    // 1 = forward, 2 = reverse    1 = left, 2 = right
+ if(split1Speed == 1 && split2Direction == 3)        // 3 + 4 = both                3 + 4 = both
+ {driveLeft = 100;
+  driveRight = 100;}
+
+   
+ if(split1Speed == 2 && split2Direction == 3)
+ {driveLeftR = 100;
+  driveRightR = 100;}
+
+
+
+
+ if(split1Speed == 1 && split2Direction == 1)
+ {driveLeft = 100;
+  driveRight = 20;}
+
+   
+ if(split1Speed == 2 && split2Direction ==1)
+ {driveLeftR = 100;
+  driveRightR = 20;}
+
+
+ if(split1Speed == 1 && split2Direction == 2)
+ {driveLeft = 20;
+  driveRight = 100;}
+
+
+ if(split1Speed == 2 && split2Direction == 2)
+ {driveLeftR = 20;
+  driveRightR = 100;}
+
+
+
+ if(split1Speed == 1)
+ {
+ moveForward(driveLeft, driveRight);
+ driveLeft = 0;
+ driveRight = 0;
+ }
  
- string presplit = NumToStr(move);
+ if(split1Speed == 2)
+ {
+ moveReverse(driveLeftR, driveRightR);
+ driveLeftR = 0;
+ driveRightR = 0;
+ }
+
+}
+
+
+
+
+
+void split(int received)
+{
+ string presplit = NumToStr(received);
 
  string split1 = SubStr(presplit, 0, 1);
  string split2 = SubStr(presplit, 1, 2);
- 
+
  int aftersplit1 = StrToNum(split1);
  int aftersplit2 = StrToNum(split2);
- 
- if(move2 == 1)
- {power = 0;}
- if(move2 == 0)
- {power = 50;}
- 
- /*OnFwd(OUT_BC, power);
- OnRev(OUT_A, power);*/
  
  TextOut(0, LCD_LINE5, "Splited: ");
  NumOut(LCD_LINE2, LCD_LINE5, aftersplit1);
  NumOut(LCD_LINE1, LCD_LINE5, aftersplit2);
  ClearLine(LCD_LINE4);
 
+ moveVar(aftersplit1, aftersplit2);
 }
+
 
 
 task main(){
@@ -63,7 +127,7 @@ while(true)
             {
 
             TextOut(0,LCD_LINE3,"In:");
-            move(in);
+            split(in);
 
 
             NumOut(20,LCD_LINE3,in);
