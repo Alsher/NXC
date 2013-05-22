@@ -22,68 +22,105 @@ void BluetoothCheck(int conn){                                    // makes sure 
     }
 }
 
-void moveForward(int moveLeft, int moveRight)                                     // Debug
+void moveForward(int moveLeft, int moveRight, int outA)
 {
-  ClearLine(LCD_LINE2);
-  NumOut(LCD_LINE2, LCD_LINE2, moveLeft);
-  NumOut(LCD_LINE5, LCD_LINE2, moveRight);
+  OnFwd(OUT_C, moveLeft);
+  OnFwd(OUT_B, moveRight);
+  OnRev(OUT_A, outA);
 }
 
-void moveReverse(int moveLeftR, int moveRightR)                                    // Debug
+void moveReverse(int moveLeftR, int moveRightR, int outAr)
 {
- ClearLine(LCD_LINE2);
- NumOut(LCD_LINE1, LCD_LINE2, moveLeftR);
-  NumOut(LCD_LINE4, LCD_LINE2, moveRightR);
+ OnFwd(OUT_A, outAr);
+ OnRev(OUT_C, moveLeftR);
+ OnRev(OUT_B, moveRightR);
 }
+
+
+void reset()
+{
+  driveLeft = 0;
+  driveRight = 0;
+  driveLeftR = 0;
+  driveRightR = 0;
+}
+
 
 void moveVar(int split1Speed, int split2Direction)   // split1r = speed,        split2r = direction
 {                                                    // 1 = forward, 2 = reverse    1 = left, 2 = right
- if(split1Speed == 1 && split2Direction == 3)        // 3 + 4 = both                3 + 4 = both
- {driveLeft = 100;
-  driveRight = 100;}
+  if(split1Speed == 4)                               // 3 + 4 = both                3 + 4 = both
+ {driveLeft = 0;
+  driveRight = 0;
+  driveLeftR = 0;
+  driveRightR = 0;
+  }
+  
+ if(split1Speed == 1 && split2Direction == 3)
+ {driveLeft = 80;
+  driveRight = 80;}
 
    
  if(split1Speed == 2 && split2Direction == 3)
- {driveLeftR = 100;
-  driveRightR = 100;}
-
-
+ {driveLeftR = 70;
+  driveRightR = 70;}
 
 
  if(split1Speed == 1 && split2Direction == 1)
- {driveLeft = 100;
+ {driveLeft = 80;
   driveRight = 20;}
 
-   
+
  if(split1Speed == 2 && split2Direction ==1)
- {driveLeftR = 100;
+ {driveLeftR = 70;
   driveRightR = 20;}
 
 
  if(split1Speed == 1 && split2Direction == 2)
  {driveLeft = 20;
-  driveRight = 100;}
+  driveRight = 80;}
 
 
  if(split1Speed == 2 && split2Direction == 2)
  {driveLeftR = 20;
-  driveRightR = 100;}
+  driveRightR = 70;}
 
 
-
- if(split1Speed == 1)
- {
- moveForward(driveLeft, driveRight);
+ if(split1Speed == 4 && split2Direction == 3) {
  driveLeft = 0;
- driveRight = 0;
- }
- 
- if(split1Speed == 2)
- {
- moveReverse(driveLeftR, driveRightR);
- driveLeftR = 0;
- driveRightR = 0;
- }
+  driveRight = 0;
+  driveLeftR = 0;
+  driveRightR = 0;
+  }
+
+
+
+  switch (split1Speed)
+  {
+    case 1 :
+
+      moveForward(driveLeft, driveRight, 50);
+      break;
+    case 2 :
+
+      moveReverse(driveLeftR, driveRightR, 50);
+      break;
+      
+    case 4 :
+
+      moveForward(0,0,0);
+  
+      break;
+      
+    case 3 :
+
+      moveForward(0,0,0);
+
+      break;
+      
+      default :
+
+        reset();
+      }
 
 }
 
@@ -102,8 +139,8 @@ void split(int received)
  int aftersplit2 = StrToNum(split2);
  
  TextOut(0, LCD_LINE5, "Splited: ");
- NumOut(LCD_LINE2, LCD_LINE5, aftersplit1);
- NumOut(LCD_LINE1, LCD_LINE5, aftersplit2);
+ NumOut(60, LCD_LINE5, aftersplit1);
+ NumOut(70, LCD_LINE5, aftersplit2);
  ClearLine(LCD_LINE4);
 
  moveVar(aftersplit1, aftersplit2);
