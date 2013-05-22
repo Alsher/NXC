@@ -4,38 +4,42 @@
 
 void prepareSensor()
 {
-     SetSensorUltrasonic(IN_1);
+
+     SetSensorTouch(IN_1);
+     SetSensorTouch(IN_2);
      SetSensorTouch(IN_3);
-     SetSensorLight(IN_2);
-     SetSensorType(IN_2, SENSOR_TYPE_LIGHT_INACTIVE);
+     SetSensorTouch(IN_4);
+
 
 }
 
 void sensor()
 {
-     int i = 1;
-     int o;
+     int i, o, l;
+
      bool t;
-     int l;
+
 
 
  while(true) {
 
- o = SensorUS(IN_1) - 3;    // SensorUS value is inprecise
- t = Sensor(IN_3);
- l = SensorValue(IN_2);
+ o = Sensor(IN_1);
+ t = Sensor(IN_2);
+ l = Sensor(IN_3);
+ i = Sensor(IN_4);
+ 
  
  string tS = NumToStr(t);
  string oS = NumToStr(o);
  string lS = NumToStr(l) ;
  string iS = NumToStr(i);
  
- string iSC = StrCat("var i: ", iS);
+ string iSC = StrCat(TEXT, iS);
  string tSC = StrCat(TEXT, tS);
- string oSC = StrCat(TEXT2, oS);
- string lSC = StrCat(TEXT3, lS);
+ string oSC = StrCat(TEXT, oS);
+ string lSC = StrCat(TEXT, lS);
  
- Wait(120);
+ Wait(50);
  ClearScreen();
 
 
