@@ -113,7 +113,7 @@ TextOut(10,LCD_LINE1,"Master sending");
 
                               }
 
-                             Wait(150);
+                             Wait(50);
                              }
 }
 

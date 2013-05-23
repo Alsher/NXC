@@ -688,7 +688,7 @@ Clump	Line	PC	Source
 4	115	204	#line 115 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
 4	115	204	#line 115 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
 4	7921	204	#line 7921 "NXCDefs.h"
-4	7922	204		wait 150
+4	7922	204		wait 50
 4	7921	206	#line 7921 "NXCDefs.h"
 4	116	206	#line 116 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
 4	119	206	#line 119 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
