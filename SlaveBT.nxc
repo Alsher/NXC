@@ -57,7 +57,7 @@ void moveVar(int split1Speed, int split2Direction)   // split1r = speed,        
   
  if(split1Speed == 1 && split2Direction == 3)
  {driveLeft = 80;
-  driveRight = 80;}
+  driveRight = 70;}
 
    
  if(split1Speed == 2 && split2Direction == 3)
@@ -77,7 +77,7 @@ void moveVar(int split1Speed, int split2Direction)   // split1r = speed,        
 
  if(split1Speed == 1 && split2Direction == 2)
  {driveLeft = 20;
-  driveRight = 80;}
+  driveRight = 70;}
 
 
  if(split1Speed == 2 && split2Direction == 2)

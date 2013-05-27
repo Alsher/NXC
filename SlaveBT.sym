@@ -435,7 +435,7 @@ Clump	Line	PC	Source
 5	59	64	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
 5	59	64	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
 5	59	64	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
-5	60	64		set driveRight, 80
+5	60	64		set driveRight, 70
 5	59	67	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
 5	59	67	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
 5	62	67	#line 62 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
@@ -579,7 +579,7 @@ Clump	Line	PC	Source
 5	79	228	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
 5	79	228	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
 5	79	228	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
-5	80	228		set driveRight, 80
+5	80	228		set driveRight, 70
 5	79	231	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
 5	79	231	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"
 5	82	231	#line 82 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT.nxc"

@@ -1,0 +1,32 @@
+byte messageLength;
+string buffer;
+
+
+task main()
+{
+ SetSensorType(IN_4, SENSOR_TYPE_HIGHSPEED);
+
+ SetHSState(HS_INITIALISE);
+ SetHSFlags(HS_UPDATE);
+ 
+ SetHSInputBufferInPtr(0);                              // clear buffer
+ SetHSInputBufferOutPtr(0);                             // clear buffer
+ 
+ Wait(10);
+ 
+ while(true)
+ {
+  messageLength = 0;
+
+  while(messageLength == 0)                              // make sure message is incoming
+  messageLength = HSInputBufferInPtr();
+  
+  GetHSInputBuffer(0, messageLength, buffer);            // send incoming message to buffer
+  
+  SetHSInputBufferInPtr(0);                              // clear buffer again
+
+  TextOut(0, LCD_LINE2, buffer);
+ }
+
+
+}
