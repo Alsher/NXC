@@ -13,6 +13,11 @@ int driveRight;
 int driveLeftR;
 int driveRightR;
 
+int iS;
+int sT;
+string messageSend;
+
+
 void BluetoothCheck(int conn){                                    // makes sure the bluetooth connection is presistent/ existing
     if (!BluetoothStatus(conn)==NO_ERR)
     {
@@ -24,16 +29,14 @@ void BluetoothCheck(int conn){                                    // makes sure 
 
 void moveForward(int moveLeft, int moveRight, int outA)
 {
-  OnFwd(OUT_C, moveLeft);
-  OnFwd(OUT_B, moveRight);
-  OnRev(OUT_A, outA);
+  OnFwd(OUT_B, moveLeft);
+  OnFwd(OUT_A, moveRight);
 }
 
 void moveReverse(int moveLeftR, int moveRightR, int outAr)
 {
- OnFwd(OUT_A, outAr);
- OnRev(OUT_C, moveLeftR);
- OnRev(OUT_B, moveRightR);
+ OnRev(OUT_B, moveLeftR);
+ OnRev(OUT_A, moveRightR);
 }
 
 
@@ -146,9 +149,37 @@ void split(int received)
  moveVar(aftersplit1, aftersplit2);
 }
 
+void SendRS485(const string message)
+{
+ byte messageLength = ArrayLen(message);
+ 
+ SetHSOutputBuffer(0, messageLength, message);
+ SetHSOutputBufferOutPtr(0);
+ SetHSOutputBufferInPtr(messageLength);
 
+ SetHSState(HS_SEND_DATA);
+ SetHSFlags(HS_UPDATE);   // this sends the message
+
+
+}
+
+
+void waitForSending()
+{
+ while(HSOutputBufferOutPtr() < HSOutputBufferInPtr())
+ {
+ }
+}
 
 task main(){
+ SetSensorTouch(IN_1); //for testing purpose only
+
+ SetSensorType(IN_4, SENSOR_TYPE_HIGHSPEED);         //
+ SetHSState(HS_INITIALISE);                          // Let RS485 Port initialise and get ready (see Wait(10);)
+ SetHSFlags(HS_UPDATE);                              //
+
+ Wait(10);
+
 int in;
 
 
@@ -169,7 +200,15 @@ while(true)
 
             NumOut(20,LCD_LINE3,in);
 
+
             SendResponseNumber(OutputBox,0xFF);
+            //messageSend = NumToStr(in);
+            
+            TextOut(50, LCD_LINE3, messageSend);
+            int iSSS = Random(1000);
+            messageSend = NumToStr(iSSS);
+            SendRS485(messageSend);
+            waitForSending();
             }
 
 
@@ -179,3 +218,7 @@ while(true)
 
   }
 }
+
+
+
+

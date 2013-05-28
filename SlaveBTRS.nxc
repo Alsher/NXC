@@ -1,0 +1,61 @@
+byte messageLength;
+
+
+void drive(int driveLeft, int driveRight)
+{
+ OnRev(OUT_A, driveRight);
+ OnRev(OUT_B, driveLeft);
+}
+
+
+void split(string received)
+{
+ string presplit = received;
+
+ string split1 = SubStr(presplit, 0, 1);
+ string split2 = SubStr(presplit, 1, 2);
+
+ int aftersplit1 = StrToNum(split1);
+ int aftersplit2 = StrToNum(split2);
+
+ TextOut(0, LCD_LINE5, "Splited: ");
+ NumOut(60, LCD_LINE5, aftersplit1);
+ NumOut(70, LCD_LINE5, aftersplit2);
+ TextOut(20, LCD_LINE3, received);
+ ClearLine(LCD_LINE4);
+
+ //drive(aftersplit1, aftersplit2);
+}
+
+
+task main()
+{
+ string buffer;
+ SetSensorType(IN_4, SENSOR_TYPE_HIGHSPEED);
+
+ SetHSState(HS_INITIALISE);
+ SetHSFlags(HS_UPDATE);
+
+ SetHSInputBufferInPtr(0);                              // clear buffer
+ SetHSInputBufferOutPtr(0);                             // clear buffer
+
+ Wait(10);
+
+ while(true)
+ {
+  messageLength = 0;
+
+  while(messageLength == 0)                              // make sure message is incoming
+  messageLength = HSInputBufferInPtr();
+
+  GetHSInputBuffer(0, messageLength, buffer);            // send incoming message to buffer
+
+  SetHSInputBufferInPtr(0);                              // clear buffer again
+
+  TextOut(0, LCD_LINE2, buffer);
+  
+  split(buffer);
+ }
+
+
+}

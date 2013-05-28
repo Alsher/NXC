@@ -34,7 +34,7 @@ task main()
  
  while(true)
  {
-  sT = Sensor(IN_1);
+  sT = Random(1000);
   NumOut(0,0, sT);
   
   messageSend = NumToStr(sT);
