@@ -1,0 +1,191 @@
+                          // Slave Brick 2  (connection slot 2)
+
+#include "NXCDefs.h"
+
+#define connection 2      4
+#define OutputBox 2
+#define InputBox 6
+
+
+int driveLeft;
+int driveRight;
+
+int driveLeftR;
+int driveRightR;
+
+int iS;
+int sT;
+string messageSend;
+
+
+void BluetoothCheck(int conn){                                    // makes sure the bluetooth connection is presistent/ existing
+    if (!BluetoothStatus(conn)==NO_ERR)
+    {
+    TextOut(5,LCD_LINE2,"Error, no connection");
+    Wait(1000);
+    Stop(true);
+    }
+}
+
+void moveForward(int moveLeft, int moveRight, int outA)
+{
+  OnFwd(OUT_B, moveLeft);
+  OnFwd(OUT_A, moveRight);
+}
+
+void moveReverse(int moveLeftR, int moveRightR, int outAr)
+{
+ OnRev(OUT_B, moveLeftR);
+ OnRev(OUT_A, moveRightR);
+}
+
+
+void reset()
+{
+  driveLeft = 0;
+  driveRight = 0;
+  driveLeftR = 0;
+  driveRightR = 0;
+}
+
+
+void moveVar(int split1Speed, int split2Direction)   // split1r = speed,        split2r = direction
+{                                                    // 1 = forward, 2 = reverse    1 = left, 2 = right
+  if(split1Speed == 4)                               // 3 + 4 = both                3 + 4 = both
+ {driveLeft = 0;                                                                                                          // need to be looked at again!
+  driveRight = 0;
+  driveLeftR = 0;
+  driveRightR = 0;
+  }
+  
+ if(split1Speed == 1 && split2Direction == 3)
+ {driveLeft = 80;
+  driveRight = 70;}
+
+   
+ if(split1Speed == 2 && split2Direction == 3)
+ {driveLeftR = 70;
+  driveRightR = 70;}
+
+
+ if(split1Speed == 1 && split2Direction == 1)
+ {driveLeft = 80;
+  driveRight = 20;}
+
+
+ if(split1Speed == 2 && split2Direction ==1)
+ {driveLeftR = 70;
+  driveRightR = 20;}
+
+
+ if(split1Speed == 1 && split2Direction == 2)
+ {driveLeft = 20;
+  driveRight = 70;}
+
+
+ if(split1Speed == 2 && split2Direction == 2)
+ {driveLeftR = 20;
+  driveRightR = 70;}
+
+
+ if(split1Speed == 4 && split2Direction == 3) {
+ driveLeft = 0;
+  driveRight = 0;
+  driveLeftR = 0;
+  driveRightR = 0;
+  }
+
+
+
+  switch (split1Speed)
+  {
+    case 1 :
+
+      moveForward(driveLeft, driveRight, 50);
+      break;
+    case 2 :
+
+      moveReverse(driveLeftR, driveRightR, 50);
+      break;
+      
+    case 4 :
+
+      moveForward(0,0,0);
+  
+      break;
+      
+    case 3 :
+
+      moveForward(0,0,0);
+
+      break;
+      
+      default :
+
+        reset();
+      }
+
+}
+
+
+
+
+
+void split(int received)
+{
+ string presplit = NumToStr(received);
+
+ string split1 = SubStr(presplit, 0, 1);
+ string split2 = SubStr(presplit, 1, 2);
+
+ int aftersplit1 = StrToNum(split1);
+ int aftersplit2 = StrToNum(split2);
+ 
+ TextOut(0, LCD_LINE5, "Splited: ");
+ NumOut(60, LCD_LINE5, aftersplit1);
+ NumOut(70, LCD_LINE5, aftersplit2);
+ ClearLine(LCD_LINE4);
+
+ //moveVar(aftersplit1, aftersplit2);        // disabled due to testing purpose
+}
+
+
+task main(){
+
+int in;
+
+
+BluetoothCheck(0);
+
+TextOut(5,LCD_LINE1,"Slave receiving");
+SendResponseNumber(OutputBox,0xFF); //unblock master
+
+while(true)
+  {
+
+            if(ReceiveRemoteNumber(InputBox,true,in) != STAT_MSG_EMPTY_MAILBOX)
+            {
+
+            TextOut(0,LCD_LINE3,"In:");
+            split(in);
+
+
+            NumOut(20,LCD_LINE3,in);
+
+
+            SendResponseNumber(OutputBox,0xFF);
+
+            TextOut(50, LCD_LINE3, messageSend);
+            }
+
+
+
+
+//Wait(5); //take breath (optional)
+
+  }
+}
+
+
+
+

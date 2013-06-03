@@ -1,11 +1,11 @@
-                          // Slave Brick
+                          // Slave Brick 1 (connection slot 1)
 
 #include "NXCDefs.h"
+
 #define connection 1
 #define OutputBox 1
 #define InputBox 5
-#define OutputBox2 2
-#define InputBox2 4
+
 
 int driveLeft;
 int driveRight;
@@ -51,7 +51,7 @@ void reset()
 
 void moveVar(int split1Speed, int split2Direction)   // split1r = speed,        split2r = direction
 {                                                    // 1 = forward, 2 = reverse    1 = left, 2 = right
-  if(split1Speed == 4)                               // 3 + 4 = both                3 + 4 = both
+  if(split1Speed == 4)                               // 3 + 4 = both                3 + 4 = both                       // need to be looked at again
  {driveLeft = 0;
   driveRight = 0;
   driveLeftR = 0;
@@ -146,39 +146,11 @@ void split(int received)
  NumOut(70, LCD_LINE5, aftersplit2);
  ClearLine(LCD_LINE4);
 
- moveVar(aftersplit1, aftersplit2);
+ //moveVar(aftersplit1, aftersplit2);              // disabled due to testing purpose!
 }
 
-void SendRS485(const string message)
-{
- byte messageLength = ArrayLen(message);
- 
- SetHSOutputBuffer(0, messageLength, message);
- SetHSOutputBufferOutPtr(0);
- SetHSOutputBufferInPtr(messageLength);
-
- SetHSState(HS_SEND_DATA);
- SetHSFlags(HS_UPDATE);   // this sends the message
-
-
-}
-
-
-void waitForSending()
-{
- while(HSOutputBufferOutPtr() < HSOutputBufferInPtr())
- {
- }
-}
 
 task main(){
- SetSensorTouch(IN_1); //for testing purpose only
-
- SetSensorType(IN_4, SENSOR_TYPE_HIGHSPEED);         //
- SetHSState(HS_INITIALISE);                          // Let RS485 Port initialise and get ready (see Wait(10);)
- SetHSFlags(HS_UPDATE);                              //
-
- Wait(10);
 
 int in;
 
@@ -200,15 +172,9 @@ while(true)
 
             NumOut(20,LCD_LINE3,in);
 
-
             SendResponseNumber(OutputBox,0xFF);
-            //messageSend = NumToStr(in);
             
             TextOut(50, LCD_LINE3, messageSend);
-            int iSSS = Random(1000);
-            messageSend = NumToStr(iSSS);
-            SendRS485(messageSend);
-            waitForSending();
             }
 
 

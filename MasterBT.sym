@@ -1,708 +1,731 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_002BluetoothCheck	6	1	0	4	2
-1	__SRSTmpLongVal	6	1	4	4	2
-2	__signed_stack_001sensorv2	6	1	8	4	33
-3	__RRNTmpVal	6	1	12	4	4
-4	__signed_stack_002sensorv2	6	1	16	4	16
-5	__signed_stack_001BluetoothCheck	6	1	20	4	4
-6	__D0bluetooth	6	1	24	4	17
-7	__D0BluetoothCheck	6	1	28	4	6
-8	__D0sensorv2	6	1	32	4	68
-9	__signed_stack_002bluetooth	6	1	36	4	6
-10	__signed_stack_001bluetooth	6	1	40	4	10
-11	__TextOutMutex	9	0	44	4	8
-12	__sensorv2_7qG2_s2_7qG2_000	4	1	48	2	5
+0	__D0sensorv2	6	1	0	4	68
+1	__signed_stack_001bluetooth	6	1	4	4	6
+2	__D0BluetoothCheck	6	1	8	4	12
+3	__SRSTmpLongVal	6	1	12	4	4
+4	__D0bluetooth	6	1	16	4	11
+5	__signed_stack_002bluetooth	6	1	20	4	6
+6	__signed_stack_002sensorv2	6	1	24	4	16
+7	__Wait_7qG2_ms_7qG2_000_inline_BluetoothCheck	5	1	28	4	2
+8	__signed_stack_001sensorv2	6	1	32	4	33
+9	__signed_stack_001BluetoothCheck	6	1	36	4	8
+10	__signed_stack_002BluetoothCheck	6	1	40	4	4
+11	__TextOutMutex	9	0	44	4	10
+12	__BluetoothCheck_7qG2_conn2_7qG2_000	4	1	48	2	2
 13	__sensorv2_7qG2_s1_7qG2_000	4	1	50	2	5
-14	__bluetooth_7qG2_ack_7qG2_000	4	1	52	2	3
-15	__sensorv2_7qG2_s4_7qG2_000	4	1	54	2	5
-16	__sensorv2_7qG2_s3_7qG2_000	4	1	56	2	5
-17	driveDirection	4	1	58	2	5
-18	intsend	4	1	60	2	3
-19	__BluetoothCheck_7qG2_conn_7qG2_000	4	1	62	2	2
-20	driveSpeed	4	1	64	2	5
-21	__zfBluetoothCheck	1	1	66	1	3
-22	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	67	1	16
-23	____initialize_global_data_return	1	1	68	1	3
-24	__BluetoothCheck_return	1	1	69	1	3
-25	__sensorv2_return	1	1	70	1	3
-26	__zfsensorv2	1	1	71	1	56
+14	__BluetoothCheck_7qG2_conn_7qG2_000	4	1	52	2	2
+15	driveSpeed	4	1	54	2	5
+16	driveDirection	4	1	56	2	5
+17	intsend	4	1	58	2	4
+18	__sensorv2_7qG2_s3_7qG2_000	4	1	60	2	5
+19	__sensorv2_7qG2_s4_7qG2_000	4	1	62	2	5
+20	__sensorv2_7qG2_s2_7qG2_000	4	1	64	2	5
+21	__constVal6	2	0	66	1	1
+22	__constVal4	2	0	67	1	4
+23	__constVal5	2	0	68	1	3
+24	__constVal1	2	0	69	1	9
+25	__constVal3	2	0	70	1	3
+26	__constVal0	2	1	71	1	1
 27	__bluetooth_return	1	1	72	1	3
-28	__ResetSensorPort	1	1	73	1	6
-29	__constVal5	2	0	74	1	2
-30	__constVal4	2	0	75	1	2
-31	__ResetSensorTmp	1	1	76	1	2
-32	__constVal2	2	0	77	1	2
-33	____ResetSensorSubroutine_return	1	1	78	1	6
-34	__RRNErr	1	1	79	1	1
-35	__constVal3	2	0	80	1	2
-36	__constVal1	2	0	81	1	11
-37	__zfbluetooth	1	1	82	1	12
-38	__WFRRTmpByte	1	1	83	1	2
-39	__constVal32	2	0	84	1	4
-40	__constVal0	2	1	85	1	1
-41	__MRArgs	8	0	4	8	5
-42	__MRArgs.Result	2	1	88	1	5
-43	__MRArgs.QueueID	1	1	89	1	5
-44	__MRArgs.Remove	1	1	90	1	5
-45	__MRArgs.Message	7	0	92	4	5
-46	__MRArgs.Message.Message_type	1	0	0	1	0
-47	__TextOutArgs	8	0	4	16	24
-48	__TextOutArgs.Result	2	1	96	1	24
-49	__TextOutArgs.Location	8	0	2	4	24
-50	__TextOutArgs.Location.X	4	1	100	2	24
-51	__TextOutArgs.Location.Y	4	1	102	2	24
-52	__TextOutArgs.Text	7	0	104	4	24
-53	__TextOutArgs.Text.Text_type	1	0	0	1	0
-54	__TextOutArgs.Options	5	1	108	4	24
-55	__CHSWArgs	8	0	2	8	3
-56	__CHSWArgs.Status	2	1	112	1	3
-57	__CHSWArgs.Buffer	7	0	114	4	3
-58	__CHSWArgs.Buffer.Buffer_type	1	0	0	1	0
-59	__CBTWArgs	8	0	3	8	4
-60	__CBTWArgs.Result	2	1	116	1	4
-61	__CBTWArgs.Connection	1	1	117	1	4
-62	__CBTWArgs.Buffer	7	0	118	4	4
-63	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
-64	__CBTCSArgs	8	0	2	4	4
-65	__CBTCSArgs.Result	2	1	120	1	4
-66	__CBTCSArgs.Connection	1	1	121	1	4
-67	__constStr0010	7	0	122	4	1
-68	__constStr0010.__constStr0010_type	1	1	0	1	0
-69	__constStr0009	7	0	124	4	1
-70	__constStr0009.__constStr0009_type	1	1	0	1	0
-71	__constStr0011	7	0	126	4	1
-72	__constStr0011.__constStr0011_type	1	1	0	1	0
-73	__ArrHelper__sensorv2_244_0	7	0	128	4	2
-74	__ArrHelper__sensorv2_244_0.__ArrHelper__sensorv2_244_0_type	1	0	0	1	0
-75	__strbufsensorv2	7	0	130	4	12
-76	__strbufsensorv2.__strbufsensorv2_type	1	0	0	1	0
-77	__strretvalsensorv2	7	0	132	4	6
-78	__strretvalsensorv2.__strretvalsensorv2_type	1	0	0	1	0
-79	__strbufbluetooth	7	0	134	4	4
-80	__strbufbluetooth.__strbufbluetooth_type	1	0	0	1	0
-81	__ArrHelper__sensorv2_244_1	7	0	136	4	2
-82	__ArrHelper__sensorv2_244_1.__ArrHelper__sensorv2_244_1_type	1	0	0	1	0
-83	__strbufBluetoothCheck	7	0	138	4	2
-84	__strbufBluetoothCheck.__strbufBluetoothCheck_type	1	0	0	1	0
-85	__DCMessageWritePacket	7	0	140	4	1
-86	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
-87	driveSpeedS	7	0	142	4	2
-88	driveSpeedS.driveSpeedS_type	1	0	0	1	0
-89	driveDirectionS	7	0	144	4	2
+28	____initialize_global_data_return	1	1	73	1	3
+29	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	74	1	16
+30	__BluetoothCheck_return	1	1	75	1	3
+31	__constVal32	2	0	76	1	4
+32	__sensorv2_return	1	1	77	1	3
+33	__ResetSensorTmp	1	1	78	1	2
+34	__zfBluetoothCheck	1	1	79	1	6
+35	__zfbluetooth	1	1	80	1	2
+36	__WFRRTmpByte	1	1	81	1	4
+37	____ResetSensorSubroutine_return	1	1	82	1	6
+38	__zfsensorv2	1	1	83	1	56
+39	__ResetSensorPort	1	1	84	1	6
+40	__constVal2	2	0	85	1	6
+41	__CBTWArgs	8	0	3	8	8
+42	__CBTWArgs.Result	2	1	88	1	8
+43	__CBTWArgs.Connection	1	1	89	1	8
+44	__CBTWArgs.Buffer	7	0	90	4	8
+45	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+46	__TextOutArgs	8	0	4	16	30
+47	__TextOutArgs.Result	2	1	92	1	30
+48	__TextOutArgs.Location	8	0	2	4	30
+49	__TextOutArgs.Location.X	4	1	96	2	30
+50	__TextOutArgs.Location.Y	4	1	98	2	30
+51	__TextOutArgs.Text	7	0	100	4	30
+52	__TextOutArgs.Text.Text_type	1	0	0	1	0
+53	__TextOutArgs.Options	5	1	104	4	30
+54	__CHSWArgs	8	0	2	8	6
+55	__CHSWArgs.Status	2	1	108	1	6
+56	__CHSWArgs.Buffer	7	0	110	4	6
+57	__CHSWArgs.Buffer.Buffer_type	1	0	0	1	0
+58	__CBTCSArgs	8	0	2	4	8
+59	__CBTCSArgs.Result	2	1	112	1	8
+60	__CBTCSArgs.Connection	1	1	113	1	8
+61	__SRSFlattenBuf	7	0	114	4	4
+62	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
+63	__DCMessageWritePacket	7	0	116	4	2
+64	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+65	__constStr0010	7	0	118	4	1
+66	__constStr0010.__constStr0010_type	1	1	0	1	0
+67	__constStr0011	7	0	120	4	1
+68	__constStr0011.__constStr0011_type	1	1	0	1	0
+69	__SRSSendBuf	7	0	122	4	6
+70	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+71	__SRSTmpBuf	7	0	124	4	12
+72	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+73	__strbufbluetooth	7	0	126	4	4
+74	__strbufbluetooth.__strbufbluetooth_type	1	0	0	1	0
+75	driveSpeedS	7	0	128	4	2
+76	driveSpeedS.driveSpeedS_type	1	0	0	1	0
+77	__strbufBluetoothCheck	7	0	130	4	4
+78	__strbufBluetoothCheck.__strbufBluetoothCheck_type	1	0	0	1	0
+79	__strretvalsensorv2	7	0	132	4	6
+80	__strretvalsensorv2.__strretvalsensorv2_type	1	0	0	1	0
+81	__strbufsensorv2	7	0	134	4	12
+82	__strbufsensorv2.__strbufsensorv2_type	1	0	0	1	0
+83	__ArrHelper__sensorv2_244_0	7	0	136	4	2
+84	__ArrHelper__sensorv2_244_0.__ArrHelper__sensorv2_244_0_type	1	0	0	1	0
+85	__constStr0009	7	0	138	4	2
+86	__constStr0009.__constStr0009_type	1	1	0	1	0
+87	__ArrHelper__sensorv2_244_1	7	0	140	4	2
+88	__ArrHelper__sensorv2_244_1.__ArrHelper__sensorv2_244_1_type	1	0	0	1	0
+89	driveDirectionS	7	0	142	4	2
 90	driveDirectionS.driveDirectionS_type	1	0	0	1	0
-91	stringbuff	7	0	146	4	2
+91	stringbuff	7	0	144	4	2
 92	stringbuff.stringbuff_type	1	0	0	1	0
-93	__SRSFlattenBuf	7	0	148	4	2
-94	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
-95	__SRSSendBuf	7	0	150	4	3
-96	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
-97	__SRSTmpBuf	7	0	152	4	6
-98	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	121	0	#line 121 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	122	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	121	2	#line 121 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	121	2	#line 121 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	122	2		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
-0	121	5	#line 121 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
+0	130	0	#line 130 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	131	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	130	2	#line 130 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	130	2	#line 130 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	131	2		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	130	5	#line 130 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 0	3718	5	#line 3718 "NXCDefs.h"
 0	3719	5	#pragma macro 6
 0	3719	5		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
 0	3719	9		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
 0	3719	13		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
 0	3719	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	7092	17	#line 7092 "NXCDefs.h"
+0	7029	17	#line 7029 "NXCDefs.h"
 0	3718	17	#line 3718 "NXCDefs.h"
-0	122	17	#line 122 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	122	17	#line 122 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	123	17		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
-0	122	20	#line 122 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
+0	131	17	#line 131 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	131	17	#line 131 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	132	17		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	131	20	#line 131 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 0	3718	20	#line 3718 "NXCDefs.h"
 0	3719	20	#pragma macro 6
 0	3719	20		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
 0	3719	24		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
 0	3719	28		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
 0	3719	30		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	7102	32	#line 7102 "NXCDefs.h"
+0	7039	32	#line 7039 "NXCDefs.h"
 0	3718	32	#line 3718 "NXCDefs.h"
-0	123	32	#line 123 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	123	32	#line 123 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	124	32		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 2
-0	123	35	#line 123 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
+0	132	32	#line 132 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	132	32	#line 132 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	133	32		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 2
+0	132	35	#line 132 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 0	3718	35	#line 3718 "NXCDefs.h"
 0	3719	35	#pragma macro 6
 0	3719	35		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
 0	3719	39		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
 0	3719	43		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
 0	3719	45		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	7112	47	#line 7112 "NXCDefs.h"
+0	7049	47	#line 7049 "NXCDefs.h"
 0	3718	47	#line 3718 "NXCDefs.h"
-0	124	47	#line 124 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	124	47	#line 124 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	125	47		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 3
-0	124	50	#line 124 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
+0	133	47	#line 133 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	133	47	#line 133 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	134	47		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 3
+0	133	50	#line 133 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 0	3718	50	#line 3718 "NXCDefs.h"
 0	3719	50	#pragma macro 6
 0	3719	50		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
 0	3719	54		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
 0	3719	58		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
 0	3719	60		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	7122	62	#line 7122 "NXCDefs.h"
+0	7059	62	#line 7059 "NXCDefs.h"
 0	3718	62	#line 3718 "NXCDefs.h"
-0	125	62	#line 125 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	127	62	#line 127 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	128	62		subcall bluetooth, __bluetooth_return
-0	127	64	#line 127 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-0	128	64		exit -1, -1
+0	134	62	#line 134 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	136	62	#line 136 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	137	62		subcall bluetooth, __bluetooth_return
+0	136	64	#line 136 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	137	64		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	4889	11		subret ____ResetSensorSubroutine_return
-2	23	0	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	24	0	#pragma macro 5
-2	24	0		mov __CBTCSArgs.Connection, __BluetoothCheck_7qG2_conn_7qG2_000
-2	24	2		syscall 28, __CBTCSArgs
-2	6290	5	#line 6290 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	23	5	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	24	5		not __signed_stack_001BluetoothCheck, __CBTCSArgs.Result
-2	23	8	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	24	8	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	25	8		set __D0BluetoothCheck, 0
-2	24	11	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	25	11		cmp 4, __zfBluetoothCheck, __signed_stack_001BluetoothCheck, __D0BluetoothCheck
-2	24	15	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	25	15		mov __D0BluetoothCheck, __zfBluetoothCheck
-2	25	17	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	26	17		brtst 4, __NXC_Label_606, __zfBluetoothCheck
-2	25	20	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	26	20		set __signed_stack_001BluetoothCheck, 5
-2	25	23	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	25	23	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	26	23		set __signed_stack_002BluetoothCheck, 48
-2	25	26	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	25	26	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	26	26		strcat __strbufBluetoothCheck, __constStr0009
-2	26	30	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	27	30		acquire __TextOutMutex
-2	26	31	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	27	31		mov __TextOutArgs.Location.X, __signed_stack_001BluetoothCheck
-2	26	33	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	27	33		mov __TextOutArgs.Location.Y, __signed_stack_002BluetoothCheck
-2	26	35	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	27	35		set __TextOutArgs.Options, 0
-2	26	38	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	27	38		mov __TextOutArgs.Text, __strbufBluetoothCheck
-2	26	40	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	27	40		syscall 13, __TextOutArgs
-2	26	43	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	27	43		mov __D0BluetoothCheck, __TextOutArgs.Result
-2	26	45	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	27	45		release __TextOutMutex
-2	26	46	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	26	46	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	26	46	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	7921	46	#line 7921 "NXCDefs.h"
-2	7922	46		wait 1000
-2	7921	48	#line 7921 "NXCDefs.h"
-2	27	48	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	27	48	#line 27 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	28	48		set __D0BluetoothCheck, 1
-2	28	51	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	29	51		stop __D0BluetoothCheck
-2	28	53	#line 28 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	32	53	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	32	53	#line 32 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-2	33	53		subret __BluetoothCheck_return
-3	48	0	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	49	0		getin __sensorv2_7qG2_s1_7qG2_000, __constVal0, 4
-3	48	4	#line 48 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	49	4	#line 49 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	50	4		getin __sensorv2_7qG2_s2_7qG2_000, __constVal1, 4
-3	49	8	#line 49 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	50	8	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	51	8		getin __sensorv2_7qG2_s3_7qG2_000, __constVal2, 4
-3	50	12	#line 50 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	51	12	#line 51 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	52	12		getin __sensorv2_7qG2_s4_7qG2_000, __constVal3, 4
-3	51	16	#line 51 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	54	16	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	55	16		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s1_7qG2_000
-3	54	18	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	54	18	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	55	18		set __D0sensorv2, 1
-3	54	21	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	55	21		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
-3	54	25	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	55	25		mov __D0sensorv2, __zfsensorv2
-3	54	27	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	55	27		brtst 4, __NXC_Label_640, __zfsensorv2
-3	54	30	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	55	30		mov __signed_stack_001sensorv2, __D0sensorv2
-3	54	32	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	55	32		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s2_7qG2_000
-3	54	34	#line 54 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	55	34	#line 55 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	56	34		set __D0sensorv2, 0
-3	55	37	#line 55 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	56	37		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
-3	55	41	#line 55 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	55	41	#line 55 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	56	41		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
-3	55	45	#line 55 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	56	45		tst 5, __zfsensorv2, __D0sensorv2
-3	55	48	#line 55 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	56	48		brtst 4, __NXC_Label_641, __zfsensorv2
-3	56	51	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	57	51		set driveSpeed, 1
-3	56	54	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	56	54	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	56	54	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	56	54	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	57	54		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s1_7qG2_000
-3	56	56	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	56	56	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	57	56		set __D0sensorv2, 1
-3	56	59	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	57	59		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
-3	56	63	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	57	63		mov __D0sensorv2, __zfsensorv2
-3	56	65	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	57	65		brtst 4, __NXC_Label_645, __zfsensorv2
-3	56	68	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	57	68		mov __signed_stack_001sensorv2, __D0sensorv2
-3	56	70	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	57	70		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s2_7qG2_000
-3	56	72	#line 56 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	57	72	#line 57 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	58	72		set __D0sensorv2, 1
-3	57	75	#line 57 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	58	75		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
-3	57	79	#line 57 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	57	79	#line 57 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	58	79		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
-3	57	83	#line 57 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	58	83		tst 5, __zfsensorv2, __D0sensorv2
-3	57	86	#line 57 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	58	86		brtst 4, __NXC_Label_646, __zfsensorv2
-3	58	89	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	59	89		set driveSpeed, 3
-3	58	92	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	58	92	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	58	92	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	58	92	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	59	92		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s1_7qG2_000
-3	58	94	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	58	94	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	59	94		set __D0sensorv2, 0
-3	58	97	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	59	97		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
-3	58	101	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	59	101		mov __D0sensorv2, __zfsensorv2
-3	58	103	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	59	103		brtst 4, __NXC_Label_650, __zfsensorv2
-3	58	106	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	59	106		mov __signed_stack_001sensorv2, __D0sensorv2
-3	58	108	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	59	108		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s2_7qG2_000
-3	58	110	#line 58 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	59	110	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	60	110		set __D0sensorv2, 1
-3	59	113	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	60	113		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
-3	59	117	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	59	117	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	60	117		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
-3	59	121	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	60	121		tst 5, __zfsensorv2, __D0sensorv2
-3	59	124	#line 59 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	60	124		brtst 4, __NXC_Label_651, __zfsensorv2
-3	60	127	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	61	127		set driveSpeed, 2
-3	60	130	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	60	130	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	60	130	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	60	130	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	61	130		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s1_7qG2_000
-3	60	132	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	60	132	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	61	132		set __D0sensorv2, 0
-3	60	135	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	61	135		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
-3	60	139	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	61	139		mov __D0sensorv2, __zfsensorv2
-3	60	141	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	61	141		brtst 4, __NXC_Label_655, __zfsensorv2
-3	60	144	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	61	144		mov __signed_stack_001sensorv2, __D0sensorv2
-3	60	146	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	61	146		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s2_7qG2_000
-3	60	148	#line 60 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	61	148	#line 61 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	62	148		set __D0sensorv2, 0
-3	61	151	#line 61 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	62	151		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
-3	61	155	#line 61 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	61	155	#line 61 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	62	155		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
-3	61	159	#line 61 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	62	159		tst 5, __zfsensorv2, __D0sensorv2
-3	61	162	#line 61 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	62	162		brtst 4, __NXC_Label_656, __zfsensorv2
-3	63	165	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	64	165		set driveSpeed, 4
-3	63	168	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	63	168	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	63	168	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	63	168	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	64	168		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s3_7qG2_000
-3	63	170	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	63	170	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	64	170		set __D0sensorv2, 1
-3	63	173	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	64	173		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
-3	63	177	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	64	177		mov __D0sensorv2, __zfsensorv2
-3	63	179	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	64	179		brtst 4, __NXC_Label_660, __zfsensorv2
-3	63	182	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	64	182		mov __signed_stack_001sensorv2, __D0sensorv2
-3	63	184	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	64	184		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s4_7qG2_000
-3	63	186	#line 63 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	64	186	#line 64 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	65	186		set __D0sensorv2, 0
-3	64	189	#line 64 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	65	189		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
-3	64	193	#line 64 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	64	193	#line 64 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	65	193		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
-3	64	197	#line 64 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	65	197		tst 5, __zfsensorv2, __D0sensorv2
-3	64	200	#line 64 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	65	200		brtst 4, __NXC_Label_661, __zfsensorv2
-3	65	203	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	66	203		set driveDirection, 1
-3	65	206	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	65	206	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	65	206	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	65	206	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	66	206		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s3_7qG2_000
-3	65	208	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	65	208	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	66	208		set __D0sensorv2, 1
-3	65	211	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	66	211		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
-3	65	215	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	66	215		mov __D0sensorv2, __zfsensorv2
-3	65	217	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	66	217		brtst 4, __NXC_Label_665, __zfsensorv2
-3	65	220	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	66	220		mov __signed_stack_001sensorv2, __D0sensorv2
-3	65	222	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	66	222		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s4_7qG2_000
-3	65	224	#line 65 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	66	224	#line 66 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	67	224		set __D0sensorv2, 1
-3	66	227	#line 66 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	67	227		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
-3	66	231	#line 66 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	66	231	#line 66 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	67	231		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
-3	66	235	#line 66 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	67	235		tst 5, __zfsensorv2, __D0sensorv2
-3	66	238	#line 66 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	67	238		brtst 4, __NXC_Label_666, __zfsensorv2
-3	67	241	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	68	241		set driveDirection, 3
-3	67	244	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	67	244	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	67	244	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	67	244	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	68	244		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s3_7qG2_000
-3	67	246	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	67	246	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	68	246		set __D0sensorv2, 0
-3	67	249	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	68	249		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
-3	67	253	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	68	253		mov __D0sensorv2, __zfsensorv2
-3	67	255	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	68	255		brtst 4, __NXC_Label_670, __zfsensorv2
-3	67	258	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	68	258		mov __signed_stack_001sensorv2, __D0sensorv2
-3	67	260	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	68	260		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s4_7qG2_000
-3	67	262	#line 67 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	68	262	#line 68 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	69	262		set __D0sensorv2, 1
-3	68	265	#line 68 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	69	265		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
-3	68	269	#line 68 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	68	269	#line 68 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	69	269		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
-3	68	273	#line 68 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	69	273		tst 5, __zfsensorv2, __D0sensorv2
-3	68	276	#line 68 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	69	276		brtst 4, __NXC_Label_671, __zfsensorv2
-3	69	279	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	70	279		set driveDirection, 2
-3	69	282	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	69	282	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	69	282	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	69	282	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	70	282		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s3_7qG2_000
-3	69	284	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	69	284	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	70	284		set __D0sensorv2, 0
-3	69	287	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	70	287		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
-3	69	291	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	70	291		mov __D0sensorv2, __zfsensorv2
-3	69	293	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	70	293		brtst 4, __NXC_Label_675, __zfsensorv2
-3	69	296	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	70	296		mov __signed_stack_001sensorv2, __D0sensorv2
-3	69	298	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	70	298		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s4_7qG2_000
-3	69	300	#line 69 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	70	300	#line 70 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	71	300		set __D0sensorv2, 0
-3	70	303	#line 70 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	71	303		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
-3	70	307	#line 70 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	70	307	#line 70 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	71	307		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
-3	70	311	#line 70 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	71	311		tst 5, __zfsensorv2, __D0sensorv2
-3	70	314	#line 70 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	71	314		brtst 4, __NXC_Label_676, __zfsensorv2
-3	75	317	#line 75 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	76	317		set driveDirection, 3
-3	75	320	#line 75 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	75	320	#line 75 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	75	320	#line 75 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	75	320	#line 75 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	76	320		mov __D0sensorv2, driveSpeed
-3	76	322	#line 76 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	77	322		numtostr __strretvalsensorv2, __D0sensorv2
-3	76	325	#line 76 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	77	325		strcat __strbufsensorv2, __strretvalsensorv2
-3	76	329	#line 76 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	77	329		mov driveSpeedS, __strbufsensorv2
-3	76	331	#line 76 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	76	331	#line 76 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	77	331		mov __D0sensorv2, driveDirection
-3	79	333	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	80	333		numtostr __strretvalsensorv2, __D0sensorv2
-3	79	336	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	80	336		strcat __strbufsensorv2, __strretvalsensorv2
-3	79	340	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	80	340		mov driveDirectionS, __strbufsensorv2
-3	79	342	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	79	342	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	80	342		strcat __strbufsensorv2, driveSpeedS
-3	79	346	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	80	346		mov __ArrHelper__sensorv2_244_0, __strbufsensorv2
-3	79	348	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	80	348		strcat __strbufsensorv2, driveDirectionS
-3	79	352	#line 79 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	80	352		mov __ArrHelper__sensorv2_244_1, __strbufsensorv2
-3	81	354	#line 81 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	82	354		strcat __strretvalsensorv2, __ArrHelper__sensorv2_244_0, __ArrHelper__sensorv2_244_1
-3	81	359	#line 81 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	82	359		strcat __strbufsensorv2, __strretvalsensorv2
-3	81	363	#line 81 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	82	363		mov stringbuff, __strbufsensorv2
-3	81	365	#line 81 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	81	365	#line 81 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	82	365		strcat __strbufsensorv2, stringbuff
-3	86	369	#line 86 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	87	369		strtonum intsend, __signed_stack_001sensorv2, __strbufsensorv2, 65535, 65535
-3	86	375	#line 86 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	86	375	#line 86 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	87	375	#line 87 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-3	88	375		subret __sensorv2_return
-4	91	0	#line 91 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	92	0		set __BluetoothCheck_7qG2_conn_7qG2_000, 1
-4	91	3	#line 91 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	92	3	#line 92 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	93	3		subcall BluetoothCheck, __BluetoothCheck_return
-4	92	5	#line 92 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	92	5	#line 92 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	93	5		set __signed_stack_001bluetooth, 10
-4	92	8	#line 92 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	92	8	#line 92 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	93	8		set __signed_stack_002bluetooth, 56
-4	92	11	#line 92 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	92	11	#line 92 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	93	11		strcat __strbufbluetooth, __constStr0010
-4	93	15	#line 93 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	94	15		acquire __TextOutMutex
-4	93	16	#line 93 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	94	16		mov __TextOutArgs.Location.X, __signed_stack_001bluetooth
-4	93	18	#line 93 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	94	18		mov __TextOutArgs.Location.Y, __signed_stack_002bluetooth
-4	93	20	#line 93 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	94	20		set __TextOutArgs.Options, 0
-4	93	23	#line 93 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	94	23		mov __TextOutArgs.Text, __strbufbluetooth
-4	93	25	#line 93 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	94	25		syscall 13, __TextOutArgs
-4	93	28	#line 93 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	94	28		mov __D0bluetooth, __TextOutArgs.Result
-4	93	30	#line 93 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	94	30		release __TextOutMutex
-4	93	31	#line 93 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	94	31	#line 94 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	95	31		set __D0bluetooth, 1
-4	95	34	#line 95 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	96	34		tst 5, __zfbluetooth, __D0bluetooth
-4	95	37	#line 95 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	96	37		brtst 4, __NXC_Label_692, __zfbluetooth
-4	96	40	#line 96 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	97	40		subcall sensorv2, __sensorv2_return
-4	96	42	#line 96 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	101	42	#line 101 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	101	42	#line 101 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	101	42	#line 101 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	101	42	#line 101 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	102	42		set __signed_stack_001bluetooth, 0
-4	101	45	#line 101 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	101	45	#line 101 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	102	45		set __signed_stack_002bluetooth, 40
-4	101	48	#line 101 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	101	48	#line 101 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	102	48		strcat __strbufbluetooth, __constStr0011
-4	102	52	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	52		acquire __TextOutMutex
-4	102	53	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	53		mov __TextOutArgs.Location.X, __signed_stack_001bluetooth
-4	102	55	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	55		mov __TextOutArgs.Location.Y, __signed_stack_002bluetooth
-4	102	57	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	57		set __TextOutArgs.Options, 0
-4	102	60	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	60		mov __TextOutArgs.Text, __strbufbluetooth
-4	102	62	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	62		syscall 13, __TextOutArgs
-4	102	65	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	65		mov __D0bluetooth, __TextOutArgs.Result
-4	102	67	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	67		release __TextOutMutex
-4	102	68	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	102	68	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	68		set __signed_stack_001bluetooth, 20
-4	102	71	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	102	71	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	71		set __signed_stack_002bluetooth, 40
-4	102	74	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	102	74	#line 102 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	103	74		mov __D0bluetooth, intsend
-4	105	76	#line 105 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	76		acquire __TextOutMutex
-4	105	77	#line 105 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	77		mov __TextOutArgs.Location.X, __signed_stack_001bluetooth
-4	105	79	#line 105 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	79		mov __TextOutArgs.Location.Y, __signed_stack_002bluetooth
-4	105	81	#line 105 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	81		set __TextOutArgs.Options, 0
-4	105	84	#line 105 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	84		numtostr __TextOutArgs.Text, __D0bluetooth
-4	105	87	#line 105 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	87		syscall 13, __TextOutArgs
-4	105	90	#line 105 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	90		mov __D0bluetooth, __TextOutArgs.Result
-4	105	92	#line 105 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	92		release __TextOutMutex
-4	105	93	#line 105 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	93	#line 106 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	107	93		set __bluetooth_7qG2_ack_7qG2_000, 0
-4	106	96	#line 106 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	96	#line 106 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	96	#line 106 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	107	96	#pragma macro 25
-4	107	96		mov __SRSTmpBuf, __DCMessageWritePacket
-4	107	98		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal5
-4	107	103		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
-4	107	108		mov __SRSTmpLongVal, intsend
-4	107	110		flatten __SRSFlattenBuf, __SRSTmpLongVal
-4	107	113		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
-4	107	118		brcmp 0, __ConnWrite_Else0, __constVal1, __constVal4
-4	107	122		sub __WFRRTmpByte, __constVal1, __constVal4
-4	107	126		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
-4	107	131		syscall 37, __CHSWArgs
-4	107	134		mov __D0bluetooth, __CHSWArgs.Status
-4	107	136		jmp __ConnWrite_EndIf0
-4	107	138		mov __CBTWArgs.Connection, __constVal1
-4	107	140		mov __CBTWArgs.Buffer, __SRSSendBuf
-4	107	142		syscall 29, __CBTWArgs
-4	107	145		mov __D0bluetooth, __CBTWArgs.Result
-4	7000	147	#line 7000 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	147	#line 106 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	106	147	#line 106 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	109	147	#line 109 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	110	147		mov __signed_stack_001bluetooth, __bluetooth_7qG2_ack_7qG2_000
-4	109	149	#line 109 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	109	149	#line 109 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	110	149		set __D0bluetooth, 255
-4	109	152	#line 109 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	110	152		cmp 4, __zfbluetooth, __signed_stack_001bluetooth, __D0bluetooth
-4	109	156	#line 109 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	110	156	#line 110 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	111	156		not __D0bluetooth, __zfbluetooth
-4	111	159	#line 111 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	112	159		tst 5, __zfbluetooth, __D0bluetooth
-4	111	162	#line 111 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	112	162		brtst 4, __NXC_Label_710, __zfbluetooth
-4	111	165	#line 111 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	112	165	#pragma macro 9
-4	112	165		mov __MRArgs.QueueID, __constVal1
-4	112	167		mov __MRArgs.Remove, __constVal1
-4	112	169		set __RRNTmpVal, 0
-4	112	172		syscall 27, __MRArgs
-4	112	175		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
-4	112	180		mov __bluetooth_7qG2_ack_7qG2_000, __RRNTmpVal
-4	112	182		mov __signed_stack_001bluetooth, __MRArgs.Result
-4	7026	184	#line 7026 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	111	184	#line 111 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	111	184	#line 111 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	112	184		set __D0bluetooth, 0
-4	111	187	#line 111 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	112	187		cmp 4, __zfbluetooth, __signed_stack_001bluetooth, __D0bluetooth
-4	111	191	#line 111 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	111	191	#line 111 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	112	191		not __D0bluetooth, __zfbluetooth
-4	113	194	#line 113 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	114	194		tst 5, __zfbluetooth, __D0bluetooth
-4	113	197	#line 113 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	114	197		brtst 4, __NXC_Label_716, __zfbluetooth
-4	113	200	#line 113 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	113	200	#line 113 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	114	200		jmp __NXC_Label_715
-4	113	202	#line 113 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	115	202	#line 115 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	116	202		jmp __NXC_Label_709
-4	115	204	#line 115 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	115	204	#line 115 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	115	204	#line 115 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	7921	204	#line 7921 "NXCDefs.h"
-4	7922	204		wait 50
-4	7921	206	#line 7921 "NXCDefs.h"
-4	116	206	#line 116 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	119	206	#line 119 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	120	206		jmp __NXC_Label_691
-4	119	208	#line 119 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	119	208	#line 119 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-4	120	208		subret __bluetooth_return
-5	130	0	#line 130 "C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc"
-5	131	0		subret ____initialize_global_data_return
+2	26	0	#line 26 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	27	0	#pragma macro 5
+2	27	0		mov __CBTCSArgs.Connection, __BluetoothCheck_7qG2_conn_7qG2_000
+2	27	2		syscall 28, __CBTCSArgs
+2	6216	5	#line 6216 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	26	5	#line 26 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	27	5		not __signed_stack_001BluetoothCheck, __CBTCSArgs.Result
+2	26	8	#line 26 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	27	8	#line 27 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	28	8		set __D0BluetoothCheck, 0
+2	27	11	#line 27 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	28	11		cmp 4, __zfBluetoothCheck, __signed_stack_001BluetoothCheck, __D0BluetoothCheck
+2	27	15	#line 27 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	28	15		mov __D0BluetoothCheck, __zfBluetoothCheck
+2	28	17	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	29	17		brtst 4, __NXC_Label_606, __zfBluetoothCheck
+2	28	20	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	29	20		set __signed_stack_001BluetoothCheck, 5
+2	28	23	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	28	23	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	29	23		set __signed_stack_002BluetoothCheck, 48
+2	28	26	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	28	26	#line 28 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	29	26		strcat __strbufBluetoothCheck, __constStr0009
+2	29	30	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	30	30		acquire __TextOutMutex
+2	29	31	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	30	31		mov __TextOutArgs.Location.X, __signed_stack_001BluetoothCheck
+2	29	33	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	30	33		mov __TextOutArgs.Location.Y, __signed_stack_002BluetoothCheck
+2	29	35	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	30	35		set __TextOutArgs.Options, 0
+2	29	38	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	30	38		mov __TextOutArgs.Text, __strbufBluetoothCheck
+2	29	40	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	30	40		syscall 13, __TextOutArgs
+2	29	43	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	30	43		mov __D0BluetoothCheck, __TextOutArgs.Result
+2	29	45	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	30	45		release __TextOutMutex
+2	29	46	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	29	46	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	30	46		set __Wait_7qG2_ms_7qG2_000_inline_BluetoothCheck, 1000
+2	29	49	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	7921	49	#line 7921 "NXCDefs.h"
+2	7922	49		wait 1000
+2	7921	51	#line 7921 "NXCDefs.h"
+2	30	51	#line 30 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	30	51	#line 30 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	31	51		set __D0BluetoothCheck, 1
+2	31	54	#line 31 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	32	54		stop __D0BluetoothCheck
+2	31	56	#line 31 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	33	56	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	33	56	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	34	56	#pragma macro 5
+2	34	56		mov __CBTCSArgs.Connection, __BluetoothCheck_7qG2_conn2_7qG2_000
+2	34	58		syscall 28, __CBTCSArgs
+2	6286	61	#line 6286 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	33	61	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	34	61		not __signed_stack_001BluetoothCheck, __CBTCSArgs.Result
+2	33	64	#line 33 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	34	64	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	64		set __D0BluetoothCheck, 0
+2	34	67	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	67		cmp 4, __zfBluetoothCheck, __signed_stack_001BluetoothCheck, __D0BluetoothCheck
+2	34	71	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	71		mov __D0BluetoothCheck, __zfBluetoothCheck
+2	35	73	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	73		brtst 4, __NXC_Label_617, __zfBluetoothCheck
+2	35	76	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	76		set __signed_stack_001BluetoothCheck, 5
+2	35	79	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	79	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	79		set __signed_stack_002BluetoothCheck, 48
+2	35	82	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	82	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	82		strcat __strbufBluetoothCheck, __constStr0009
+2	36	86	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	86		acquire __TextOutMutex
+2	36	87	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	87		mov __TextOutArgs.Location.X, __signed_stack_001BluetoothCheck
+2	36	89	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	89		mov __TextOutArgs.Location.Y, __signed_stack_002BluetoothCheck
+2	36	91	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	91		set __TextOutArgs.Options, 0
+2	36	94	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	94		mov __TextOutArgs.Text, __strbufBluetoothCheck
+2	36	96	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	96		syscall 13, __TextOutArgs
+2	36	99	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	99		mov __D0BluetoothCheck, __TextOutArgs.Result
+2	36	101	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	101		release __TextOutMutex
+2	36	102	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	102	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	102		set __Wait_7qG2_ms_7qG2_000_inline_BluetoothCheck, 1000
+2	36	105	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	7921	105	#line 7921 "NXCDefs.h"
+2	7922	105		wait 1000
+2	7921	107	#line 7921 "NXCDefs.h"
+2	37	107	#line 37 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	107	#line 37 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	38	107		set __D0BluetoothCheck, 1
+2	38	110	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	39	110		stop __D0BluetoothCheck
+2	38	112	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	43	112	#line 43 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	43	112	#line 43 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	44	112		subret __BluetoothCheck_return
+3	59	0	#line 59 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	60	0		getin __sensorv2_7qG2_s1_7qG2_000, __constVal0, 4
+3	59	4	#line 59 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	60	4	#line 60 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	61	4		getin __sensorv2_7qG2_s2_7qG2_000, __constVal1, 4
+3	60	8	#line 60 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	61	8	#line 61 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	62	8		getin __sensorv2_7qG2_s3_7qG2_000, __constVal2, 4
+3	61	12	#line 61 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	62	12	#line 62 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	63	12		getin __sensorv2_7qG2_s4_7qG2_000, __constVal3, 4
+3	62	16	#line 62 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	65	16	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	66	16		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s1_7qG2_000
+3	65	18	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	65	18	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	66	18		set __D0sensorv2, 1
+3	65	21	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	66	21		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
+3	65	25	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	66	25		mov __D0sensorv2, __zfsensorv2
+3	65	27	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	66	27		brtst 4, __NXC_Label_651, __zfsensorv2
+3	65	30	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	66	30		mov __signed_stack_001sensorv2, __D0sensorv2
+3	65	32	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	66	32		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s2_7qG2_000
+3	65	34	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	66	34	#line 66 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	67	34		set __D0sensorv2, 0
+3	66	37	#line 66 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	67	37		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
+3	66	41	#line 66 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	66	41	#line 66 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	67	41		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
+3	66	45	#line 66 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	67	45		tst 5, __zfsensorv2, __D0sensorv2
+3	66	48	#line 66 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	67	48		brtst 4, __NXC_Label_652, __zfsensorv2
+3	67	51	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	68	51		set driveSpeed, 1
+3	67	54	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	67	54	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	67	54	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	67	54	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	68	54		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s1_7qG2_000
+3	67	56	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	67	56	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	68	56		set __D0sensorv2, 1
+3	67	59	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	68	59		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
+3	67	63	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	68	63		mov __D0sensorv2, __zfsensorv2
+3	67	65	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	68	65		brtst 4, __NXC_Label_656, __zfsensorv2
+3	67	68	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	68	68		mov __signed_stack_001sensorv2, __D0sensorv2
+3	67	70	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	68	70		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s2_7qG2_000
+3	67	72	#line 67 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	68	72	#line 68 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	69	72		set __D0sensorv2, 1
+3	68	75	#line 68 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	69	75		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
+3	68	79	#line 68 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	68	79	#line 68 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	69	79		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
+3	68	83	#line 68 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	69	83		tst 5, __zfsensorv2, __D0sensorv2
+3	68	86	#line 68 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	69	86		brtst 4, __NXC_Label_657, __zfsensorv2
+3	69	89	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	70	89		set driveSpeed, 3
+3	69	92	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	69	92	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	69	92	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	69	92	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	70	92		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s1_7qG2_000
+3	69	94	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	69	94	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	70	94		set __D0sensorv2, 0
+3	69	97	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	70	97		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
+3	69	101	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	70	101		mov __D0sensorv2, __zfsensorv2
+3	69	103	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	70	103		brtst 4, __NXC_Label_661, __zfsensorv2
+3	69	106	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	70	106		mov __signed_stack_001sensorv2, __D0sensorv2
+3	69	108	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	70	108		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s2_7qG2_000
+3	69	110	#line 69 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	70	110	#line 70 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	71	110		set __D0sensorv2, 1
+3	70	113	#line 70 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	71	113		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
+3	70	117	#line 70 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	70	117	#line 70 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	71	117		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
+3	70	121	#line 70 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	71	121		tst 5, __zfsensorv2, __D0sensorv2
+3	70	124	#line 70 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	71	124		brtst 4, __NXC_Label_662, __zfsensorv2
+3	71	127	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	72	127		set driveSpeed, 2
+3	71	130	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	71	130	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	71	130	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	71	130	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	72	130		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s1_7qG2_000
+3	71	132	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	71	132	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	72	132		set __D0sensorv2, 0
+3	71	135	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	72	135		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
+3	71	139	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	72	139		mov __D0sensorv2, __zfsensorv2
+3	71	141	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	72	141		brtst 4, __NXC_Label_666, __zfsensorv2
+3	71	144	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	72	144		mov __signed_stack_001sensorv2, __D0sensorv2
+3	71	146	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	72	146		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s2_7qG2_000
+3	71	148	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	72	148	#line 72 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	73	148		set __D0sensorv2, 0
+3	72	151	#line 72 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	73	151		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
+3	72	155	#line 72 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	72	155	#line 72 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	73	155		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
+3	72	159	#line 72 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	73	159		tst 5, __zfsensorv2, __D0sensorv2
+3	72	162	#line 72 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	73	162		brtst 4, __NXC_Label_667, __zfsensorv2
+3	74	165	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	75	165		set driveSpeed, 4
+3	74	168	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	74	168	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	74	168	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	74	168	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	75	168		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s3_7qG2_000
+3	74	170	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	74	170	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	75	170		set __D0sensorv2, 1
+3	74	173	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	75	173		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
+3	74	177	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	75	177		mov __D0sensorv2, __zfsensorv2
+3	74	179	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	75	179		brtst 4, __NXC_Label_671, __zfsensorv2
+3	74	182	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	75	182		mov __signed_stack_001sensorv2, __D0sensorv2
+3	74	184	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	75	184		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s4_7qG2_000
+3	74	186	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	75	186	#line 75 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	76	186		set __D0sensorv2, 0
+3	75	189	#line 75 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	76	189		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
+3	75	193	#line 75 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	75	193	#line 75 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	76	193		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
+3	75	197	#line 75 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	76	197		tst 5, __zfsensorv2, __D0sensorv2
+3	75	200	#line 75 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	76	200		brtst 4, __NXC_Label_672, __zfsensorv2
+3	76	203	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	77	203		set driveDirection, 1
+3	76	206	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	76	206	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	76	206	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	76	206	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	77	206		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s3_7qG2_000
+3	76	208	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	76	208	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	77	208		set __D0sensorv2, 1
+3	76	211	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	77	211		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
+3	76	215	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	77	215		mov __D0sensorv2, __zfsensorv2
+3	76	217	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	77	217		brtst 4, __NXC_Label_676, __zfsensorv2
+3	76	220	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	77	220		mov __signed_stack_001sensorv2, __D0sensorv2
+3	76	222	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	77	222		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s4_7qG2_000
+3	76	224	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	77	224	#line 77 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	78	224		set __D0sensorv2, 1
+3	77	227	#line 77 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	78	227		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
+3	77	231	#line 77 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	77	231	#line 77 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	78	231		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
+3	77	235	#line 77 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	78	235		tst 5, __zfsensorv2, __D0sensorv2
+3	77	238	#line 77 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	78	238		brtst 4, __NXC_Label_677, __zfsensorv2
+3	78	241	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	79	241		set driveDirection, 3
+3	78	244	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	78	244	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	78	244	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	78	244	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	79	244		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s3_7qG2_000
+3	78	246	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	78	246	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	79	246		set __D0sensorv2, 0
+3	78	249	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	79	249		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
+3	78	253	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	79	253		mov __D0sensorv2, __zfsensorv2
+3	78	255	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	79	255		brtst 4, __NXC_Label_681, __zfsensorv2
+3	78	258	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	79	258		mov __signed_stack_001sensorv2, __D0sensorv2
+3	78	260	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	79	260		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s4_7qG2_000
+3	78	262	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	79	262	#line 79 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	80	262		set __D0sensorv2, 1
+3	79	265	#line 79 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	80	265		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
+3	79	269	#line 79 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	79	269	#line 79 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	80	269		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
+3	79	273	#line 79 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	80	273		tst 5, __zfsensorv2, __D0sensorv2
+3	79	276	#line 79 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	80	276		brtst 4, __NXC_Label_682, __zfsensorv2
+3	80	279	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	81	279		set driveDirection, 2
+3	80	282	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	80	282	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	80	282	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	80	282	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	81	282		mov __signed_stack_001sensorv2, __sensorv2_7qG2_s3_7qG2_000
+3	80	284	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	80	284	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	81	284		set __D0sensorv2, 0
+3	80	287	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	81	287		cmp 4, __zfsensorv2, __signed_stack_001sensorv2, __D0sensorv2
+3	80	291	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	81	291		mov __D0sensorv2, __zfsensorv2
+3	80	293	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	81	293		brtst 4, __NXC_Label_686, __zfsensorv2
+3	80	296	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	81	296		mov __signed_stack_001sensorv2, __D0sensorv2
+3	80	298	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	81	298		mov __signed_stack_002sensorv2, __sensorv2_7qG2_s4_7qG2_000
+3	80	300	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	81	300	#line 81 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	82	300		set __D0sensorv2, 0
+3	81	303	#line 81 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	82	303		cmp 4, __zfsensorv2, __signed_stack_002sensorv2, __D0sensorv2
+3	81	307	#line 81 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	81	307	#line 81 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	82	307		and __D0sensorv2, __signed_stack_001sensorv2, __zfsensorv2
+3	81	311	#line 81 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	82	311		tst 5, __zfsensorv2, __D0sensorv2
+3	81	314	#line 81 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	82	314		brtst 4, __NXC_Label_687, __zfsensorv2
+3	83	317	#line 83 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	84	317		set driveDirection, 3
+3	83	320	#line 83 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	83	320	#line 83 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	83	320	#line 83 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	83	320	#line 83 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	84	320		mov __D0sensorv2, driveSpeed
+3	84	322	#line 84 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	85	322		numtostr __strretvalsensorv2, __D0sensorv2
+3	84	325	#line 84 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	85	325		strcat __strbufsensorv2, __strretvalsensorv2
+3	84	329	#line 84 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	85	329		mov driveSpeedS, __strbufsensorv2
+3	84	331	#line 84 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	84	331	#line 84 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	85	331		mov __D0sensorv2, driveDirection
+3	87	333	#line 87 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	88	333		numtostr __strretvalsensorv2, __D0sensorv2
+3	87	336	#line 87 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	88	336		strcat __strbufsensorv2, __strretvalsensorv2
+3	87	340	#line 87 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	88	340		mov driveDirectionS, __strbufsensorv2
+3	87	342	#line 87 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	87	342	#line 87 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	88	342		strcat __strbufsensorv2, driveSpeedS
+3	87	346	#line 87 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	88	346		mov __ArrHelper__sensorv2_244_0, __strbufsensorv2
+3	87	348	#line 87 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	88	348		strcat __strbufsensorv2, driveDirectionS
+3	87	352	#line 87 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	88	352		mov __ArrHelper__sensorv2_244_1, __strbufsensorv2
+3	89	354	#line 89 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	90	354		strcat __strretvalsensorv2, __ArrHelper__sensorv2_244_0, __ArrHelper__sensorv2_244_1
+3	89	359	#line 89 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	90	359		strcat __strbufsensorv2, __strretvalsensorv2
+3	89	363	#line 89 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	90	363		mov stringbuff, __strbufsensorv2
+3	89	365	#line 89 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	89	365	#line 89 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	90	365		strcat __strbufsensorv2, stringbuff
+3	94	369	#line 94 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	95	369		strtonum intsend, __signed_stack_001sensorv2, __strbufsensorv2, 65535, 65535
+3	94	375	#line 94 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	94	375	#line 94 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	95	375	#line 95 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	96	375		subret __sensorv2_return
+4	99	0	#line 99 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	100	0		set __BluetoothCheck_7qG2_conn_7qG2_000, 1
+4	99	3	#line 99 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	99	3	#line 99 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	100	3		set __BluetoothCheck_7qG2_conn2_7qG2_000, 2
+4	99	6	#line 99 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	100	6	#line 100 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	101	6		subcall BluetoothCheck, __BluetoothCheck_return
+4	100	8	#line 100 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	100	8	#line 100 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	101	8		set __signed_stack_001bluetooth, 10
+4	100	11	#line 100 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	100	11	#line 100 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	101	11		set __signed_stack_002bluetooth, 56
+4	100	14	#line 100 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	100	14	#line 100 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	101	14		strcat __strbufbluetooth, __constStr0010
+4	101	18	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	102	18		acquire __TextOutMutex
+4	101	19	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	102	19		mov __TextOutArgs.Location.X, __signed_stack_001bluetooth
+4	101	21	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	102	21		mov __TextOutArgs.Location.Y, __signed_stack_002bluetooth
+4	101	23	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	102	23		set __TextOutArgs.Options, 0
+4	101	26	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	102	26		mov __TextOutArgs.Text, __strbufbluetooth
+4	101	28	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	102	28		syscall 13, __TextOutArgs
+4	101	31	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	102	31		mov __D0bluetooth, __TextOutArgs.Result
+4	101	33	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	102	33		release __TextOutMutex
+4	101	34	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	102	34	#line 102 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	103	34		set __D0bluetooth, 1
+4	103	37	#line 103 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	104	37		tst 5, __zfbluetooth, __D0bluetooth
+4	103	40	#line 103 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	104	40		brtst 4, __NXC_Label_705, __zfbluetooth
+4	104	43	#line 104 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	105	43		subcall sensorv2, __sensorv2_return
+4	104	45	#line 104 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	109	45	#line 109 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	109	45	#line 109 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	109	45	#line 109 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	109	45	#line 109 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	110	45		set __signed_stack_001bluetooth, 0
+4	109	48	#line 109 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	109	48	#line 109 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	110	48		set __signed_stack_002bluetooth, 40
+4	109	51	#line 109 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	109	51	#line 109 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	110	51		strcat __strbufbluetooth, __constStr0011
+4	110	55	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	55		acquire __TextOutMutex
+4	110	56	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	56		mov __TextOutArgs.Location.X, __signed_stack_001bluetooth
+4	110	58	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	58		mov __TextOutArgs.Location.Y, __signed_stack_002bluetooth
+4	110	60	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	60		set __TextOutArgs.Options, 0
+4	110	63	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	63		mov __TextOutArgs.Text, __strbufbluetooth
+4	110	65	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	65		syscall 13, __TextOutArgs
+4	110	68	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	68		mov __D0bluetooth, __TextOutArgs.Result
+4	110	70	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	70		release __TextOutMutex
+4	110	71	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	110	71	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	71		set __signed_stack_001bluetooth, 20
+4	110	74	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	110	74	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	74		set __signed_stack_002bluetooth, 40
+4	110	77	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	110	77	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	111	77		mov __D0bluetooth, intsend
+4	113	79	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	79		acquire __TextOutMutex
+4	113	80	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	80		mov __TextOutArgs.Location.X, __signed_stack_001bluetooth
+4	113	82	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	82		mov __TextOutArgs.Location.Y, __signed_stack_002bluetooth
+4	113	84	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	84		set __TextOutArgs.Options, 0
+4	113	87	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	87		numtostr __TextOutArgs.Text, __D0bluetooth
+4	113	90	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	90		syscall 13, __TextOutArgs
+4	113	93	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	93		mov __D0bluetooth, __TextOutArgs.Result
+4	113	95	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	95		release __TextOutMutex
+4	113	96	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	96	#line 114 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	96	#line 114 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	96	#line 114 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	96	#line 114 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	115	96	#pragma macro 25
+4	115	96		mov __SRSTmpBuf, __DCMessageWritePacket
+4	115	98		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal5
+4	115	103		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+4	115	108		mov __SRSTmpLongVal, intsend
+4	115	110		flatten __SRSFlattenBuf, __SRSTmpLongVal
+4	115	113		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+4	115	118		brcmp 0, __ConnWrite_Else0, __constVal1, __constVal4
+4	115	122		sub __WFRRTmpByte, __constVal1, __constVal4
+4	115	126		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+4	115	131		syscall 37, __CHSWArgs
+4	115	134		mov __D0bluetooth, __CHSWArgs.Status
+4	115	136		jmp __ConnWrite_EndIf0
+4	115	138		mov __CBTWArgs.Connection, __constVal1
+4	115	140		mov __CBTWArgs.Buffer, __SRSSendBuf
+4	115	142		syscall 29, __CBTWArgs
+4	115	145		mov __D0bluetooth, __CBTWArgs.Result
+4	6998	147	#line 6998 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	147	#line 114 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	114	147	#line 114 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	115	147	#line 115 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	116	147	#pragma macro 25
+4	116	147		mov __SRSTmpBuf, __DCMessageWritePacket
+4	116	149		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal6
+4	116	154		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+4	116	159		mov __SRSTmpLongVal, intsend
+4	116	161		flatten __SRSFlattenBuf, __SRSTmpLongVal
+4	116	164		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+4	116	169		brcmp 0, __ConnWrite_Else1, __constVal2, __constVal4
+4	116	173		sub __WFRRTmpByte, __constVal2, __constVal4
+4	116	177		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+4	116	182		syscall 37, __CHSWArgs
+4	116	185		mov __D0bluetooth, __CHSWArgs.Status
+4	116	187		jmp __ConnWrite_EndIf1
+4	116	189		mov __CBTWArgs.Connection, __constVal2
+4	116	191		mov __CBTWArgs.Buffer, __SRSSendBuf
+4	116	193		syscall 29, __CBTWArgs
+4	116	196		mov __D0bluetooth, __CBTWArgs.Result
+4	7002	198	#line 7002 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	115	198	#line 115 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	115	198	#line 115 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	128	198	#line 128 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	129	198		jmp __NXC_Label_704
+4	128	200	#line 128 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	128	200	#line 128 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	129	200		subret __bluetooth_return
+5	139	0	#line 139 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	140	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc
+0	main	0	C:\Users\Apple\AppData\Local\Temp\temp.nxc
 1	__ResetSensorSubroutine	67	NXTDefs.h
-2	BluetoothCheck	80	C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc
-3	sensorv2	135	C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc
-4	bluetooth	512	C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc
-5	__initialize_global_data	722	C:\Users\Apple\Documents\GitHub\NXC\MasterBT.nxc
+2	BluetoothCheck	80	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+3	sensorv2	194	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+4	bluetooth	571	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+5	__initialize_global_data	773	C:\Users\Apple\AppData\Local\Temp\temp.nxc

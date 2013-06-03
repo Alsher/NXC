@@ -4,10 +4,13 @@
 #include "NXCDefs.h"
 #define connection 1
 #define connection2 2
+
 #define OutputBox 5
-#define InputBox 1
-#define OutputBox2 4
+#define OutputBox2 6
+
 #define InputBox2 2
+#define InputBox 1
+
 int iS;
 int iSe2;
 
@@ -20,13 +23,21 @@ string driveDirectionS;
 string stringbuff;
 int intsend;
 
-void BluetoothCheck(int conn){
-if (!BluetoothStatus(conn)==NO_ERR)                      // make sure the bluetooth connection is presistent/ existing
+void BluetoothCheck(int conn, int conn2){
+if (!BluetoothStatus(conn)==NO_ERR)                      // make sure the bluetooth connection (first brick) is presistent/ existing
    {
    TextOut(5,LCD_LINE2,"Error, no connection");
    Wait(1000);
    Stop(true);
    }
+   
+if (!BluetoothStatus(conn2)==NO_ERR)                      // make sure the bluetooth connection (second brick) is presistent/ existing
+   {
+   TextOut(5,LCD_LINE2,"Error, no connection");
+   Wait(1000);
+   Stop(true);
+   }
+
 }
 
 
@@ -69,9 +80,6 @@ void sensorv2()
  driveDirection = 2;      // Right
  if(s3 == 0 && s4 == 0)
  driveDirection = 3;      // straight
-
- /*driveSpeed = 4;      // testing with fixed var due to a lack of material
- driveDirection = 3;  // testing with fixed var due to lack of material     */
  
  driveSpeedS = NumToStr(driveSpeed);
  driveDirectionS = NumToStr(driveDirection);
@@ -89,7 +97,7 @@ void bluetooth()
 {
  int  iSe, ack;
 
-BluetoothCheck(connection);
+BluetoothCheck(connection, connection2);
 TextOut(10,LCD_LINE1,"Master sending");
                              while(true)
                              {
@@ -105,15 +113,16 @@ TextOut(10,LCD_LINE1,"Master sending");
 
                              ack = 0;
                              SendRemoteNumber(connection,OutputBox,intsend);
+                             SendRemoteNumber(connection2,OutputBox2, intsend  );
 
 
-                             until(ack==0xFF)
+                             /*until(ack==0xFF)
                               {
-                              until(ReceiveRemoteNumber(InputBox,true,ack) == NO_ERR);
+                              until(ReceiveRemoteNumber(InputBox2,true,ack) == NO_ERR);          // disabled for testing purpose only!
 
                               }
+                             */
 
-                             Wait(50);
                              }
 }
 
