@@ -1,4 +1,4 @@
-                          // Slave Brick 1 (connection slot 1)
+                          // Slave Brick 1 (connection slot 1, JABBA)
 
 #include "NXCDefs.h"
 
@@ -29,14 +29,14 @@ void BluetoothCheck(int conn){                                    // makes sure 
 
 void moveForward(int moveLeft, int moveRight, int outA)
 {
-  OnFwd(OUT_B, moveLeft);
-  OnFwd(OUT_A, moveRight);
+  OnRev(OUT_A, moveLeft);
+  OnRev(OUT_B, moveRight);
 }
 
 void moveReverse(int moveLeftR, int moveRightR, int outAr)
 {
- OnRev(OUT_B, moveLeftR);
- OnRev(OUT_A, moveRightR);
+ OnFwd(OUT_A, moveLeftR);
+ OnFwd(OUT_B, moveRightR);
 }
 
 
@@ -49,55 +49,71 @@ void reset()
 }
 
 
-void moveVar(int split1Speed, int split2Direction)   // split1r = speed,        split2r = direction
-{                                                    // 1 = forward, 2 = reverse    1 = left, 2 = right
-  if(split1Speed == 4)                               // 3 + 4 = both                3 + 4 = both                       // need to be looked at again
- {driveLeft = 0;
-  driveRight = 0;
-  driveLeftR = 0;
-  driveRightR = 0;
-  }
-  
- if(split1Speed == 1 && split2Direction == 3)
- {driveLeft = 80;
-  driveRight = 70;}
-
-   
- if(split1Speed == 2 && split2Direction == 3)
- {driveLeftR = 70;
-  driveRightR = 70;}
 
 
- if(split1Speed == 1 && split2Direction == 1)
- {driveLeft = 80;
-  driveRight = 20;}
+void moveVar (int split1Speed, int split2Direction, int noSplit)
+{
+
+ switch (noSplit)
+ {
+   case 11 :
+
+     driveLeft = 80;
+     driveRight = 20;
+     break;
+
+   case 12 :
+
+     driveLeft = 20;
+     driveRight = 70;
+     break;
+
+   case 13 :
+
+     driveLeft = 80;
+     driveRight = 70;
+     break;
+
+   case 21 :
+
+     driveLeftR = 70;
+     driveRightR = 20;
+     break;
+
+   case 22:
+
+     driveLeftR = 20;
+     driveRightR = 70;
+     break;
+
+   case 23:
+
+     driveLeftR = 70;
+     driveRightR = 70;
+     break;
+
+   case 43:
+
+      driveLeft = 0;
+      driveRight = 0;
+      driveLeftR = 0;
+      driveRightR = 0;
+     break;
 
 
- if(split1Speed == 2 && split2Direction ==1)
- {driveLeftR = 70;
-  driveRightR = 20;}
+     default :
 
-
- if(split1Speed == 1 && split2Direction == 2)
- {driveLeft = 20;
-  driveRight = 70;}
-
-
- if(split1Speed == 2 && split2Direction == 2)
- {driveLeftR = 20;
-  driveRightR = 70;}
-
-
- if(split1Speed == 4 && split2Direction == 3) {
- driveLeft = 0;
-  driveRight = 0;
-  driveLeftR = 0;
-  driveRightR = 0;
-  }
+        driveLeft = 0;
+        driveRight = 0;
+        driveLeftR = 0;
+        driveRightR = 0;
+     }
 
 
 
-  switch (split1Speed)
+
+
+ switch (split1Speed)                                            // exec control system
   {
     case 1 :
 
@@ -107,26 +123,24 @@ void moveVar(int split1Speed, int split2Direction)   // split1r = speed,        
 
       moveReverse(driveLeftR, driveRightR, 50);
       break;
-      
+
     case 4 :
 
       moveForward(0,0,0);
-  
+
       break;
-      
+
     case 3 :
 
       moveForward(0,0,0);
 
       break;
-      
+
       default :
 
         reset();
       }
-
 }
-
 
 
 
@@ -138,6 +152,8 @@ void split(int received)
  string split1 = SubStr(presplit, 0, 1);
  string split2 = SubStr(presplit, 1, 2);
 
+ int noSplitPre = StrToNum(presplit);
+
  int aftersplit1 = StrToNum(split1);
  int aftersplit2 = StrToNum(split2);
  
@@ -146,7 +162,7 @@ void split(int received)
  NumOut(70, LCD_LINE5, aftersplit2);
  ClearLine(LCD_LINE4);
 
- //moveVar(aftersplit1, aftersplit2);              // disabled due to testing purpose!
+ moveVar(aftersplit1, aftersplit2, noSplitPre);              // disabled due to testing purpose!
 }
 
 

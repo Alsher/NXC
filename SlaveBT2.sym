@@ -1,445 +1,850 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__D0split	6	1	0	4	13
-1	__signed_stack_001BluetoothCheck	6	1	4	4	4
-2	__D0main	6	1	8	4	12
-3	__RRNTmpVal	6	1	12	4	4
-4	__D0BluetoothCheck	6	1	16	4	6
-5	__signed_stack_001split	6	1	20	4	12
-6	__signed_stack_002split	6	1	24	4	6
-7	__signed_stack_002main	6	1	28	4	8
-8	__signed_stack_002BluetoothCheck	6	1	32	4	2
-9	__signed_stack_001main	6	1	36	4	10
-10	__SRNTmpVal	6	1	40	4	4
-11	__TextOutMutex	9	0	44	4	18
-12	__BluetoothCheck_7qG2_conn_7qG2_000	4	1	48	2	2
-13	__main_7qG2_in_7qG2_000	4	1	50	2	3
-14	__constVal255	4	0	52	2	2
-15	__split_7qG2_received_7qG2_000	4	1	54	2	2
-16	__split_7qG2_aftersplit2_7qG2_000	4	1	56	2	2
-17	__split_7qG2_aftersplit1_7qG2_000	4	1	58	2	2
-18	__constVal6	2	0	60	1	1
-19	__split_return	1	1	61	1	3
-20	__BluetoothCheck_return	1	1	62	1	3
-21	__constVal0	2	1	63	1	2
-22	__constVal1	2	0	64	1	1
-23	__ClearLine_7qG2_line_7qG2_000_inline_split	1	1	65	1	2
-24	__constVal10	2	0	66	1	2
-25	__zfBluetoothCheck	1	1	67	1	3
-26	__RRNErr	1	1	68	1	1
-27	__zfmain	1	1	69	1	5
-28	____initialize_global_data_return	1	1	70	1	3
-29	__constVal2	2	0	71	1	2
-30	__CBTCSArgs	8	0	2	4	4
-31	__CBTCSArgs.Result	2	1	72	1	4
-32	__CBTCSArgs.Connection	1	1	73	1	4
-33	__MWArgs	8	0	3	8	7
-34	__MWArgs.Result	2	1	76	1	7
-35	__MWArgs.QueueID	1	1	77	1	7
-36	__MWArgs.Message	7	0	78	4	7
-37	__MWArgs.Message.Message_type	1	0	0	1	0
-38	__MRArgs	8	0	4	8	5
-39	__MRArgs.Result	2	1	80	1	5
-40	__MRArgs.QueueID	1	1	81	1	5
-41	__MRArgs.Remove	1	1	82	1	5
-42	__MRArgs.Message	7	0	84	4	5
-43	__MRArgs.Message.Message_type	1	0	0	1	0
-44	__TextOutArgs	8	0	4	16	53
-45	__TextOutArgs.Result	2	1	88	1	53
-46	__TextOutArgs.Location	8	0	2	4	53
-47	__TextOutArgs.Location.X	4	1	92	2	53
-48	__TextOutArgs.Location.Y	4	1	94	2	53
-49	__TextOutArgs.Text	7	0	96	4	53
-50	__TextOutArgs.Text.Text_type	1	0	0	1	0
-51	__TextOutArgs.Options	5	1	100	4	53
-52	__split_7qG2_split2_7qG2_000	7	0	104	4	2
-53	__split_7qG2_split2_7qG2_000.__split_7qG2_split2_7qG2_000_type	1	0	0	1	0
-54	__constStr0011	7	0	106	4	1
-55	__constStr0011.__constStr0011_type	1	1	0	1	0
-56	__constStr0012	7	0	108	4	1
-57	__constStr0012.__constStr0012_type	1	1	0	1	0
-58	__constStr0010	7	0	110	4	1
-59	__constStr0010.__constStr0010_type	1	1	0	1	0
-60	__strbufmain	7	0	112	4	6
-61	__strbufmain.__strbufmain_type	1	0	0	1	0
-62	__strbufsplit	7	0	114	4	16
-63	__strbufsplit.__strbufsplit_type	1	0	0	1	0
-64	__BlankLine	7	0	116	4	1
-65	__BlankLine.__BlankLine_type	1	0	0	1	0
-66	__strbufBluetoothCheck	7	0	118	4	2
-67	__strbufBluetoothCheck.__strbufBluetoothCheck_type	1	0	0	1	0
-68	__strretvalsplit	7	0	120	4	6
-69	__strretvalsplit.__strretvalsplit_type	1	0	0	1	0
-70	__split_7qG2_presplit_7qG2_000	7	0	122	4	3
-71	__split_7qG2_presplit_7qG2_000.__split_7qG2_presplit_7qG2_000_type	1	0	0	1	0
-72	__split_7qG2_split1_7qG2_000	7	0	124	4	2
-73	__split_7qG2_split1_7qG2_000.__split_7qG2_split1_7qG2_000_type	1	0	0	1	0
-74	messageSend	7	0	126	4	1
-75	messageSend.messageSend_type	1	0	0	1	0
-76	__constStr0009	7	0	128	4	1
-77	__constStr0009.__constStr0009_type	1	1	0	1	0
+1	__D0moveVar	6	1	4	4	13
+2	__signed_stack_002BluetoothCheck	6	1	8	4	2
+3	__signed_stack_001BluetoothCheck	6	1	12	4	4
+4	__D0main	6	1	16	4	12
+5	__D0BluetoothCheck	6	1	20	4	6
+6	__D0moveReverse	6	1	24	4	6
+7	__D0moveForward	6	1	28	4	10
+8	__signed_stack_002moveReverse	6	1	32	4	4
+9	__signed_stack_001moveReverse	6	1	36	4	4
+10	__signed_stack_002split	6	1	40	4	6
+11	__signed_stack_001split	6	1	44	4	13
+12	__signed_stack_002main	6	1	48	4	8
+13	__signed_stack_001main	6	1	52	4	10
+14	__signed_stack_002moveForward	6	1	56	4	4
+15	__signed_stack_001moveForward	6	1	60	4	4
+16	__RRNTmpVal	6	1	64	4	4
+17	__TextOutMutex	9	0	68	4	26
+18	__SRNTmpVal	6	1	72	4	4
+19	driveLeft	4	1	76	2	7
+20	__moveReverse_7qG2_moveLeftR_7qG2_000	4	1	78	2	4
+21	__moveVar_7qG2_noSplit_7qG2_000	4	1	80	2	2
+22	__moveVar_7qG2_split1Speed_7qG2_000	4	1	82	2	2
+23	__moveReverse_7qG2_moveRightR_7qG2_000	4	1	84	2	4
+24	driveRight	4	1	86	2	7
+25	__BluetoothCheck_7qG2_conn_7qG2_000	4	1	88	2	2
+26	__moveForward_7qG2_moveRight_7qG2_000	4	1	90	2	5
+27	__moveForward_7qG2_moveLeft_7qG2_000	4	1	92	2	5
+28	driveLeftR	4	1	94	2	7
+29	driveRightR	4	1	96	2	7
+30	__moveForward_7qG2_outA_7qG2_000	4	1	98	2	3
+31	__split_7qG2_aftersplit1_7qG2_000	4	1	100	2	3
+32	__split_7qG2_aftersplit2_7qG2_000	4	1	102	2	2
+33	__split_7qG2_received_7qG2_000	4	1	104	2	2
+34	__split_7qG2_noSplitPre_7qG2_000	4	1	106	2	2
+35	__main_7qG2_in_7qG2_000	4	1	108	2	3
+36	__constVal255	4	0	110	2	2
+37	__moveForward_return	1	1	112	1	5
+38	__split_return	1	1	113	1	3
+39	__ClearLine_7qG2_line_7qG2_000_inline_split	1	1	114	1	2
+40	____initialize_global_data_return	1	1	115	1	3
+41	__constVal96	2	0	116	1	4
+42	__constVal21	2	0	117	1	1
+43	__constVal22	2	0	118	1	1
+44	__constVal12	2	0	119	1	1
+45	__moveVar_return	1	1	120	1	3
+46	__constVal23	2	0	121	1	1
+47	__constVal43	2	0	122	1	1
+48	__constVal63	2	0	123	1	4
+49	__reset_return	1	1	124	1	3
+50	__moveReverse_return	1	1	125	1	3
+51	__constVal10	2	0	126	1	2
+52	__constVal13	2	0	127	1	1
+53	__constVal4	2	0	128	1	1
+54	__constVal2	2	0	129	1	3
+55	__constVal11	2	0	130	1	1
+56	__RRNErr	1	1	131	1	1
+57	__zfmain	1	1	132	1	5
+58	__zfBluetoothCheck	1	1	133	1	3
+59	__constVal6	2	0	134	1	1
+60	__constVal1	2	0	135	1	4
+61	__constVal0	2	1	136	1	16
+62	__constVal32	2	0	137	1	12
+63	__BluetoothCheck_return	1	1	138	1	3
+64	__OnRev_Tmp	2	1	139	1	4
+65	__constVal3	2	0	140	1	5
+66	__CBTCSArgs	8	0	2	4	4
+67	__CBTCSArgs.Result	2	1	144	1	4
+68	__CBTCSArgs.Connection	1	1	145	1	4
+69	__TextOutArgs	8	0	4	16	77
+70	__TextOutArgs.Result	2	1	148	1	77
+71	__TextOutArgs.Location	8	0	2	4	77
+72	__TextOutArgs.Location.X	4	1	152	2	77
+73	__TextOutArgs.Location.Y	4	1	154	2	77
+74	__TextOutArgs.Text	7	0	156	4	77
+75	__TextOutArgs.Text.Text_type	1	0	0	1	0
+76	__TextOutArgs.Options	5	1	160	4	77
+77	__MRArgs	8	0	4	8	5
+78	__MRArgs.Result	2	1	164	1	5
+79	__MRArgs.QueueID	1	1	165	1	5
+80	__MRArgs.Remove	1	1	166	1	5
+81	__MRArgs.Message	7	0	168	4	5
+82	__MRArgs.Message.Message_type	1	0	0	1	0
+83	__MWArgs	8	0	3	8	7
+84	__MWArgs.Result	2	1	172	1	7
+85	__MWArgs.QueueID	1	1	173	1	7
+86	__MWArgs.Message	7	0	174	4	7
+87	__MWArgs.Message.Message_type	1	0	0	1	0
+88	messageSend	7	0	176	4	1
+89	messageSend.messageSend_type	1	0	0	1	0
+90	__constStr0009	7	0	178	4	1
+91	__constStr0009.__constStr0009_type	1	1	0	1	0
+92	__constStr0010	7	0	180	4	1
+93	__constStr0010.__constStr0010_type	1	1	0	1	0
+94	__constStr0012	7	0	182	4	1
+95	__constStr0012.__constStr0012_type	1	1	0	1	0
+96	__constStr0011	7	0	184	4	1
+97	__constStr0011.__constStr0011_type	1	1	0	1	0
+98	__strbufBluetoothCheck	7	0	186	4	2
+99	__strbufBluetoothCheck.__strbufBluetoothCheck_type	1	0	0	1	0
+100	__strbufsplit	7	0	188	4	18
+101	__strbufsplit.__strbufsplit_type	1	0	0	1	0
+102	__strretvalsplit	7	0	190	4	6
+103	__strretvalsplit.__strretvalsplit_type	1	0	0	1	0
+104	__BlankLine	7	0	192	4	1
+105	__BlankLine.__BlankLine_type	1	0	0	1	0
+106	__strbufmain	7	0	194	4	6
+107	__strbufmain.__strbufmain_type	1	0	0	1	0
+108	__split_7qG2_split2_7qG2_000	7	0	196	4	2
+109	__split_7qG2_split2_7qG2_000.__split_7qG2_split2_7qG2_000_type	1	0	0	1	0
+110	__split_7qG2_split1_7qG2_000	7	0	198	4	2
+111	__split_7qG2_split1_7qG2_000.__split_7qG2_split1_7qG2_000_type	1	0	0	1	0
+112	__split_7qG2_presplit_7qG2_000	7	0	200	4	4
+113	__split_7qG2_presplit_7qG2_000.__split_7qG2_presplit_7qG2_000_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	154	0	#line 154 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	155	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	154	2	#line 154 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	157	2	#line 157 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	158	2		set __BluetoothCheck_7qG2_conn_7qG2_000, 0
-0	157	5	#line 157 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	159	5	#line 159 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	160	5		subcall BluetoothCheck, __BluetoothCheck_return
-0	159	7	#line 159 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	159	7	#line 159 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	160	7		set __signed_stack_001main, 5
-0	159	10	#line 159 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	159	10	#line 159 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	160	10		set __signed_stack_002main, 56
-0	159	13	#line 159 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	159	13	#line 159 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	160	13		strcat __strbufmain, __constStr0011
-0	160	17	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	161	17		acquire __TextOutMutex
-0	160	18	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	161	18		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	160	20	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	161	20		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	160	22	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	161	22		set __TextOutArgs.Options, 0
-0	160	25	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	161	25		mov __TextOutArgs.Text, __strbufmain
-0	160	27	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	161	27		syscall 13, __TextOutArgs
-0	160	30	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	161	30		mov __D0main, __TextOutArgs.Result
-0	160	32	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	161	32		release __TextOutMutex
-0	160	33	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	160	33	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	161	33	#pragma macro 7
-0	161	33		add __MWArgs.QueueID, __constVal2, __constVal10
-0	161	37		mov __SRNTmpVal, __constVal255
-0	161	39		flatten __MWArgs.Message, __SRNTmpVal
-0	161	42		syscall 26, __MWArgs
-0	161	45		mov __D0main, __MWArgs.Result
-0	7308	47	#line 7308 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	160	47	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	160	47	#line 160 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	163	47	#line 163 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	164	47		set __D0main, 1
-0	165	50	#line 165 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	166	50		tst 5, __zfmain, __D0main
-0	165	53	#line 165 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	166	53		brtst 4, __NXC_Label_766, __zfmain
-0	165	56	#line 165 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	166	56	#pragma macro 9
-0	166	56		mov __MRArgs.QueueID, __constVal6
-0	166	58		mov __MRArgs.Remove, __constVal1
-0	166	60		set __RRNTmpVal, 0
-0	166	63		syscall 27, __MRArgs
-0	166	66		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
-0	166	71		mov __main_7qG2_in_7qG2_000, __RRNTmpVal
-0	166	73		mov __signed_stack_001main, __MRArgs.Result
-0	7321	75	#line 7321 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	165	75	#line 165 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	166	75	#line 166 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	167	75		set __D0main, 64
-0	166	78	#line 166 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	167	78		cmp 5, __zfmain, __signed_stack_001main, __D0main
-0	166	82	#line 166 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	167	82		mov __D0main, __zfmain
-0	168	84	#line 168 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	169	84		brtst 4, __NXC_Label_771, __zfmain
-0	168	87	#line 168 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	169	87		set __signed_stack_001main, 0
-0	168	90	#line 168 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	168	90	#line 168 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	169	90		set __signed_stack_002main, 40
-0	168	93	#line 168 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	168	93	#line 168 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	169	93		strcat __strbufmain, __constStr0012
-0	169	97	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	170	97		acquire __TextOutMutex
-0	169	98	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	170	98		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	169	100	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	170	100		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	169	102	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	170	102		set __TextOutArgs.Options, 0
-0	169	105	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	170	105		mov __TextOutArgs.Text, __strbufmain
-0	169	107	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	170	107		syscall 13, __TextOutArgs
-0	169	110	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	170	110		mov __D0main, __TextOutArgs.Result
-0	169	112	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	170	112		release __TextOutMutex
-0	169	113	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	169	113	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	170	113		mov __split_7qG2_received_7qG2_000, __main_7qG2_in_7qG2_000
-0	169	115	#line 169 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	172	115	#line 172 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	173	115		subcall split, __split_return
-0	172	117	#line 172 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	172	117	#line 172 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	173	117		set __signed_stack_001main, 20
-0	172	120	#line 172 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	172	120	#line 172 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	173	120		set __signed_stack_002main, 40
-0	172	123	#line 172 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	172	123	#line 172 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	173	123		mov __D0main, __main_7qG2_in_7qG2_000
-0	175	125	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	176	125		acquire __TextOutMutex
-0	175	126	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	176	126		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	175	128	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	176	128		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	175	130	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	176	130		set __TextOutArgs.Options, 0
-0	175	133	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	176	133		numtostr __TextOutArgs.Text, __D0main
-0	175	136	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	176	136		syscall 13, __TextOutArgs
-0	175	139	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	176	139		mov __D0main, __TextOutArgs.Result
-0	175	141	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	176	141		release __TextOutMutex
-0	175	142	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	175	142	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	176	142	#pragma macro 7
-0	176	142		add __MWArgs.QueueID, __constVal2, __constVal10
-0	176	146		mov __SRNTmpVal, __constVal255
-0	176	148		flatten __MWArgs.Message, __SRNTmpVal
-0	176	151		syscall 26, __MWArgs
-0	7408	154	#line 7408 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	175	154	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	175	154	#line 175 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	177	154	#line 177 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	178	154		set __signed_stack_001main, 50
-0	177	157	#line 177 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	177	157	#line 177 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	178	157		set __signed_stack_002main, 40
-0	177	160	#line 177 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	177	160	#line 177 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	178	160		strcat __strbufmain, messageSend
-0	178	164	#line 178 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	179	164		acquire __TextOutMutex
-0	178	165	#line 178 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	179	165		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	178	167	#line 178 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	179	167		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	178	169	#line 178 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	179	169		set __TextOutArgs.Options, 0
-0	178	172	#line 178 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	179	172		mov __TextOutArgs.Text, __strbufmain
-0	178	174	#line 178 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	179	174		syscall 13, __TextOutArgs
-0	178	177	#line 178 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	179	177		mov __D0main, __TextOutArgs.Result
-0	178	179	#line 178 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	179	179		release __TextOutMutex
-0	178	180	#line 178 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	186	180	#line 186 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	191	180	#line 191 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	192	180		jmp __NXC_Label_765
-0	191	182	#line 191 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-0	192	182		exit -1, -1
-1	21	0	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+0	173	0	#line 173 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	174	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	173	2	#line 173 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	176	2	#line 176 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	177	2		set __BluetoothCheck_7qG2_conn_7qG2_000, 0
+0	176	5	#line 176 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	178	5	#line 178 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	179	5		subcall BluetoothCheck, __BluetoothCheck_return
+0	178	7	#line 178 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	178	7	#line 178 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	179	7		set __signed_stack_001main, 5
+0	178	10	#line 178 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	178	10	#line 178 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	179	10		set __signed_stack_002main, 56
+0	178	13	#line 178 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	178	13	#line 178 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	179	13		strcat __strbufmain, __constStr0011
+0	179	17	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	180	17		acquire __TextOutMutex
+0	179	18	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	180	18		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	179	20	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	180	20		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	179	22	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	180	22		set __TextOutArgs.Options, 0
+0	179	25	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	180	25		mov __TextOutArgs.Text, __strbufmain
+0	179	27	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	180	27		syscall 13, __TextOutArgs
+0	179	30	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	180	30		mov __D0main, __TextOutArgs.Result
+0	179	32	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	180	32		release __TextOutMutex
+0	179	33	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	179	33	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	180	33	#pragma macro 7
+0	180	33		add __MWArgs.QueueID, __constVal2, __constVal10
+0	180	37		mov __SRNTmpVal, __constVal255
+0	180	39		flatten __MWArgs.Message, __SRNTmpVal
+0	180	42		syscall 26, __MWArgs
+0	180	45		mov __D0main, __MWArgs.Result
+0	7275	47	#line 7275 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	179	47	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	179	47	#line 179 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	182	47	#line 182 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	183	47		set __D0main, 1
+0	184	50	#line 184 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	185	50		tst 5, __zfmain, __D0main
+0	184	53	#line 184 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	185	53		brtst 4, __NXC_Label_785, __zfmain
+0	184	56	#line 184 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	185	56	#pragma macro 9
+0	185	56		mov __MRArgs.QueueID, __constVal6
+0	185	58		mov __MRArgs.Remove, __constVal1
+0	185	60		set __RRNTmpVal, 0
+0	185	63		syscall 27, __MRArgs
+0	185	66		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	185	71		mov __main_7qG2_in_7qG2_000, __RRNTmpVal
+0	185	73		mov __signed_stack_001main, __MRArgs.Result
+0	7288	75	#line 7288 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	184	75	#line 184 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	185	75	#line 185 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	186	75		set __D0main, 64
+0	185	78	#line 185 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	186	78		cmp 5, __zfmain, __signed_stack_001main, __D0main
+0	185	82	#line 185 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	186	82		mov __D0main, __zfmain
+0	187	84	#line 187 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	188	84		brtst 4, __NXC_Label_790, __zfmain
+0	187	87	#line 187 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	188	87		set __signed_stack_001main, 0
+0	187	90	#line 187 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	187	90	#line 187 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	188	90		set __signed_stack_002main, 40
+0	187	93	#line 187 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	187	93	#line 187 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	188	93		strcat __strbufmain, __constStr0012
+0	188	97	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	189	97		acquire __TextOutMutex
+0	188	98	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	189	98		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	188	100	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	189	100		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	188	102	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	189	102		set __TextOutArgs.Options, 0
+0	188	105	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	189	105		mov __TextOutArgs.Text, __strbufmain
+0	188	107	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	189	107		syscall 13, __TextOutArgs
+0	188	110	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	189	110		mov __D0main, __TextOutArgs.Result
+0	188	112	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	189	112		release __TextOutMutex
+0	188	113	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	188	113	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	189	113		mov __split_7qG2_received_7qG2_000, __main_7qG2_in_7qG2_000
+0	188	115	#line 188 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	191	115	#line 191 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	192	115		subcall split, __split_return
+0	191	117	#line 191 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	191	117	#line 191 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	192	117		set __signed_stack_001main, 20
+0	191	120	#line 191 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	191	120	#line 191 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	192	120		set __signed_stack_002main, 40
+0	191	123	#line 191 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	191	123	#line 191 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	192	123		mov __D0main, __main_7qG2_in_7qG2_000
+0	194	125	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	195	125		acquire __TextOutMutex
+0	194	126	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	195	126		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	194	128	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	195	128		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	194	130	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	195	130		set __TextOutArgs.Options, 0
+0	194	133	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	195	133		numtostr __TextOutArgs.Text, __D0main
+0	194	136	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	195	136		syscall 13, __TextOutArgs
+0	194	139	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	195	139		mov __D0main, __TextOutArgs.Result
+0	194	141	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	195	141		release __TextOutMutex
+0	194	142	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	194	142	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	195	142	#pragma macro 7
+0	195	142		add __MWArgs.QueueID, __constVal2, __constVal10
+0	195	146		mov __SRNTmpVal, __constVal255
+0	195	148		flatten __MWArgs.Message, __SRNTmpVal
+0	195	151		syscall 26, __MWArgs
+0	7375	154	#line 7375 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	194	154	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	194	154	#line 194 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	196	154	#line 196 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	197	154		set __signed_stack_001main, 50
+0	196	157	#line 196 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	196	157	#line 196 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	197	157		set __signed_stack_002main, 40
+0	196	160	#line 196 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	196	160	#line 196 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	197	160		strcat __strbufmain, messageSend
+0	197	164	#line 197 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	198	164		acquire __TextOutMutex
+0	197	165	#line 197 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	198	165		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	197	167	#line 197 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	198	167		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	197	169	#line 197 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	198	169		set __TextOutArgs.Options, 0
+0	197	172	#line 197 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	198	172		mov __TextOutArgs.Text, __strbufmain
+0	197	174	#line 197 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	198	174		syscall 13, __TextOutArgs
+0	197	177	#line 197 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	198	177		mov __D0main, __TextOutArgs.Result
+0	197	179	#line 197 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	198	179		release __TextOutMutex
+0	197	180	#line 197 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	205	180	#line 205 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	210	180	#line 210 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	211	180		jmp __NXC_Label_784
+0	210	182	#line 210 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+0	211	182		exit -1, -1
+1	21	0	#line 21 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	22	0	#pragma macro 5
 1	22	0		mov __CBTCSArgs.Connection, __BluetoothCheck_7qG2_conn_7qG2_000
 1	22	2		syscall 28, __CBTCSArgs
-1	6360	5	#line 6360 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-1	21	5	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	6360	5	#line 6360 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+1	21	5	#line 21 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	22	5		not __signed_stack_001BluetoothCheck, __CBTCSArgs.Result
-1	21	8	#line 21 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-1	22	8	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	21	8	#line 21 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+1	22	8	#line 22 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	23	8		set __D0BluetoothCheck, 0
-1	22	11	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	22	11	#line 22 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	23	11		cmp 4, __zfBluetoothCheck, __signed_stack_001BluetoothCheck, __D0BluetoothCheck
-1	22	15	#line 22 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	22	15	#line 22 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	23	15		mov __D0BluetoothCheck, __zfBluetoothCheck
-1	23	17	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	23	17	#line 23 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	24	17		brtst 4, __NXC_Label_606, __zfBluetoothCheck
-1	23	20	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	23	20	#line 23 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	24	20		set __signed_stack_001BluetoothCheck, 5
-1	23	23	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-1	23	23	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	23	23	#line 23 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+1	23	23	#line 23 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	24	23		set __signed_stack_002BluetoothCheck, 48
-1	23	26	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-1	23	26	#line 23 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	23	26	#line 23 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+1	23	26	#line 23 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	24	26		strcat __strbufBluetoothCheck, __constStr0009
-1	24	30	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	24	30	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	25	30		acquire __TextOutMutex
-1	24	31	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	24	31	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	25	31		mov __TextOutArgs.Location.X, __signed_stack_001BluetoothCheck
-1	24	33	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	24	33	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	25	33		mov __TextOutArgs.Location.Y, __signed_stack_002BluetoothCheck
-1	24	35	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	24	35	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	25	35		set __TextOutArgs.Options, 0
-1	24	38	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	24	38	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	25	38		mov __TextOutArgs.Text, __strbufBluetoothCheck
-1	24	40	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	24	40	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	25	40		syscall 13, __TextOutArgs
-1	24	43	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	24	43	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	25	43		mov __D0BluetoothCheck, __TextOutArgs.Result
-1	24	45	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	24	45	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	25	45		release __TextOutMutex
-1	24	46	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-1	24	46	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-1	24	46	#line 24 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	24	46	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+1	24	46	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+1	24	46	#line 24 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	7921	46	#line 7921 "NXCDefs.h"
 1	7922	46		wait 1000
 1	7921	48	#line 7921 "NXCDefs.h"
-1	25	48	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-1	25	48	#line 25 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	25	48	#line 25 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+1	25	48	#line 25 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	26	48		set __D0BluetoothCheck, 1
-1	26	51	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	26	51	#line 26 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	27	51		stop __D0BluetoothCheck
-1	26	53	#line 26 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-1	29	53	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-1	29	53	#line 29 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
+1	26	53	#line 26 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+1	29	53	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+1	29	53	#line 29 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
 1	30	53		subret __BluetoothCheck_return
-2	135	0	#line 135 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	136	0		mov __D0split, __split_7qG2_received_7qG2_000
-2	137	2	#line 137 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	138	2		numtostr __strretvalsplit, __D0split
-2	137	5	#line 137 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	138	5		strcat __strbufsplit, __strretvalsplit
-2	137	9	#line 137 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	138	9		mov __split_7qG2_presplit_7qG2_000, __strbufsplit
-2	137	11	#line 137 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	138	11		strcat __strbufsplit, __split_7qG2_presplit_7qG2_000
-2	137	15	#line 137 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	138	15		set __signed_stack_001split, 0
-2	137	18	#line 137 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	137	18	#line 137 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	138	18		set __D0split, 1
-2	138	21	#line 138 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	139	21		strsubset __strretvalsplit, __strbufsplit, __signed_stack_001split, __D0split
-2	138	26	#line 138 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	139	26		strcat __strbufsplit, __strretvalsplit
-2	138	30	#line 138 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	139	30		mov __split_7qG2_split1_7qG2_000, __strbufsplit
-2	138	32	#line 138 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	139	32		strcat __strbufsplit, __split_7qG2_presplit_7qG2_000
-2	138	36	#line 138 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	139	36		set __signed_stack_001split, 1
-2	138	39	#line 138 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	138	39	#line 138 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	139	39		set __D0split, 2
-2	140	42	#line 140 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	141	42		strsubset __strretvalsplit, __strbufsplit, __signed_stack_001split, __D0split
-2	140	47	#line 140 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	141	47		strcat __strbufsplit, __strretvalsplit
-2	140	51	#line 140 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	141	51		mov __split_7qG2_split2_7qG2_000, __strbufsplit
-2	140	53	#line 140 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	141	53		strcat __strbufsplit, __split_7qG2_split1_7qG2_000
-2	141	57	#line 141 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	142	57		strtonum __split_7qG2_aftersplit1_7qG2_000, __signed_stack_001split, __strbufsplit, 65535, 65535
-2	141	63	#line 141 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	141	63	#line 141 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	142	63		strcat __strbufsplit, __split_7qG2_split2_7qG2_000
-2	143	67	#line 143 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	144	67		strtonum __split_7qG2_aftersplit2_7qG2_000, __signed_stack_001split, __strbufsplit, 65535, 65535
-2	143	73	#line 143 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	143	73	#line 143 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	144	73		set __signed_stack_001split, 0
-2	143	76	#line 143 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	143	76	#line 143 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	144	76		set __signed_stack_002split, 24
-2	143	79	#line 143 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	143	79	#line 143 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	144	79		strcat __strbufsplit, __constStr0010
-2	144	83	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	83		acquire __TextOutMutex
-2	144	84	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	84		mov __TextOutArgs.Location.X, __signed_stack_001split
-2	144	86	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	86		mov __TextOutArgs.Location.Y, __signed_stack_002split
-2	144	88	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	88		set __TextOutArgs.Options, 0
-2	144	91	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	91		mov __TextOutArgs.Text, __strbufsplit
-2	144	93	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	93		syscall 13, __TextOutArgs
-2	144	96	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	96		mov __D0split, __TextOutArgs.Result
-2	144	98	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	98		release __TextOutMutex
-2	144	99	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	144	99	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	99		set __signed_stack_001split, 60
-2	144	102	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	144	102	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	102		set __signed_stack_002split, 24
-2	144	105	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	144	105	#line 144 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	105		mov __D0split, __split_7qG2_aftersplit1_7qG2_000
-2	145	107	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	107		acquire __TextOutMutex
-2	145	108	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	108		mov __TextOutArgs.Location.X, __signed_stack_001split
-2	145	110	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	110		mov __TextOutArgs.Location.Y, __signed_stack_002split
-2	145	112	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	112		set __TextOutArgs.Options, 0
-2	145	115	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	115		numtostr __TextOutArgs.Text, __D0split
-2	145	118	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	118		syscall 13, __TextOutArgs
-2	145	121	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	121		mov __D0split, __TextOutArgs.Result
-2	145	123	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	123		release __TextOutMutex
-2	145	124	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	124	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	124		set __signed_stack_001split, 70
-2	145	127	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	127	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	127		set __signed_stack_002split, 24
-2	145	130	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	145	130	#line 145 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	130		mov __D0split, __split_7qG2_aftersplit2_7qG2_000
-2	146	132	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	147	132		acquire __TextOutMutex
-2	146	133	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	147	133		mov __TextOutArgs.Location.X, __signed_stack_001split
-2	146	135	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	147	135		mov __TextOutArgs.Location.Y, __signed_stack_002split
-2	146	137	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	147	137		set __TextOutArgs.Options, 0
-2	146	140	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	147	140		numtostr __TextOutArgs.Text, __D0split
-2	146	143	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	147	143		syscall 13, __TextOutArgs
-2	146	146	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	147	146		mov __D0split, __TextOutArgs.Result
-2	146	148	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	147	148		release __TextOutMutex
-2	146	149	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	146	149	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	147	149		set __ClearLine_7qG2_line_7qG2_000_inline_split, 32
-2	146	152	#line 146 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	6076	152	#line 6076 "NXCDefs.h"
-2	6077	152	#pragma macro 7
-2	6077	152		acquire __TextOutMutex
-2	6077	153		mov __TextOutArgs.Location.X, __constVal0
-2	6077	155		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_split
-2	6077	157		mov __TextOutArgs.Options, __constVal0
-2	6077	159		mov __TextOutArgs.Text, __BlankLine
-2	6077	161		syscall 13, __TextOutArgs
-2	6077	164		release __TextOutMutex
-2	7251	165	#line 7251 "NXCDefs.h"
-2	6076	165	#line 6076 "NXCDefs.h"
-2	149	165	#line 149 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	152	165	#line 152 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-2	153	165		subret __split_return
-3	192	0	#line 192 "C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc"
-3	193	0		subret ____initialize_global_data_return
+2	31	0	#line 31 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	32	0		mov __D0moveForward, __moveForward_7qG2_moveLeft_7qG2_000
+2	32	2	#line 32 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	33	2	#pragma macro 7
+2	33	2		setout __constVal0, 2, __D0moveForward, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6451	25	#line 6451 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	32	25	#line 32 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	32	25	#line 32 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	33	25		mov __D0moveForward, __moveForward_7qG2_moveRight_7qG2_000
+2	34	27	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	27	#pragma macro 7
+2	35	27		setout __constVal1, 2, __D0moveForward, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6458	50	#line 6458 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	34	50	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	34	50	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	50		set __signed_stack_001moveForward, 60
+2	34	53	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	34	53	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	53		set __signed_stack_002moveForward, 32
+2	34	56	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	34	56	#line 34 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	56		mov __D0moveForward, __moveForward_7qG2_moveLeft_7qG2_000
+2	35	58	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	58		acquire __TextOutMutex
+2	35	59	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	59		mov __TextOutArgs.Location.X, __signed_stack_001moveForward
+2	35	61	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	61		mov __TextOutArgs.Location.Y, __signed_stack_002moveForward
+2	35	63	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	63		set __TextOutArgs.Options, 0
+2	35	66	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	66		numtostr __TextOutArgs.Text, __D0moveForward
+2	35	69	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	69		syscall 13, __TextOutArgs
+2	35	72	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	72		mov __D0moveForward, __TextOutArgs.Result
+2	35	74	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	74		release __TextOutMutex
+2	35	75	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	75	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	75		set __signed_stack_001moveForward, 70
+2	35	78	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	78	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	78		set __signed_stack_002moveForward, 32
+2	35	81	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	35	81	#line 35 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	36	81		mov __D0moveForward, __moveForward_7qG2_moveRight_7qG2_000
+2	36	83	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	83		acquire __TextOutMutex
+2	36	84	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	84		mov __TextOutArgs.Location.X, __signed_stack_001moveForward
+2	36	86	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	86		mov __TextOutArgs.Location.Y, __signed_stack_002moveForward
+2	36	88	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	88		set __TextOutArgs.Options, 0
+2	36	91	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	91		numtostr __TextOutArgs.Text, __D0moveForward
+2	36	94	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	94		syscall 13, __TextOutArgs
+2	36	97	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	97		mov __D0moveForward, __TextOutArgs.Result
+2	36	99	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	37	99		release __TextOutMutex
+2	36	100	#line 36 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	38	100	#line 38 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+2	39	100		subret __moveForward_return
+3	40	0	#line 40 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	41	0	#line 41 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	42	0	#pragma macro 10
+3	42	0		neg __OnRev_Tmp, __moveReverse_7qG2_moveLeftR_7qG2_000
+3	42	3		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	6548	26	#line 6548 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	41	26	#line 41 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	41	26	#line 41 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	43	26	#line 43 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	44	26	#pragma macro 10
+3	44	26		neg __OnRev_Tmp, __moveReverse_7qG2_moveRightR_7qG2_000
+3	44	29		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	6555	52	#line 6555 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	43	52	#line 43 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	43	52	#line 43 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	44	52		set __signed_stack_001moveReverse, 60
+3	43	55	#line 43 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	43	55	#line 43 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	44	55		set __signed_stack_002moveReverse, 32
+3	43	58	#line 43 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	43	58	#line 43 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	44	58		mov __D0moveReverse, __moveReverse_7qG2_moveLeftR_7qG2_000
+3	44	60	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	60		acquire __TextOutMutex
+3	44	61	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	61		mov __TextOutArgs.Location.X, __signed_stack_001moveReverse
+3	44	63	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	63		mov __TextOutArgs.Location.Y, __signed_stack_002moveReverse
+3	44	65	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	65		set __TextOutArgs.Options, 0
+3	44	68	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	68		numtostr __TextOutArgs.Text, __D0moveReverse
+3	44	71	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	71		syscall 13, __TextOutArgs
+3	44	74	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	74		mov __D0moveReverse, __TextOutArgs.Result
+3	44	76	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	76		release __TextOutMutex
+3	44	77	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	44	77	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	77		set __signed_stack_001moveReverse, 70
+3	44	80	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	44	80	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	80		set __signed_stack_002moveReverse, 32
+3	44	83	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	44	83	#line 44 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	45	83		mov __D0moveReverse, __moveReverse_7qG2_moveRightR_7qG2_000
+3	46	85	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	47	85		acquire __TextOutMutex
+3	46	86	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	47	86		mov __TextOutArgs.Location.X, __signed_stack_001moveReverse
+3	46	88	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	47	88		mov __TextOutArgs.Location.Y, __signed_stack_002moveReverse
+3	46	90	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	47	90		set __TextOutArgs.Options, 0
+3	46	93	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	47	93		numtostr __TextOutArgs.Text, __D0moveReverse
+3	46	96	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	47	96		syscall 13, __TextOutArgs
+3	46	99	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	47	99		mov __D0moveReverse, __TextOutArgs.Result
+3	46	101	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	47	101		release __TextOutMutex
+3	46	102	#line 46 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	49	102	#line 49 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+3	50	102		subret __moveReverse_return
+4	52	0	#line 52 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	53	0		set driveLeft, 0
+4	52	3	#line 52 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	52	3	#line 52 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	53	3	#line 53 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	54	3		set driveRight, 0
+4	53	6	#line 53 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	53	6	#line 53 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	54	6	#line 54 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	55	6		set driveLeftR, 0
+4	54	9	#line 54 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	54	9	#line 54 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	55	9	#line 55 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	56	9		set driveRightR, 0
+4	55	12	#line 55 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	55	12	#line 55 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	57	12	#line 57 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+4	58	12		subret __reset_return
+5	61	0	#line 61 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	62	0		mov __D0moveVar, __moveVar_7qG2_noSplit_7qG2_000
+5	65	2		brcmp 4, __NXC_Label_658, __constVal11, __D0moveVar
+5	66	6		brcmp 4, __NXC_Label_663, __constVal12, __D0moveVar
+5	67	10		brcmp 4, __NXC_Label_668, __constVal13, __D0moveVar
+5	68	14		brcmp 4, __NXC_Label_673, __constVal21, __D0moveVar
+5	69	18		brcmp 4, __NXC_Label_678, __constVal22, __D0moveVar
+5	70	22		brcmp 4, __NXC_Label_683, __constVal23, __D0moveVar
+5	71	26		brcmp 4, __NXC_Label_688, __constVal43, __D0moveVar
+5	72	30		jmp __NXC_Label_697
+5	73	32		jmp __NXC_Label_657
+5	64	34	#line 64 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	65	34	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	66	34		set driveLeft, 80
+5	65	37	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	65	37	#line 65 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	66	37	#line 66 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	67	37		set driveRight, 20
+5	66	40	#line 66 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	66	40	#line 66 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	68	40	#line 68 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	69	40		jmp __NXC_Label_657
+5	68	42	#line 68 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	70	42	#line 70 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	71	42	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	72	42		set driveLeft, 20
+5	71	45	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	71	45	#line 71 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	72	45	#line 72 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	73	45		set driveRight, 70
+5	72	48	#line 72 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	72	48	#line 72 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	74	48	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	75	48		jmp __NXC_Label_657
+5	74	50	#line 74 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	76	50	#line 76 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	77	50	#line 77 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	78	50		set driveLeft, 80
+5	77	53	#line 77 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	77	53	#line 77 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	78	53	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	79	53		set driveRight, 70
+5	78	56	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	78	56	#line 78 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	80	56	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	81	56		jmp __NXC_Label_657
+5	80	58	#line 80 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	82	58	#line 82 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	83	58	#line 83 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	84	58		set driveLeftR, 70
+5	83	61	#line 83 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	83	61	#line 83 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	84	61	#line 84 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	85	61		set driveRightR, 20
+5	84	64	#line 84 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	84	64	#line 84 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	86	64	#line 86 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	87	64		jmp __NXC_Label_657
+5	86	66	#line 86 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	88	66	#line 88 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	89	66	#line 89 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	90	66		set driveLeftR, 20
+5	89	69	#line 89 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	89	69	#line 89 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	90	69	#line 90 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	91	69		set driveRightR, 70
+5	90	72	#line 90 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	90	72	#line 90 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	92	72	#line 92 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	93	72		jmp __NXC_Label_657
+5	92	74	#line 92 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	94	74	#line 94 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	95	74	#line 95 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	96	74		set driveLeftR, 70
+5	95	77	#line 95 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	95	77	#line 95 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	96	77	#line 96 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	97	77		set driveRightR, 70
+5	96	80	#line 96 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	96	80	#line 96 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	98	80	#line 98 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	99	80		jmp __NXC_Label_657
+5	98	82	#line 98 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	100	82	#line 100 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	101	82	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	102	82		set driveLeft, 0
+5	101	85	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	101	85	#line 101 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	102	85	#line 102 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	103	85		set driveRight, 0
+5	102	88	#line 102 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	102	88	#line 102 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	103	88	#line 103 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	104	88		set driveLeftR, 0
+5	103	91	#line 103 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	103	91	#line 103 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	104	91	#line 104 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	105	91		set driveRightR, 0
+5	104	94	#line 104 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	104	94	#line 104 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	107	94	#line 107 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	108	94		jmp __NXC_Label_657
+5	107	96	#line 107 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	109	96	#line 109 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	110	96	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	111	96		set driveLeft, 0
+5	110	99	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	110	99	#line 110 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	111	99	#line 111 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	112	99		set driveRight, 0
+5	111	102	#line 111 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	111	102	#line 111 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	112	102	#line 112 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	113	102		set driveLeftR, 0
+5	112	105	#line 112 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	112	105	#line 112 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	113	105	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	114	105		set driveRightR, 0
+5	113	108	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	113	108	#line 113 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	119	108	#line 119 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	120	108	#line 120 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	121	108		mov __D0moveVar, __moveVar_7qG2_split1Speed_7qG2_000
+5	124	110		brcmp 4, __NXC_Label_709, __constVal1, __D0moveVar
+5	125	114		brcmp 4, __NXC_Label_716, __constVal2, __D0moveVar
+5	126	118		brcmp 4, __NXC_Label_723, __constVal4, __D0moveVar
+5	127	122		brcmp 4, __NXC_Label_730, __constVal3, __D0moveVar
+5	128	126		jmp __NXC_Label_737
+5	129	128		jmp __NXC_Label_708
+5	123	130	#line 123 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	123	130	#line 123 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	124	130		mov __moveForward_7qG2_moveLeft_7qG2_000, driveLeft
+5	123	132	#line 123 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	123	132	#line 123 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	124	132		mov __moveForward_7qG2_moveRight_7qG2_000, driveRight
+5	123	134	#line 123 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	123	134	#line 123 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	124	134		set __moveForward_7qG2_outA_7qG2_000, 50
+5	123	137	#line 123 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	124	137	#line 124 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	125	137		subcall moveForward, __moveForward_return
+5	124	139	#line 124 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	125	139	#line 125 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	126	139		jmp __NXC_Label_708
+5	125	141	#line 125 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	127	141	#line 127 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	127	141	#line 127 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	128	141		mov __moveReverse_7qG2_moveLeftR_7qG2_000, driveLeftR
+5	127	143	#line 127 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	127	143	#line 127 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	128	143		mov __moveReverse_7qG2_moveRightR_7qG2_000, driveRightR
+5	127	145	#line 127 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	127	145	#line 127 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	127	145	#line 127 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	128	145	#line 128 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	129	145		subcall moveReverse, __moveReverse_return
+5	128	147	#line 128 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	130	147	#line 130 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	131	147		jmp __NXC_Label_708
+5	130	149	#line 130 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	132	149	#line 132 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	132	149	#line 132 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	133	149		set __moveForward_7qG2_moveLeft_7qG2_000, 0
+5	132	152	#line 132 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	132	152	#line 132 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	133	152		set __moveForward_7qG2_moveRight_7qG2_000, 0
+5	132	155	#line 132 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	132	155	#line 132 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	133	155		set __moveForward_7qG2_outA_7qG2_000, 0
+5	132	158	#line 132 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	134	158	#line 134 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	135	158		subcall moveForward, __moveForward_return
+5	134	160	#line 134 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	136	160	#line 136 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	137	160		jmp __NXC_Label_708
+5	136	162	#line 136 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	138	162	#line 138 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	138	162	#line 138 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	139	162		set __moveForward_7qG2_moveLeft_7qG2_000, 0
+5	138	165	#line 138 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	138	165	#line 138 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	139	165		set __moveForward_7qG2_moveRight_7qG2_000, 0
+5	138	168	#line 138 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	138	168	#line 138 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	139	168		set __moveForward_7qG2_outA_7qG2_000, 0
+5	138	171	#line 138 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	140	171	#line 140 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	141	171		subcall moveForward, __moveForward_return
+5	140	173	#line 140 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	142	173	#line 142 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	143	173		jmp __NXC_Label_708
+5	142	175	#line 142 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	144	175	#line 144 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	145	175	#line 145 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	146	175		subcall reset, __reset_return
+5	145	177	#line 145 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	150	177	#line 150 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	150	177	#line 150 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+5	151	177		subret __moveVar_return
+6	152	0	#line 152 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	153	0		mov __D0split, __split_7qG2_received_7qG2_000
+6	154	2	#line 154 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	155	2		numtostr __strretvalsplit, __D0split
+6	154	5	#line 154 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	155	5		strcat __strbufsplit, __strretvalsplit
+6	154	9	#line 154 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	155	9		mov __split_7qG2_presplit_7qG2_000, __strbufsplit
+6	154	11	#line 154 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	155	11		strcat __strbufsplit, __split_7qG2_presplit_7qG2_000
+6	154	15	#line 154 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	155	15		set __signed_stack_001split, 0
+6	154	18	#line 154 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	154	18	#line 154 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	155	18		set __D0split, 1
+6	155	21	#line 155 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	156	21		strsubset __strretvalsplit, __strbufsplit, __signed_stack_001split, __D0split
+6	155	26	#line 155 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	156	26		strcat __strbufsplit, __strretvalsplit
+6	155	30	#line 155 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	156	30		mov __split_7qG2_split1_7qG2_000, __strbufsplit
+6	155	32	#line 155 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	156	32		strcat __strbufsplit, __split_7qG2_presplit_7qG2_000
+6	155	36	#line 155 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	156	36		set __signed_stack_001split, 1
+6	155	39	#line 155 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	155	39	#line 155 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	156	39		set __D0split, 2
+6	157	42	#line 157 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	158	42		strsubset __strretvalsplit, __strbufsplit, __signed_stack_001split, __D0split
+6	157	47	#line 157 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	158	47		strcat __strbufsplit, __strretvalsplit
+6	157	51	#line 157 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	158	51		mov __split_7qG2_split2_7qG2_000, __strbufsplit
+6	157	53	#line 157 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	158	53		strcat __strbufsplit, __split_7qG2_presplit_7qG2_000
+6	159	57	#line 159 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	160	57		strtonum __split_7qG2_noSplitPre_7qG2_000, __signed_stack_001split, __strbufsplit, 65535, 65535
+6	159	63	#line 159 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	159	63	#line 159 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	160	63		strcat __strbufsplit, __split_7qG2_split1_7qG2_000
+6	160	67	#line 160 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	161	67		strtonum __split_7qG2_aftersplit1_7qG2_000, __signed_stack_001split, __strbufsplit, 65535, 65535
+6	160	73	#line 160 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	160	73	#line 160 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	161	73		strcat __strbufsplit, __split_7qG2_split2_7qG2_000
+6	162	77	#line 162 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	163	77		strtonum __split_7qG2_aftersplit2_7qG2_000, __signed_stack_001split, __strbufsplit, 65535, 65535
+6	162	83	#line 162 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	162	83	#line 162 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	163	83		set __signed_stack_001split, 0
+6	162	86	#line 162 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	162	86	#line 162 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	163	86		set __signed_stack_002split, 24
+6	162	89	#line 162 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	162	89	#line 162 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	163	89		strcat __strbufsplit, __constStr0010
+6	163	93	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	93		acquire __TextOutMutex
+6	163	94	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	94		mov __TextOutArgs.Location.X, __signed_stack_001split
+6	163	96	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	96		mov __TextOutArgs.Location.Y, __signed_stack_002split
+6	163	98	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	98		set __TextOutArgs.Options, 0
+6	163	101	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	101		mov __TextOutArgs.Text, __strbufsplit
+6	163	103	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	103		syscall 13, __TextOutArgs
+6	163	106	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	106		mov __D0split, __TextOutArgs.Result
+6	163	108	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	108		release __TextOutMutex
+6	163	109	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	163	109	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	109		set __signed_stack_001split, 60
+6	163	112	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	163	112	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	112		set __signed_stack_002split, 24
+6	163	115	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	163	115	#line 163 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	115		mov __D0split, __split_7qG2_aftersplit1_7qG2_000
+6	164	117	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	117		acquire __TextOutMutex
+6	164	118	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	118		mov __TextOutArgs.Location.X, __signed_stack_001split
+6	164	120	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	120		mov __TextOutArgs.Location.Y, __signed_stack_002split
+6	164	122	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	122		set __TextOutArgs.Options, 0
+6	164	125	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	125		numtostr __TextOutArgs.Text, __D0split
+6	164	128	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	128		syscall 13, __TextOutArgs
+6	164	131	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	131		mov __D0split, __TextOutArgs.Result
+6	164	133	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	133		release __TextOutMutex
+6	164	134	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	134	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	134		set __signed_stack_001split, 70
+6	164	137	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	137	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	137		set __signed_stack_002split, 24
+6	164	140	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	164	140	#line 164 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	140		mov __D0split, __split_7qG2_aftersplit2_7qG2_000
+6	165	142	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	166	142		acquire __TextOutMutex
+6	165	143	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	166	143		mov __TextOutArgs.Location.X, __signed_stack_001split
+6	165	145	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	166	145		mov __TextOutArgs.Location.Y, __signed_stack_002split
+6	165	147	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	166	147		set __TextOutArgs.Options, 0
+6	165	150	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	166	150		numtostr __TextOutArgs.Text, __D0split
+6	165	153	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	166	153		syscall 13, __TextOutArgs
+6	165	156	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	166	156		mov __D0split, __TextOutArgs.Result
+6	165	158	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	166	158		release __TextOutMutex
+6	165	159	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	165	159	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	166	159		set __ClearLine_7qG2_line_7qG2_000_inline_split, 32
+6	165	162	#line 165 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	6076	162	#line 6076 "NXCDefs.h"
+6	6077	162	#pragma macro 7
+6	6077	162		acquire __TextOutMutex
+6	6077	163		mov __TextOutArgs.Location.X, __constVal0
+6	6077	165		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_split
+6	6077	167		mov __TextOutArgs.Options, __constVal0
+6	6077	169		mov __TextOutArgs.Text, __BlankLine
+6	6077	171		syscall 13, __TextOutArgs
+6	6077	174		release __TextOutMutex
+6	7197	175	#line 7197 "NXCDefs.h"
+6	6076	175	#line 6076 "NXCDefs.h"
+6	167	175	#line 167 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	167	175	#line 167 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	168	175		mov __moveVar_7qG2_split1Speed_7qG2_000, __split_7qG2_aftersplit1_7qG2_000
+6	167	177	#line 167 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	167	177	#line 167 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	167	177	#line 167 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	167	177	#line 167 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	168	177		mov __moveVar_7qG2_noSplit_7qG2_000, __split_7qG2_noSplitPre_7qG2_000
+6	167	179	#line 167 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	168	179	#line 168 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	169	179		subcall moveVar, __moveVar_return
+6	168	181	#line 168 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	171	181	#line 171 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+6	172	181		subret __split_return
+7	211	0	#line 211 "C:\Users\Apple\AppData\Local\Temp\temp.nxc"
+7	212	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc
-1	BluetoothCheck	185	C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc
-2	split	240	C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc
-3	__initialize_global_data	407	C:\Users\Apple\Documents\GitHub\NXC\SlaveBT2.nxc
+0	main	0	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+1	BluetoothCheck	185	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+2	moveForward	240	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+3	moveReverse	342	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+4	reset	446	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+5	moveVar	460	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+6	split	639	C:\Users\Apple\AppData\Local\Temp\temp.nxc
+7	__initialize_global_data	822	C:\Users\Apple\AppData\Local\Temp\temp.nxc
