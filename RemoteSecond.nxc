@@ -1,0 +1,47 @@
+int i;
+int sT;
+string messageSend;
+
+void SendRS485(const string message)
+{
+ byte messageLength = ArrayLen(message);
+ SetHSOutputBuffer(0, messageLength, message);
+ SetHSOutputBufferOutPtr(0);
+ SetHSOutputBufferInPtr(messageLength);
+
+ SetHSState(HS_SEND_DATA);
+ SetHSFlags(HS_UPDATE);   // this sends the message
+
+}
+
+
+void waitForSending()
+{
+ while(HSOutputBufferOutPtr() < HSOutputBufferInPtr())
+ { Wait(1); }
+}
+
+
+task main()
+{
+ SetSensorTouch(IN_1); //for testing purpose only
+
+ SetSensorType(IN_4, SENSOR_TYPE_HIGHSPEED);         //
+ SetHSState(HS_INITIALISE);                          // Let RS485 Port initialise and get ready (see Wait(10);)
+ SetHSFlags(HS_UPDATE);                              //
+
+ Wait(10);
+
+ while(true)
+ {
+  sT = SensorValue(IN_1);
+  NumOut(0,0, sT);
+
+  messageSend = NumToStr(sT);
+
+  SendRS485(messageSend);
+  waitForSending();
+
+ }
+
+}
