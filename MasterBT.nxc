@@ -11,7 +11,202 @@
 #define InputBox2 2
 #define InputBox 1
 
+int iS;                      //Master brick
+
+
+#include "NXCDefs.h"
+#define connection 1
+#define connection2 2
+
+#define OutputBox 5
+#define OutputBox2 6
+
+#define InputBox2 2
+#define InputBox 1
+
 int iS;
+int iSe2;
+
+int driveSpeed;
+int driveDirection;
+
+string driveSpeedS;
+string driveDirectionS;
+
+string stringbuff;
+int intsend;
+int intsend2;
+
+byte messageLength;
+string buffer;
+
+mutex bt;
+
+void BluetoothCheck(int conn, int conn2){
+if (!BluetoothStatus(conn)==NO_ERR)                      // make sure the bluetooth connection (first brick) is presistent/ existing
+   {
+   TextOut(5,LCD_LINE2,"Error, no connection");
+   Wait(1000);
+   Stop(true);
+   }
+
+if (!BluetoothStatus(conn2)==NO_ERR)                      // make sure the bluetooth connection (second brick) is presistent/ existing
+   {
+   TextOut(5,LCD_LINE2,"Error, no connection");
+   Wait(1000);
+   Stop(true);
+   }
+
+}
+
+
+void sensor()    // unused
+{
+ /*int i = SensorValue(IN_2);
+ int i2 = i+1;
+ if(i > 38)
+      {iS = 1;
+      iSe2 = 0;}
+ else
+ {iS = 0;
+ iSe2 = 1;}       */
+
+}
+
+void RS485()
+{
+  messageLength = 0;
+
+  while(messageLength == 0)                              // make sure message is incoming
+  messageLength = HSInputBufferInPtr();
+
+  GetHSInputBuffer(0, messageLength, buffer);            // send incoming message to buffer
+
+  SetHSInputBufferInPtr(0);                              // clear buffer again
+
+  TextOut(0, LCD_LINE2, buffer);
+}
+
+void sensorv2()
+{
+ int s1 = Sensor(IN_1);   // Forward
+ int s4 = Sensor(IN_2);   // Right
+ int s3 = Sensor(IN_3);   // Left
+ int s2 = Sensor(IN_4);   // Reverse
+
+
+ if(s1 == 1 && s2 == 0)
+ driveSpeed = 1;          // Forward
+ if(s1 == 1 && s2 == 1)
+ driveSpeed = 3;          // nothing
+ if(s1 == 0 && s2 == 1)
+ driveSpeed = 2;          // Reverse
+ if(s1 == 0 && s2 == 0)
+ driveSpeed = 4;          // nothing
+
+ if(s3 == 1 && s4 == 0)
+ driveDirection = 1;      // Left
+ if(s3 == 1 && s4 == 1)
+ driveDirection = 3;      // straight
+ if(s3 == 0 && s4 == 1)
+ driveDirection = 2;      // Right
+ if(s3 == 0 && s4 == 0)
+ driveDirection = 3;      // straight
+
+ driveSpeedS = NumToStr(driveSpeed);
+ driveDirectionS = NumToStr(driveDirection);
+
+
+ stringbuff = StrCat(driveSpeedS, driveDirectionS);
+
+ intsend = StrToNum(stringbuff);
+
+                                                                // critical
+ /* messageLength = 0;                                          // following breaks the second SendRemoteNumber (see l. 131) for no reason, RS485 still unusable
+
+  while(messageLength == 0)
+  messageLength = HSInputBufferInPtr();
+
+  GetHSInputBuffer(0, messageLength, buffer);
+
+  SetHSInputBufferInPtr(0);
+
+  TextOut(0, LCD_LINE2, buffer);
+ */
+
+}
+
+void send()
+{
+ Acquire(bt);
+ SendRemoteNumber(connection2,OutputBox2, intsend2);
+
+ SendRemoteNumber(connection,OutputBox,intsend);
+ Release(bt);
+}
+
+
+void bluetooth()
+{
+ int  iSe, ack;
+
+BluetoothCheck(connection, connection2);
+TextOut(10,LCD_LINE1,"Master sending");
+                             while(true)
+                             {
+                             send();
+                             sensorv2();
+
+                             iSe = iS;
+                             intsend2 = intsend;
+
+
+
+                             TextOut(0,LCD_LINE3," ");
+                             NumOut(20,LCD_LINE3,intsend);
+
+
+                             ack = 0;
+                             /*SendRemoteNumber(connection2,OutputBox2, intsend);
+
+                             SendRemoteNumber(connection,OutputBox,intsend);
+                              */
+
+
+
+                             /*until(ack==0xFF)
+                              {
+                              until(ReceiveRemoteNumber(InputBox2,true,ack) == NO_ERR);          // disabled for testing purpose only!
+
+                              }
+                             */
+
+                             }
+}
+
+task main()
+{
+
+ /*SetSensorType(IN_4, SENSOR_TYPE_HIGHSPEED);
+
+ SetHSState(HS_INITIALISE);
+ SetHSFlags(HS_UPDATE);
+
+ SetHSInputBufferInPtr(0);                              // clear buffer
+ SetHSInputBufferOutPtr(0);                             // clear buffer
+
+ Wait(10);                   */
+
+
+SetSensorTouch(IN_1);
+SetSensorTouch(IN_2);
+SetSensorTouch(IN_3);
+SetSensorTouch(IN_4);
+
+  bluetooth();
+
+}
+
 int iSe2;
 
 int driveSpeed;
